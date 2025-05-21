@@ -1,6 +1,5 @@
 
-import { useState } from "react";
-import { Helmet } from "react-helmet";
+import { useState, useEffect } from "react";
 import CoachSelector from "@/components/dashboard/CoachSelector";
 import UserSelector from "@/components/dashboard/UserSelector";
 import PersonalInsights from "@/components/dashboard/PersonalInsights";
@@ -17,6 +16,11 @@ const Dashboard = () => {
   const [selectedCoachId, setSelectedCoachId] = useState<number | null>(null);
   const [selectedUserId, setSelectedUserId] = useState<number | null>(null);
 
+  useEffect(() => {
+    // Set the document title
+    document.title = "AI Coach Dashboard";
+  }, []);
+
   const handleCoachSelect = (coachId: number) => {
     setSelectedCoachId(coachId);
     setSelectedUserId(null); // Reset user selection when coach changes
@@ -28,10 +32,6 @@ const Dashboard = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 pb-10">
-      <Helmet>
-        <title>AI Coach Dashboard</title>
-      </Helmet>
-      
       {/* Header */}
       <header className="bg-white shadow-sm sticky top-0 z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -57,12 +57,12 @@ const Dashboard = () => {
           </div>
         </div>
         
-        {/* Personal Insights */}
+        {/* Meet the User (formerly Personal Insights) */}
         <div className="mb-6">
           <PersonalInsights userId={selectedUserId} />
         </div>
         
-        {/* Activity & Feature Insights */}
+        {/* Month in Motion & Past 8 Days at a Glance (formerly Activity & Feature Insights) */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
           <ActivityInsights userId={selectedUserId} />
           <FeatureEngagement userId={selectedUserId} />
@@ -78,12 +78,12 @@ const Dashboard = () => {
           <CallNotes userId={selectedUserId} />
         </div>
         
-        {/* Predefined Questions */}
+        {/* Smart Snapshot (formerly Predefined Questions) */}
         <div className="mb-6">
           <PredefinedQuestions userId={selectedUserId} />
         </div>
         
-        {/* Ask Anything */}
+        {/* GOQii-GPT (formerly Ask Anything) */}
         <div>
           <AskAnything userId={selectedUserId} />
         </div>

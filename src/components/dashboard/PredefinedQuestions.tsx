@@ -176,7 +176,7 @@ const PredefinedQuestions = ({ userId }: PredefinedQuestionsProps) => {
       <CardHeader>
         <CardTitle className="flex items-center gap-2">
           <HelpCircle size={18} className="text-health-primary" />
-          Predefined Questions
+          Smart Snapshot
         </CardTitle>
         <CardDescription>Select a category and question to visualize data</CardDescription>
       </CardHeader>
@@ -184,10 +184,10 @@ const PredefinedQuestions = ({ userId }: PredefinedQuestionsProps) => {
         <div className="space-y-4">
           <Tabs defaultValue="engagement" value={category} onValueChange={handleCategoryChange}>
             <TabsList className="grid grid-cols-2 md:grid-cols-4">
-              <TabsTrigger value="engagement">Engagement</TabsTrigger>
-              <TabsTrigger value="hraIssues">HRA Issues</TabsTrigger>
+              <TabsTrigger value="engagement">User Journey</TabsTrigger>
+              <TabsTrigger value="hraIssues">Health Index</TabsTrigger>
               <TabsTrigger value="ghostedActions">Ghosted Actions</TabsTrigger>
-              <TabsTrigger value="insights">Insights</TabsTrigger>
+              <TabsTrigger value="insights">Knowledge Gateway</TabsTrigger>
             </TabsList>
           </Tabs>
 

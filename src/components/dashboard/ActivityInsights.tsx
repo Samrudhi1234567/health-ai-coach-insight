@@ -13,7 +13,7 @@ const ActivityInsights = ({ userId }: ActivityInsightsProps) => {
     return (
       <Card>
         <CardHeader>
-          <CardTitle>30-Day Insights</CardTitle>
+          <CardTitle>Month in Motion</CardTitle>
           <CardDescription>Select a user to view their activity insights</CardDescription>
         </CardHeader>
       </Card>
@@ -42,7 +42,7 @@ const ActivityInsights = ({ userId }: ActivityInsightsProps) => {
       <CardHeader>
         <CardTitle className="flex items-center gap-2">
           <Activity size={18} className="text-health-primary" />
-          30-Day Insights
+          Month in Motion
         </CardTitle>
         <CardDescription>User activity metrics over the last month</CardDescription>
       </CardHeader>

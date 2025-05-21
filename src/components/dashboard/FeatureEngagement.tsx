@@ -13,7 +13,7 @@ const FeatureEngagement = ({ userId }: FeatureEngagementProps) => {
     return (
       <Card>
         <CardHeader>
-          <CardTitle>Feature Engagement</CardTitle>
+          <CardTitle>Past 8 Days at a Glance</CardTitle>
           <CardDescription>Select a user to view their feature engagement</CardDescription>
         </CardHeader>
       </Card>
@@ -26,7 +26,7 @@ const FeatureEngagement = ({ userId }: FeatureEngagementProps) => {
   return (
     <Card>
       <CardHeader>
-        <CardTitle>Feature Engagement Analysis</CardTitle>
+        <CardTitle>Past 8 Days at a Glance</CardTitle>
         <CardDescription>User activity patterns and feature usage</CardDescription>
       </CardHeader>
       <CardContent>

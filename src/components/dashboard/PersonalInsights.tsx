@@ -14,7 +14,7 @@ const PersonalInsights = ({ userId }: PersonalInsightsProps) => {
     return (
       <Card>
         <CardHeader>
-          <CardTitle>Personal Insights</CardTitle>
+          <CardTitle>Meet the User</CardTitle>
           <CardDescription>Select a user to view their personal insights</CardDescription>
         </CardHeader>
       </Card>
@@ -46,7 +46,7 @@ const PersonalInsights = ({ userId }: PersonalInsightsProps) => {
       <CardHeader>
         <CardTitle className="flex items-center gap-2">
           <User size={18} className="text-health-primary" />
-          Personal Insights
+          Meet the User
         </CardTitle>
         <CardDescription>User demographic and engagement data</CardDescription>
       </CardHeader>

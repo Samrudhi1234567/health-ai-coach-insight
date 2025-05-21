@@ -57,6 +57,16 @@ const Dashboard = () => {
           </div>
         </div>
         
+        {/* GOQii-GPT (formerly Ask Anything) */}
+        <div className="mb-6">
+          <AskAnything userId={selectedUserId} />
+        </div>
+        
+        {/* Smart Snapshot (formerly Predefined Questions) */}
+        <div className="mb-6">
+          <PredefinedQuestions userId={selectedUserId} />
+        </div>
+        
         {/* Meet the User (formerly Personal Insights) */}
         <div className="mb-6">
           <PersonalInsights userId={selectedUserId} />
@@ -76,16 +86,6 @@ const Dashboard = () => {
         {/* Call Notes */}
         <div className="mb-6">
           <CallNotes userId={selectedUserId} />
-        </div>
-        
-        {/* Smart Snapshot (formerly Predefined Questions) */}
-        <div className="mb-6">
-          <PredefinedQuestions userId={selectedUserId} />
-        </div>
-        
-        {/* GOQii-GPT (formerly Ask Anything) */}
-        <div>
-          <AskAnything userId={selectedUserId} />
         </div>
       </main>
     </div>

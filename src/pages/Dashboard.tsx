@@ -1,5 +1,6 @@
 
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import CoachSelector from "@/components/dashboard/CoachSelector";
 import UserSelector from "@/components/dashboard/UserSelector";
 import PersonalInsights from "@/components/dashboard/PersonalInsights";
@@ -10,7 +11,8 @@ import CallNotes from "@/components/dashboard/CallNotes";
 import PredefinedQuestions from "@/components/dashboard/PredefinedQuestions";
 import AskAnything from "@/components/dashboard/AskAnything";
 import { Separator } from "@/components/ui/separator";
-import { LayoutDashboard } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { LayoutDashboard, Users } from "lucide-react";
 
 const Dashboard = () => {
   const [selectedCoachId, setSelectedCoachId] = useState<number | null>(null);
@@ -40,8 +42,16 @@ const Dashboard = () => {
               <LayoutDashboard className="h-8 w-8 text-health-primary" />
               <h1 className="ml-2 text-xl font-bold text-gray-900">AI Coach Dashboard</h1>
             </div>
-            <div className="text-sm text-gray-500">
-              Last updated: May 21, 2025
+            <div className="flex gap-4">
+              <Button variant="outline" asChild className="flex items-center gap-2">
+                <Link to="/user-segments">
+                  <Users size={16} />
+                  User Segments
+                </Link>
+              </Button>
+              <div className="text-sm text-gray-500">
+                Last updated: May 21, 2025
+              </div>
             </div>
           </div>
         </div>

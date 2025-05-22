@@ -204,7 +204,7 @@ const AskAnything = ({ userId }: AskAnythingProps) => {
       <CardHeader>
         <CardTitle className="flex items-center gap-2">
           <MessageSquare size={18} className="text-health-primary" />
-          GOQii-GPT
+          Want to Dig Deeper? GOQii-GPT
         </CardTitle>
         <CardDescription>Ask custom questions about user data</CardDescription>
       </CardHeader>

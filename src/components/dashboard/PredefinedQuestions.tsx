@@ -5,7 +5,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell, LineChart, Line } from "recharts";
 import { HelpCircle, Search } from "lucide-react";
-import { predefinedQuestions, chartDataByUser } from "@/data/mockData";
+import { predefinedQuestions, chartData } from "@/data/mockData";
 import { Button } from "@/components/ui/button";
 
 interface PredefinedQuestionsProps {
@@ -40,7 +40,7 @@ const PredefinedQuestions = ({ userId }: PredefinedQuestionsProps) => {
         return (
           <div className="h-[300px] mt-4">
             <ResponsiveContainer width="100%" height="100%">
-              <BarChart data={chartDataByUser.featureUsage.slice(0, 5)} layout="vertical">
+              <BarChart data={chartData.featureUsage.slice(0, 5)} layout="vertical">
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis type="number" />
                 <YAxis dataKey="name" type="category" width={120} />
@@ -54,7 +54,7 @@ const PredefinedQuestions = ({ userId }: PredefinedQuestionsProps) => {
         return (
           <div className="h-[300px] mt-4">
             <ResponsiveContainer width="100%" height="100%">
-              <LineChart data={chartDataByUser.weeklyEngagement}>
+              <LineChart data={chartData.weeklyEngagement}>
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="week" />
                 <YAxis />
@@ -68,7 +68,7 @@ const PredefinedQuestions = ({ userId }: PredefinedQuestionsProps) => {
         return (
           <div className="h-[300px] mt-4">
             <ResponsiveContainer width="100%" height="100%">
-              <BarChart data={chartDataByUser.dailyAppOpenTime}>
+              <BarChart data={chartData.dailyAppOpenTime}>
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="day" />
                 <YAxis />
@@ -102,7 +102,7 @@ const PredefinedQuestions = ({ userId }: PredefinedQuestionsProps) => {
                 dataKey="value"
                 label={({ name, percent }) => `${name} ${(percent * 100).toFixed(0)}%`}
               >
-                {chartDataByUser.featureUsage.map((entry, index) => (
+                {chartData.featureUsage.map((entry, index) => (
                   <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                 ))}
               </Pie>
@@ -159,7 +159,7 @@ const PredefinedQuestions = ({ userId }: PredefinedQuestionsProps) => {
     return (
       <div className="h-[300px] mt-4">
         <ResponsiveContainer width="100%" height="100%">
-          <BarChart data={chartDataByUser.featureUsage}>
+          <BarChart data={chartData.featureUsage}>
             <CartesianGrid strokeDasharray="3 3" />
             <XAxis dataKey="name" />
             <YAxis />

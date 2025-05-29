@@ -932,982 +932,306 @@ export const predefinedQuestions = {
 
 // Chart data for visualizations
 export const chartData = {
-  // Dr. Sarah Johnson's users (Nutrition & Weight Management)
-  101: { // Jessica Brown
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 15 },
-      { week: "Week 2", sessions: 18 },
-      { week: "Week 3", sessions: 12 },
-      { week: "Week 4", sessions: 20 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 85 },
-      { name: "Workout Logging", usage: 35 },
-      { name: "Sleep Monitoring", usage: 28 },
-      { name: "Stress Management", usage: 25 },
-      { name: "Meditation Sessions", usage: 10 },
-      { name: "Water Intake", usage: 75 },
-      { name: "Step Counter", usage: 65 },
-      { name: "Goal Setting", usage: 45 },
-      { name: "Video Tutorials", usage: 20 },
-      { name: "HRA Questionnaire", usage: 15 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 4, afternoon: 2, evening: 3 },
-      { day: "Tuesday", morning: 3, afternoon: 1, evening: 4 },
-      { day: "Wednesday", morning: 5, afternoon: 2, evening: 2 },
-      { day: "Thursday", morning: 2, afternoon: 3, evening: 3 },
-      { day: "Friday", morning: 2, afternoon: 1, evening: 3 },
-      { day: "Saturday", morning: 1, afternoon: 4, evening: 2 },
-      { day: "Sunday", morning: 0, afternoon: 2, evening: 5 }
-    ]
-  },
-  102: { // Daniel Wilson
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 10 },
-      { week: "Week 2", sessions: 12 },
-      { week: "Week 3", sessions: 8 },
-      { week: "Week 4", sessions: 15 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 45 },
-      { name: "Workout Logging", usage: 90 },
-      { name: "Sleep Monitoring", usage: 35 },
-      { name: "Stress Management", usage: 20 },
-      { name: "Meditation Sessions", usage: 15 },
-      { name: "Water Intake", usage: 40 },
-      { name: "Step Counter", usage: 95 },
-      { name: "Goal Setting", usage: 60 },
-      { name: "Video Tutorials", usage: 35 },
-      { name: "HRA Questionnaire", usage: 25 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 2, afternoon: 3, evening: 4 },
-      { day: "Tuesday", morning: 3, afternoon: 2, evening: 3 },
-      { day: "Wednesday", morning: 2, afternoon: 4, evening: 3 },
-      { day: "Thursday", morning: 3, afternoon: 2, evening: 4 },
-      { day: "Friday", morning: 2, afternoon: 3, evening: 5 },
-      { day: "Saturday", morning: 4, afternoon: 3, evening: 2 },
-      { day: "Sunday", morning: 3, afternoon: 2, evening: 3 }
-    ]
-  },
-  103: { // Amanda Miller
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 8 },
-      { week: "Week 2", sessions: 10 },
-      { week: "Week 3", sessions: 7 },
-      { week: "Week 4", sessions: 12 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 65 },
-      { name: "Workout Logging", usage: 30 },
-      { name: "Sleep Monitoring", usage: 25 },
-      { name: "Stress Management", usage: 20 },
-      { name: "Meditation Sessions", usage: 15 },
-      { name: "Water Intake", usage: 85 },
-      { name: "Step Counter", usage: 45 },
-      { name: "Goal Setting", usage: 25 },
-      { name: "Video Tutorials", usage: 15 },
-      { name: "HRA Questionnaire", usage: 10 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 2, afternoon: 1, evening: 2 },
-      { day: "Tuesday", morning: 1, afternoon: 2, evening: 1 },
-      { day: "Wednesday", morning: 2, afternoon: 1, evening: 2 },
-      { day: "Thursday", morning: 1, afternoon: 2, evening: 1 },
-      { day: "Friday", morning: 2, afternoon: 1, evening: 2 },
-      { day: "Saturday", morning: 1, afternoon: 2, evening: 1 },
-      { day: "Sunday", morning: 2, afternoon: 1, evening: 2 }
-    ]
-  },
-  104: { // Ryan Johnson
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 5 },
-      { week: "Week 2", sessions: 6 },
-      { week: "Week 3", sessions: 4 },
-      { week: "Week 4", sessions: 7 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 25 },
-      { name: "Workout Logging", usage: 20 },
-      { name: "Sleep Monitoring", usage: 15 },
-      { name: "Stress Management", usage: 10 },
-      { name: "Meditation Sessions", usage: 5 },
-      { name: "Water Intake", usage: 30 },
-      { name: "Step Counter", usage: 95 },
-      { name: "Goal Setting", usage: 15 },
-      { name: "Video Tutorials", usage: 10 },
-      { name: "HRA Questionnaire", usage: 5 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 1, afternoon: 0, evening: 1 },
-      { day: "Tuesday", morning: 0, afternoon: 1, evening: 1 },
-      { day: "Wednesday", morning: 1, afternoon: 0, evening: 1 },
-      { day: "Thursday", morning: 0, afternoon: 1, evening: 1 },
-      { day: "Friday", morning: 1, afternoon: 0, evening: 1 },
-      { day: "Saturday", morning: 0, afternoon: 1, evening: 1 },
-      { day: "Sunday", morning: 1, afternoon: 0, evening: 1 }
-    ]
-  },
-  105: { // Sophia Davis
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 20 },
-      { week: "Week 2", sessions: 22 },
-      { week: "Week 3", sessions: 18 },
-      { week: "Week 4", sessions: 25 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 95 },
-      { name: "Workout Logging", usage: 85 },
-      { name: "Sleep Monitoring", usage: 90 },
-      { name: "Stress Management", usage: 75 },
-      { name: "Meditation Sessions", usage: 80 },
-      { name: "Water Intake", usage: 95 },
-      { name: "Step Counter", usage: 90 },
-      { name: "Goal Setting", usage: 85 },
-      { name: "Video Tutorials", usage: 70 },
-      { name: "HRA Questionnaire", usage: 80 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 5, afternoon: 3, evening: 4 },
-      { day: "Tuesday", morning: 4, afternoon: 4, evening: 3 },
-      { day: "Wednesday", morning: 5, afternoon: 3, evening: 4 },
-      { day: "Thursday", morning: 4, afternoon: 4, evening: 3 },
-      { day: "Friday", morning: 5, afternoon: 3, evening: 4 },
-      { day: "Saturday", morning: 4, afternoon: 4, evening: 3 },
-      { day: "Sunday", morning: 5, afternoon: 3, evening: 4 }
-    ]
-  },
-  106: { // Marcus Thompson
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 7 },
-      { week: "Week 2", sessions: 8 },
-      { week: "Week 3", sessions: 6 },
-      { week: "Week 4", sessions: 9 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 35 },
-      { name: "Workout Logging", usage: 30 },
-      { name: "Sleep Monitoring", usage: 85 },
-      { name: "Stress Management", usage: 25 },
-      { name: "Meditation Sessions", usage: 15 },
-      { name: "Water Intake", usage: 40 },
-      { name: "Step Counter", usage: 75 },
-      { name: "Goal Setting", usage: 20 },
-      { name: "Video Tutorials", usage: 15 },
-      { name: "HRA Questionnaire", usage: 10 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 1, afternoon: 2, evening: 1 },
-      { day: "Tuesday", morning: 2, afternoon: 1, evening: 2 },
-      { day: "Wednesday", morning: 1, afternoon: 2, evening: 1 },
-      { day: "Thursday", morning: 2, afternoon: 1, evening: 2 },
-      { day: "Friday", morning: 1, afternoon: 2, evening: 1 },
-      { day: "Saturday", morning: 2, afternoon: 1, evening: 2 },
-      { day: "Sunday", morning: 1, afternoon: 2, evening: 1 }
-    ]
-  },
-
-  // Michael Chen's users (Fitness & Strength Training)
-  201: { // Thomas Anderson
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 18 },
-      { week: "Week 2", sessions: 20 },
-      { week: "Week 3", sessions: 15 },
-      { week: "Week 4", sessions: 22 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 80 },
-      { name: "Workout Logging", usage: 95 },
-      { name: "Sleep Monitoring", usage: 75 },
-      { name: "Stress Management", usage: 30 },
-      { name: "Meditation Sessions", usage: 25 },
-      { name: "Water Intake", usage: 85 },
-      { name: "Step Counter", usage: 90 },
-      { name: "Goal Setting", usage: 80 },
-      { name: "Video Tutorials", usage: 70 },
-      { name: "HRA Questionnaire", usage: 60 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 4, afternoon: 2, evening: 3 },
-      { day: "Tuesday", morning: 3, afternoon: 3, evening: 2 },
-      { day: "Wednesday", morning: 4, afternoon: 2, evening: 3 },
-      { day: "Thursday", morning: 3, afternoon: 3, evening: 2 },
-      { day: "Friday", morning: 4, afternoon: 2, evening: 3 },
-      { day: "Saturday", morning: 3, afternoon: 3, evening: 2 },
-      { day: "Sunday", morning: 4, afternoon: 2, evening: 3 }
-    ]
-  },
-  202: { // Lisa Martinez
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 15 },
-      { week: "Week 2", sessions: 17 },
-      { week: "Week 3", sessions: 14 },
-      { week: "Week 4", sessions: 19 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 75 },
-      { name: "Workout Logging", usage: 90 },
-      { name: "Sleep Monitoring", usage: 70 },
-      { name: "Stress Management", usage: 35 },
-      { name: "Meditation Sessions", usage: 30 },
-      { name: "Water Intake", usage: 40 },
-      { name: "Step Counter", usage: 85 },
-      { name: "Goal Setting", usage: 75 },
-      { name: "Video Tutorials", usage: 65 },
-      { name: "HRA Questionnaire", usage: 55 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 3, afternoon: 3, evening: 2 },
-      { day: "Tuesday", morning: 4, afternoon: 2, evening: 3 },
-      { day: "Wednesday", morning: 3, afternoon: 3, evening: 2 },
-      { day: "Thursday", morning: 4, afternoon: 2, evening: 3 },
-      { day: "Friday", morning: 3, afternoon: 3, evening: 2 },
-      { day: "Saturday", morning: 4, afternoon: 2, evening: 3 },
-      { day: "Sunday", morning: 3, afternoon: 3, evening: 2 }
-    ]
-  },
-  203: { // Alex Rodriguez
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 12 },
-      { week: "Week 2", sessions: 14 },
-      { week: "Week 3", sessions: 11 },
-      { week: "Week 4", sessions: 16 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 60 },
-      { name: "Workout Logging", usage: 75 },
-      { name: "Sleep Monitoring", usage: 65 },
-      { name: "Stress Management", usage: 30 },
-      { name: "Meditation Sessions", usage: 20 },
-      { name: "Water Intake", usage: 55 },
-      { name: "Step Counter", usage: 95 },
-      { name: "Goal Setting", usage: 50 },
-      { name: "Video Tutorials", usage: 45 },
-      { name: "HRA Questionnaire", usage: 35 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 2, afternoon: 3, evening: 2 },
-      { day: "Tuesday", morning: 3, afternoon: 2, evening: 3 },
-      { day: "Wednesday", morning: 2, afternoon: 3, evening: 2 },
-      { day: "Thursday", morning: 3, afternoon: 2, evening: 3 },
-      { day: "Friday", morning: 2, afternoon: 3, evening: 2 },
-      { day: "Saturday", morning: 3, afternoon: 2, evening: 3 },
-      { day: "Sunday", morning: 2, afternoon: 3, evening: 2 }
-    ]
-  },
-  204: { // Emma Thompson
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 9 },
-      { week: "Week 2", sessions: 11 },
-      { week: "Week 3", sessions: 8 },
-      { week: "Week 4", sessions: 13 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 85 },
-      { name: "Workout Logging", usage: 45 },
-      { name: "Sleep Monitoring", usage: 50 },
-      { name: "Stress Management", usage: 40 },
-      { name: "Meditation Sessions", usage: 35 },
-      { name: "Water Intake", usage: 90 },
-      { name: "Step Counter", usage: 60 },
-      { name: "Goal Setting", usage: 30 },
-      { name: "Video Tutorials", usage: 25 },
-      { name: "HRA Questionnaire", usage: 20 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 2, afternoon: 2, evening: 1 },
-      { day: "Tuesday", morning: 1, afternoon: 3, evening: 2 },
-      { day: "Wednesday", morning: 2, afternoon: 2, evening: 1 },
-      { day: "Thursday", morning: 1, afternoon: 3, evening: 2 },
-      { day: "Friday", morning: 2, afternoon: 2, evening: 1 },
-      { day: "Saturday", morning: 1, afternoon: 3, evening: 2 },
-      { day: "Sunday", morning: 2, afternoon: 2, evening: 1 }
-    ]
-  },
-  205: { // Jake Williams
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 16 },
-      { week: "Week 2", sessions: 18 },
-      { week: "Week 3", sessions: 15 },
-      { week: "Week 4", sessions: 20 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 80 },
-      { name: "Workout Logging", usage: 95 },
-      { name: "Sleep Monitoring", usage: 85 },
-      { name: "Stress Management", usage: 30 },
-      { name: "Meditation Sessions", usage: 25 },
-      { name: "Water Intake", usage: 90 },
-      { name: "Step Counter", usage: 85 },
-      { name: "Goal Setting", usage: 75 },
-      { name: "Video Tutorials", usage: 70 },
-      { name: "HRA Questionnaire", usage: 65 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 4, afternoon: 2, evening: 3 },
-      { day: "Tuesday", morning: 3, afternoon: 3, evening: 2 },
-      { day: "Wednesday", morning: 4, afternoon: 2, evening: 3 },
-      { day: "Thursday", morning: 3, afternoon: 3, evening: 2 },
-      { day: "Friday", morning: 4, afternoon: 2, evening: 3 },
-      { day: "Saturday", morning: 3, afternoon: 3, evening: 2 },
-      { day: "Sunday", morning: 4, afternoon: 2, evening: 3 }
-    ]
-  },
-  206: { // Olivia Brown
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 13 },
-      { week: "Week 2", sessions: 15 },
-      { week: "Week 3", sessions: 12 },
-      { week: "Week 4", sessions: 17 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 70 },
-      { name: "Workout Logging", usage: 85 },
-      { name: "Sleep Monitoring", usage: 75 },
-      { name: "Stress Management", usage: 40 },
-      { name: "Meditation Sessions", usage: 35 },
-      { name: "Water Intake", usage: 80 },
-      { name: "Step Counter", usage: 90 },
-      { name: "Goal Setting", usage: 85 },
-      { name: "Video Tutorials", usage: 60 },
-      { name: "HRA Questionnaire", usage: 20 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 3, afternoon: 2, evening: 3 },
-      { day: "Tuesday", morning: 2, afternoon: 3, evening: 2 },
-      { day: "Wednesday", morning: 3, afternoon: 2, evening: 3 },
-      { day: "Thursday", morning: 2, afternoon: 3, evening: 2 },
-      { day: "Friday", morning: 3, afternoon: 2, evening: 3 },
-      { day: "Saturday", morning: 2, afternoon: 3, evening: 2 },
-      { day: "Sunday", morning: 3, afternoon: 2, evening: 3 }
-    ]
-  },
-
-  // Dr. Emily Williams' users (Mental Health & Stress Management)
-  301: { // Kevin Harris
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 11 },
-      { week: "Week 2", sessions: 13 },
-      { week: "Week 3", sessions: 10 },
-      { week: "Week 4", sessions: 15 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 45 },
-      { name: "Workout Logging", usage: 30 },
-      { name: "Sleep Monitoring", usage: 75 },
-      { name: "Stress Management", usage: 90 },
-      { name: "Meditation Sessions", usage: 85 },
-      { name: "Water Intake", usage: 60 },
-      { name: "Step Counter", usage: 40 },
-      { name: "Goal Setting", usage: 35 },
-      { name: "Video Tutorials", usage: 50 },
-      { name: "HRA Questionnaire", usage: 45 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 2, afternoon: 3, evening: 2 },
-      { day: "Tuesday", morning: 3, afternoon: 2, evening: 3 },
-      { day: "Wednesday", morning: 2, afternoon: 3, evening: 2 },
-      { day: "Thursday", morning: 3, afternoon: 2, evening: 3 },
-      { day: "Friday", morning: 2, afternoon: 3, evening: 2 },
-      { day: "Saturday", morning: 3, afternoon: 2, evening: 3 },
-      { day: "Sunday", morning: 2, afternoon: 3, evening: 2 }
-    ]
-  },
-  302: { // Jennifer Garcia
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 14 },
-      { week: "Week 2", sessions: 16 },
-      { week: "Week 3", sessions: 13 },
-      { week: "Week 4", sessions: 18 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 50 },
-      { name: "Workout Logging", usage: 35 },
-      { name: "Sleep Monitoring", usage: 80 },
-      { name: "Stress Management", usage: 95 },
-      { name: "Meditation Sessions", usage: 90 },
-      { name: "Water Intake", usage: 65 },
-      { name: "Step Counter", usage: 45 },
-      { name: "Goal Setting", usage: 40 },
-      { name: "Video Tutorials", usage: 55 },
-      { name: "HRA Questionnaire", usage: 50 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 3, afternoon: 2, evening: 3 },
-      { day: "Tuesday", morning: 2, afternoon: 3, evening: 2 },
-      { day: "Wednesday", morning: 3, afternoon: 2, evening: 3 },
-      { day: "Thursday", morning: 2, afternoon: 3, evening: 2 },
-      { day: "Friday", morning: 3, afternoon: 2, evening: 3 },
-      { day: "Saturday", morning: 2, afternoon: 3, evening: 2 },
-      { day: "Sunday", morning: 3, afternoon: 2, evening: 3 }
-    ]
-  },
-  303: { // Christopher Lee
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 8 },
-      { week: "Week 2", sessions: 10 },
-      { week: "Week 3", sessions: 7 },
-      { week: "Week 4", sessions: 12 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 30 },
-      { name: "Workout Logging", usage: 25 },
-      { name: "Sleep Monitoring", usage: 90 },
-      { name: "Stress Management", usage: 85 },
-      { name: "Meditation Sessions", usage: 80 },
-      { name: "Water Intake", usage: 35 },
-      { name: "Step Counter", usage: 30 },
-      { name: "Goal Setting", usage: 25 },
-      { name: "Video Tutorials", usage: 40 },
-      { name: "HRA Questionnaire", usage: 35 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 1, afternoon: 2, evening: 1 },
-      { day: "Tuesday", morning: 2, afternoon: 1, evening: 2 },
-      { day: "Wednesday", morning: 1, afternoon: 2, evening: 1 },
-      { day: "Thursday", morning: 2, afternoon: 1, evening: 2 },
-      { day: "Friday", morning: 1, afternoon: 2, evening: 1 },
-      { day: "Saturday", morning: 2, afternoon: 1, evening: 2 },
-      { day: "Sunday", morning: 1, afternoon: 2, evening: 1 }
-    ]
-  },
-  304: { // Sarah Wilson
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 12 },
-      { week: "Week 2", sessions: 14 },
-      { week: "Week 3", sessions: 11 },
-      { week: "Week 4", sessions: 16 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 55 },
-      { name: "Workout Logging", usage: 40 },
-      { name: "Sleep Monitoring", usage: 85 },
-      { name: "Stress Management", usage: 90 },
-      { name: "Meditation Sessions", usage: 95 },
-      { name: "Water Intake", usage: 70 },
-      { name: "Step Counter", usage: 50 },
-      { name: "Goal Setting", usage: 45 },
-      { name: "Video Tutorials", usage: 60 },
-      { name: "HRA Questionnaire", usage: 55 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 2, afternoon: 3, evening: 2 },
-      { day: "Tuesday", morning: 3, afternoon: 2, evening: 3 },
-      { day: "Wednesday", morning: 2, afternoon: 3, evening: 2 },
-      { day: "Thursday", morning: 3, afternoon: 2, evening: 3 },
-      { day: "Friday", morning: 2, afternoon: 3, evening: 2 },
-      { day: "Saturday", morning: 3, afternoon: 2, evening: 3 },
-      { day: "Sunday", morning: 2, afternoon: 3, evening: 2 }
-    ]
-  },
-  305: { // Michael Davis
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 6 },
-      { week: "Week 2", sessions: 8 },
-      { week: "Week 3", sessions: 5 },
-      { week: "Week 4", sessions: 10 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 35 },
-      { name: "Workout Logging", usage: 30 },
-      { name: "Sleep Monitoring", usage: 70 },
-      { name: "Stress Management", usage: 75 },
-      { name: "Meditation Sessions", usage: 80 },
-      { name: "Water Intake", usage: 40 },
-      { name: "Step Counter", usage: 35 },
-      { name: "Goal Setting", usage: 20 },
-      { name: "Video Tutorials", usage: 85 },
-      { name: "HRA Questionnaire", usage: 15 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 1, afternoon: 1, evening: 1 },
-      { day: "Tuesday", morning: 1, afternoon: 1, evening: 1 },
-      { day: "Wednesday", morning: 1, afternoon: 1, evening: 1 },
-      { day: "Thursday", morning: 1, afternoon: 1, evening: 1 },
-      { day: "Friday", morning: 1, afternoon: 1, evening: 1 },
-      { day: "Saturday", morning: 1, afternoon: 1, evening: 1 },
-      { day: "Sunday", morning: 1, afternoon: 1, evening: 1 }
-    ]
-  },
-  306: { // Rachel Green
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 15 },
-      { week: "Week 2", sessions: 17 },
-      { week: "Week 3", sessions: 14 },
-      { week: "Week 4", sessions: 19 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 75 },
-      { name: "Workout Logging", usage: 45 },
-      { name: "Sleep Monitoring", usage: 90 },
-      { name: "Stress Management", usage: 95 },
-      { name: "Meditation Sessions", usage: 90 },
-      { name: "Water Intake", usage: 80 },
-      { name: "Step Counter", usage: 60 },
-      { name: "Goal Setting", usage: 70 },
-      { name: "Video Tutorials", usage: 55 },
-      { name: "HRA Questionnaire", usage: 65 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 3, afternoon: 3, evening: 3 },
-      { day: "Tuesday", morning: 3, afternoon: 3, evening: 3 },
-      { day: "Wednesday", morning: 3, afternoon: 3, evening: 3 },
-      { day: "Thursday", morning: 3, afternoon: 3, evening: 3 },
-      { day: "Friday", morning: 3, afternoon: 3, evening: 3 },
-      { day: "Saturday", morning: 3, afternoon: 3, evening: 3 },
-      { day: "Sunday", morning: 3, afternoon: 3, evening: 3 }
-    ]
-  },
-
-  // Robert Taylor's users (Sleep & Recovery)
-  401: { // Stephanie Clark
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 13 },
-      { week: "Week 2", sessions: 15 },
-      { week: "Week 3", sessions: 12 },
-      { week: "Week 4", sessions: 17 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 60 },
-      { name: "Workout Logging", usage: 40 },
-      { name: "Sleep Monitoring", usage: 95 },
-      { name: "Stress Management", usage: 85 },
-      { name: "Meditation Sessions", usage: 75 },
-      { name: "Water Intake", usage: 85 },
-      { name: "Step Counter", usage: 50 },
-      { name: "Goal Setting", usage: 45 },
-      { name: "Video Tutorials", usage: 40 },
-      { name: "HRA Questionnaire", usage: 35 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 2, afternoon: 3, evening: 3 },
-      { day: "Tuesday", morning: 3, afternoon: 2, evening: 3 },
-      { day: "Wednesday", morning: 2, afternoon: 3, evening: 3 },
-      { day: "Thursday", morning: 3, afternoon: 2, evening: 3 },
-      { day: "Friday", morning: 2, afternoon: 3, evening: 3 },
-      { day: "Saturday", morning: 3, afternoon: 2, evening: 3 },
-      { day: "Sunday", morning: 2, afternoon: 3, evening: 3 }
-    ]
-  },
-  402: { // Jason Rodriguez
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 14 },
-      { week: "Week 2", sessions: 16 },
-      { week: "Week 3", sessions: 13 },
-      { week: "Week 4", sessions: 18 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 70 },
-      { name: "Workout Logging", usage: 75 },
-      { name: "Sleep Monitoring", usage: 95 },
-      { name: "Stress Management", usage: 80 },
-      { name: "Meditation Sessions", usage: 30 },
-      { name: "Water Intake", usage: 75 },
-      { name: "Step Counter", usage: 65 },
-      { name: "Goal Setting", usage: 60 },
-      { name: "Video Tutorials", usage: 55 },
-      { name: "HRA Questionnaire", usage: 50 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 3, afternoon: 2, evening: 3 },
-      { day: "Tuesday", morning: 2, afternoon: 3, evening: 2 },
-      { day: "Wednesday", morning: 3, afternoon: 2, evening: 3 },
-      { day: "Thursday", morning: 2, afternoon: 3, evening: 2 },
-      { day: "Friday", morning: 3, afternoon: 2, evening: 3 },
-      { day: "Saturday", morning: 2, afternoon: 3, evening: 2 },
-      { day: "Sunday", morning: 3, afternoon: 2, evening: 3 }
-    ]
-  },
-  403: { // Linda Martinez
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 8 },
-      { week: "Week 2", sessions: 10 },
-      { week: "Week 3", sessions: 7 },
-      { week: "Week 4", sessions: 12 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 40 },
-      { name: "Workout Logging", usage: 25 },
-      { name: "Sleep Monitoring", usage: 90 },
-      { name: "Stress Management", usage: 85 },
-      { name: "Meditation Sessions", usage: 80 },
-      { name: "Water Intake", usage: 45 },
-      { name: "Step Counter", usage: 20 },
-      { name: "Goal Setting", usage: 15 },
-      { name: "Video Tutorials", usage: 30 },
-      { name: "HRA Questionnaire", usage: 25 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 1, afternoon: 2, evening: 1 },
-      { day: "Tuesday", morning: 2, afternoon: 1, evening: 2 },
-      { day: "Wednesday", morning: 1, afternoon: 2, evening: 1 },
-      { day: "Thursday", morning: 2, afternoon: 1, evening: 2 },
-      { day: "Friday", morning: 1, afternoon: 2, evening: 1 },
-      { day: "Saturday", morning: 2, afternoon: 1, evening: 2 },
-      { day: "Sunday", morning: 1, afternoon: 2, evening: 1 }
-    ]
-  },
-  404: { // David Miller
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 9 },
-      { week: "Week 2", sessions: 11 },
-      { week: "Week 3", sessions: 8 },
-      { week: "Week 4", sessions: 13 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 65 },
-      { name: "Workout Logging", usage: 50 },
-      { name: "Sleep Monitoring", usage: 95 },
-      { name: "Stress Management", usage: 80 },
-      { name: "Meditation Sessions", usage: 75 },
-      { name: "Water Intake", usage: 35 },
-      { name: "Step Counter", usage: 85 },
-      { name: "Goal Setting", usage: 40 },
-      { name: "Video Tutorials", usage: 45 },
-      { name: "HRA Questionnaire", usage: 20 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 2, afternoon: 2, evening: 1 },
-      { day: "Tuesday", morning: 1, afternoon: 3, evening: 2 },
-      { day: "Wednesday", morning: 2, afternoon: 2, evening: 1 },
-      { day: "Thursday", morning: 1, afternoon: 3, evening: 2 },
-      { day: "Friday", morning: 2, afternoon: 2, evening: 1 },
-      { day: "Saturday", morning: 1, afternoon: 3, evening: 2 },
-      { day: "Sunday", morning: 2, afternoon: 2, evening: 1 }
-    ]
-  },
-  405: { // Ashley Taylor
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 16 },
-      { week: "Week 2", sessions: 18 },
-      { week: "Week 3", sessions: 15 },
-      { week: "Week 4", sessions: 20 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 75 },
-      { name: "Workout Logging", usage: 80 },
-      { name: "Sleep Monitoring", usage: 95 },
-      { name: "Stress Management", usage: 85 },
-      { name: "Meditation Sessions", usage: 90 },
-      { name: "Water Intake", usage: 80 },
-      { name: "Step Counter", usage: 70 },
-      { name: "Goal Setting", usage: 65 },
-      { name: "Video Tutorials", usage: 25 },
-      { name: "HRA Questionnaire", usage: 60 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 3, afternoon: 3, evening: 3 },
-      { day: "Tuesday", morning: 3, afternoon: 3, evening: 3 },
-      { day: "Wednesday", morning: 3, afternoon: 3, evening: 3 },
-      { day: "Thursday", morning: 3, afternoon: 3, evening: 3 },
-      { day: "Friday", morning: 3, afternoon: 3, evening: 3 },
-      { day: "Saturday", morning: 3, afternoon: 3, evening: 3 },
-      { day: "Sunday", morning: 3, afternoon: 3, evening: 3 }
-    ]
-  },
-  406: { // Brian Anderson
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 5 },
-      { week: "Week 2", sessions: 7 },
-      { week: "Week 3", sessions: 4 },
-      { week: "Week 4", sessions: 8 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 20 },
-      { name: "Workout Logging", usage: 15 },
-      { name: "Sleep Monitoring", usage: 95 },
-      { name: "Stress Management", usage: 75 },
-      { name: "Meditation Sessions", usage: 70 },
-      { name: "Water Intake", usage: 25 },
-      { name: "Step Counter", usage: 20 },
-      { name: "Goal Setting", usage: 10 },
-      { name: "Video Tutorials", usage: 15 },
-      { name: "HRA Questionnaire", usage: 5 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 1, afternoon: 0, evening: 1 },
-      { day: "Tuesday", morning: 0, afternoon: 1, evening: 1 },
-      { day: "Wednesday", morning: 1, afternoon: 0, evening: 1 },
-      { day: "Thursday", morning: 0, afternoon: 1, evening: 1 },
-      { day: "Friday", morning: 1, afternoon: 0, evening: 1 },
-      { day: "Saturday", morning: 0, afternoon: 1, evening: 1 },
-      { day: "Sunday", morning: 1, afternoon: 0, evening: 1 }
-    ]
-  }
+  weeklyEngagement: [
+    { week: "Week 1", sessions: 12 },
+    { week: "Week 2", sessions: 15 },
+    { week: "Week 3", sessions: 10 },
+    { week: "Week 4", sessions: 18 }
+  ],
+  featureUsage: [
+    { name: "Nutrition Tracking", usage: 78 },
+    { name: "Workout Logging", usage: 45 },
+    { name: "Sleep Monitoring", usage: 32 },
+    { name: "Stress Management", usage: 28 },
+    { name: "Meditation Sessions", usage: 15 },
+    { name: "Water Intake", usage: 62 },
+    { name: "Step Counter", usage: 85 },
+    { name: "Goal Setting", usage: 38 },
+    { name: "Video Tutorials", usage: 24 },
+    { name: "HRA Questionnaire", usage: 12 }
+  ],
+  dailyAppOpenTime: [
+    { day: "Monday", morning: 3, afternoon: 1, evening: 2 },
+    { day: "Tuesday", morning: 2, afternoon: 0, evening: 3 },
+    { day: "Wednesday", morning: 4, afternoon: 2, evening: 1 },
+    { day: "Thursday", morning: 1, afternoon: 3, evening: 2 },
+    { day: "Friday", morning: 2, afternoon: 1, evening: 3 },
+    { day: "Saturday", morning: 1, afternoon: 4, evening: 2 },
+    { day: "Sunday", morning: 0, afternoon: 2, evening: 5 }
+  ]
 };
 
-// User log data
+// Mock data for logs monitoring (simulating which users haven't logged specific activities)
 export const userLogData = {
   1: { // Dr. Sarah Johnson's users
-    101: {
+    101: { // Jessica Brown
       lastLogs: {
-        hydration: "2025-05-18T10:30:00",
-        food: "2025-05-18T12:45:00",
-        steps: "2025-05-18T23:59:00",
-        activity: "2025-05-18T15:20:00",
-        meditation: "2025-05-17T08:00:00",
-        sleep: "2025-05-18T07:30:00",
-        weight: "2025-05-15T08:00:00"
+        hydration: "2025-05-29", // today
+        food: "2025-05-29", // today
+        steps: "2025-05-28", // yesterday
+        activity: "2025-05-27", // 2 days ago
+        meditation: "2025-05-20", // over a week ago
+        sleep: "2025-05-29", // today
+        weight: "2025-05-25" // 4 days ago
       }
     },
-    102: {
+    102: { // Daniel Wilson
       lastLogs: {
-        hydration: "2025-05-19T11:00:00",
-        food: "2025-05-19T13:15:00",
-        steps: "2025-05-19T23:59:00",
-        activity: "2025-05-19T16:30:00",
-        meditation: "2025-05-18T07:30:00",
-        sleep: "2025-05-19T06:45:00",
-        weight: "2025-05-16T08:00:00"
+        hydration: "2025-05-22", // week ago
+        food: "2025-05-28", // yesterday
+        steps: "2025-05-29", // today
+        activity: "2025-05-29", // today
+        meditation: "2025-05-15", // 2 weeks ago
+        sleep: "2025-05-28", // yesterday
+        weight: "2025-05-26" // 3 days ago
       }
     },
-    103: {
+    103: { // Amanda Miller
       lastLogs: {
-        hydration: "2025-05-20T09:15:00",
-        food: "2025-05-20T12:30:00",
-        steps: "2025-05-20T23:59:00",
-        activity: "2025-05-20T14:45:00",
-        meditation: "2025-05-19T07:30:00",
-        sleep: "2025-05-20T06:30:00",
-        weight: "2025-05-17T08:00:00"
+        hydration: "2025-05-29", // today
+        food: "2025-05-29", // today
+        steps: "2025-05-27", // 2 days ago
+        activity: "2025-05-26", // 3 days ago
+        meditation: "2025-05-23", // 6 days ago
+        sleep: "2025-05-28", // yesterday
+        weight: "2025-05-18" // over a week ago
       }
     },
-    104: {
+    104: { // Ryan Johnson - low engagement user
       lastLogs: {
-        hydration: "2025-05-17T10:45:00",
-        food: "2025-05-17T13:00:00",
-        steps: "2025-05-17T23:59:00",
-        activity: "2025-05-17T16:15:00",
-        meditation: "2025-05-16T08:00:00",
-        sleep: "2025-05-17T07:15:00",
-        weight: "2025-05-14T08:00:00"
+        hydration: "2025-05-20", // over a week ago
+        food: "2025-05-21", // over a week ago
+        steps: "2025-05-27", // 2 days ago
+        activity: "2025-05-19", // 10 days ago
+        meditation: "2025-05-10", // almost 3 weeks ago
+        sleep: "2025-05-26", // 3 days ago
+        weight: "2025-05-24" // 5 days ago
       }
     },
-    105: {
+    105: { // Sophia Davis - high engagement user
       lastLogs: {
-        hydration: "2025-05-21T09:30:00",
-        food: "2025-05-21T12:45:00",
-        steps: "2025-05-21T23:59:00",
-        activity: "2025-05-21T15:00:00",
-        meditation: "2025-05-20T07:30:00",
-        sleep: "2025-05-21T06:45:00",
-        weight: "2025-05-18T08:00:00"
+        hydration: "2025-05-29", // today
+        food: "2025-05-29", // today
+        steps: "2025-05-29", // today
+        activity: "2025-05-29", // today
+        meditation: "2025-05-28", // yesterday
+        sleep: "2025-05-29", // today
+        weight: "2025-05-29" // today
       }
     },
-    106: {
+    106: { // Marcus Thompson
       lastLogs: {
-        hydration: "2025-05-16T10:15:00",
-        food: "2025-05-16T13:30:00",
-        steps: "2025-05-16T23:59:00",
-        activity: "2025-05-16T16:45:00",
-        meditation: "2025-05-15T08:00:00",
-        sleep: "2025-05-16T07:00:00",
-        weight: "2025-05-13T08:00:00"
+        hydration: "2025-05-26", // 3 days ago
+        food: "2025-05-25", // 4 days ago
+        steps: "2025-05-23", // 6 days ago
+        activity: "2025-05-22", // week ago
+        meditation: "2025-05-16", // almost 2 weeks ago
+        sleep: "2025-05-28", // yesterday
+        weight: "2025-05-20" // over a week ago
       }
     }
   },
   2: { // Michael Chen's users
-    201: {
+    201: { // Thomas Anderson
       lastLogs: {
-        hydration: "2025-05-20T09:45:00",
-        food: "2025-05-20T12:30:00",
-        steps: "2025-05-20T23:59:00",
-        activity: "2025-05-20T17:00:00",
-        meditation: "2025-05-19T07:00:00",
-        sleep: "2025-05-20T06:30:00",
-        weight: "2025-05-17T08:00:00"
+        hydration: "2025-05-28", // yesterday
+        food: "2025-05-29", // today
+        steps: "2025-05-29", // today
+        activity: "2025-05-29", // today
+        meditation: "2025-05-17", // almost 2 weeks ago
+        sleep: "2025-05-28", // yesterday
+        weight: "2025-05-27" // 2 days ago
       }
     },
-    202: {
+    202: { // Lisa Martinez
       lastLogs: {
-        hydration: "2025-05-19T10:30:00",
-        food: "2025-05-19T13:45:00",
-        steps: "2025-05-19T23:59:00",
-        activity: "2025-05-19T16:15:00",
-        meditation: "2025-05-18T07:30:00",
-        sleep: "2025-05-19T06:45:00",
-        weight: "2025-05-16T08:00:00"
+        hydration: "2025-05-23", // 6 days ago
+        food: "2025-05-28", // yesterday
+        steps: "2025-05-29", // today
+        activity: "2025-05-29", // today
+        meditation: "2025-05-25", // 4 days ago
+        sleep: "2025-05-28", // yesterday
+        weight: "2025-05-26" // 3 days ago
       }
     },
-    203: {
+    203: { // Alex Rodriguez
       lastLogs: {
-        hydration: "2025-05-21T09:15:00",
-        food: "2025-05-21T12:30:00",
-        steps: "2025-05-21T23:59:00",
-        activity: "2025-05-21T15:45:00",
-        meditation: "2025-05-20T07:00:00",
-        sleep: "2025-05-21T06:30:00",
-        weight: "2025-05-18T08:00:00"
+        hydration: "2025-05-29", // today
+        food: "2025-05-27", // 2 days ago
+        steps: "2025-05-29", // today
+        activity: "2025-05-29", // today
+        meditation: "2025-05-14", // 2 weeks ago
+        sleep: "2025-05-28", // yesterday
+        weight: "2025-05-24" // 5 days ago
       }
     },
-    204: {
+    204: { // Emma Thompson
       lastLogs: {
-        hydration: "2025-05-18T10:45:00",
-        food: "2025-05-18T13:00:00",
-        steps: "2025-05-18T23:59:00",
-        activity: "2025-05-18T16:30:00",
-        meditation: "2025-05-17T07:30:00",
-        sleep: "2025-05-18T06:45:00",
-        weight: "2025-05-15T08:00:00"
+        hydration: "2025-05-27", // 2 days ago
+        food: "2025-05-26", // 3 days ago
+        steps: "2025-05-25", // 4 days ago
+        activity: "2025-05-24", // 5 days ago
+        meditation: "2025-05-22", // week ago
+        sleep: "2025-05-27", // 2 days ago
+        weight: "2025-05-19" // 10 days ago
       }
     },
-    205: {
+    205: { // Jake Williams
       lastLogs: {
-        hydration: "2025-05-20T09:30:00",
-        food: "2025-05-20T12:45:00",
-        steps: "2025-05-20T23:59:00",
-        activity: "2025-05-20T15:15:00",
-        meditation: "2025-05-19T07:00:00",
-        sleep: "2025-05-20T06:30:00",
-        weight: "2025-05-17T08:00:00"
+        hydration: "2025-05-29", // today
+        food: "2025-05-29", // today
+        steps: "2025-05-29", // today
+        activity: "2025-05-29", // today
+        meditation: "2025-05-21", // over a week ago
+        sleep: "2025-05-29", // today
+        weight: "2025-05-28" // yesterday
       }
     },
-    206: {
+    206: { // Olivia Brown
       lastLogs: {
-        hydration: "2025-05-17T10:15:00",
-        food: "2025-05-17T13:30:00",
-        steps: "2025-05-17T23:59:00",
-        activity: "2025-05-17T16:45:00",
-        meditation: "2025-05-16T07:30:00",
-        sleep: "2025-05-17T07:00:00",
-        weight: "2025-05-14T08:00:00"
+        hydration: "2025-05-25", // 4 days ago
+        food: "2025-05-24", // 5 days ago
+        steps: "2025-05-28", // yesterday
+        activity: "2025-05-28", // yesterday
+        meditation: "2025-05-26", // 3 days ago
+        sleep: "2025-05-27", // 2 days ago
+        weight: "2025-05-18" // over a week ago
       }
     }
   },
   3: { // Dr. Emily Williams' users
-    301: {
+    301: { // Kevin Harris
       lastLogs: {
-        hydration: "2025-05-19T10:30:00",
-        food: "2025-05-19T13:45:00",
-        steps: "2025-05-19T23:59:00",
-        activity: "2025-05-19T16:15:00",
-        meditation: "2025-05-18T07:30:00",
-        sleep: "2025-05-19T06:45:00",
-        weight: "2025-05-16T08:00:00"
+        hydration: "2025-05-26", // 3 days ago
+        food: "2025-05-25", // 4 days ago
+        steps: "2025-05-23", // 6 days ago
+        activity: "2025-05-20", // over a week ago
+        meditation: "2025-05-29", // today
+        sleep: "2025-05-29", // today
+        weight: "2025-05-22" // week ago
       }
     },
-    302: {
+    302: { // Jennifer Garcia
       lastLogs: {
-        hydration: "2025-05-21T09:15:00",
-        food: "2025-05-21T12:30:00",
-        steps: "2025-05-21T23:59:00",
-        activity: "2025-05-21T15:45:00",
-        meditation: "2025-05-20T07:00:00",
-        sleep: "2025-05-21T06:30:00",
-        weight: "2025-05-18T08:00:00"
+        hydration: "2025-05-28", // yesterday
+        food: "2025-05-27", // 2 days ago
+        steps: "2025-05-24", // 5 days ago
+        activity: "2025-05-21", // over a week ago
+        meditation: "2025-05-29", // today
+        sleep: "2025-05-29", // today
+        weight: "2025-05-25" // 4 days ago
       }
     },
-    303: {
+    303: { // Christopher Lee
       lastLogs: {
-        hydration: "2025-05-18T10:45:00",
-        food: "2025-05-18T13:00:00",
-        steps: "2025-05-18T23:59:00",
-        activity: "2025-05-18T16:30:00",
-        meditation: "2025-05-17T07:30:00",
-        sleep: "2025-05-18T06:45:00",
-        weight: "2025-05-15T08:00:00"
+        hydration: "2025-05-22", // week ago
+        food: "2025-05-20", // over a week ago
+        steps: "2025-05-23", // 6 days ago
+        activity: "2025-05-19", // 10 days ago
+        meditation: "2025-05-28", // yesterday
+        sleep: "2025-05-29", // today
+        weight: "2025-05-24" // 5 days ago
       }
     },
-    304: {
+    304: { // Sarah Wilson
       lastLogs: {
-        hydration: "2025-05-20T09:30:00",
-        food: "2025-05-20T12:45:00",
-        steps: "2025-05-20T23:59:00",
-        activity: "2025-05-20T15:15:00",
-        meditation: "2025-05-19T07:00:00",
-        sleep: "2025-05-20T06:30:00",
-        weight: "2025-05-17T08:00:00"
+        hydration: "2025-05-28", // yesterday
+        food: "2025-05-27", // 2 days ago
+        steps: "2025-05-26", // 3 days ago
+        activity: "2025-05-25", // 4 days ago
+        meditation: "2025-05-29", // today
+        sleep: "2025-05-29", // today
+        weight: "2025-05-23" // 6 days ago
       }
     },
-    305: {
+    305: { // Michael Davis
       lastLogs: {
-        hydration: "2025-05-17T10:15:00",
-        food: "2025-05-17T13:30:00",
-        steps: "2025-05-17T23:59:00",
-        activity: "2025-05-17T16:45:00",
-        meditation: "2025-05-16T07:30:00",
-        sleep: "2025-05-17T07:00:00",
-        weight: "2025-05-14T08:00:00"
+        hydration: "2025-05-25", // 4 days ago
+        food: "2025-05-24", // 5 days ago
+        steps: "2025-05-27", // 2 days ago
+        activity: "2025-05-28", // yesterday
+        meditation: "2025-05-28", // yesterday
+        sleep: "2025-05-26", // 3 days ago
+        weight: "2025-05-17" // almost 2 weeks ago
       }
     },
-    306: {
+    306: { // Rachel Green
       lastLogs: {
-        hydration: "2025-05-19T10:30:00",
-        food: "2025-05-19T13:45:00",
-        steps: "2025-05-19T23:59:00",
-        activity: "2025-05-19T16:15:00",
-        meditation: "2025-05-18T07:30:00",
-        sleep: "2025-05-19T06:45:00",
-        weight: "2025-05-16T08:00:00"
+        hydration: "2025-05-29", // today
+        food: "2025-05-28", // yesterday
+        steps: "2025-05-27", // 2 days ago
+        activity: "2025-05-23", // 6 days ago
+        meditation: "2025-05-29", // today
+        sleep: "2025-05-29", // today
+        weight: "2025-05-26" // 3 days ago
       }
     }
   },
   4: { // Robert Taylor's users
-    401: {
+    401: { // Stephanie Clark
       lastLogs: {
-        hydration: "2025-05-21T09:15:00",
-        food: "2025-05-21T12:30:00",
-        steps: "2025-05-21T23:59:00",
-        activity: "2025-05-21T15:45:00",
-        meditation: "2025-05-20T07:00:00",
-        sleep: "2025-05-21T06:30:00",
-        weight: "2025-05-18T08:00:00"
+        hydration: "2025-05-28", // yesterday
+        food: "2025-05-27", // 2 days ago
+        steps: "2025-05-26", // 3 days ago
+        activity: "2025-05-22", // week ago
+        meditation: "2025-05-26", // 3 days ago
+        sleep: "2025-05-29", // today
+        weight: "2025-05-25" // 4 days ago
       }
     },
-    402: {
+    402: { // Jason Rodriguez
       lastLogs: {
-        hydration: "2025-05-18T10:45:00",
-        food: "2025-05-18T13:00:00",
-        steps: "2025-05-18T23:59:00",
-        activity: "2025-05-18T16:30:00",
-        meditation: "2025-05-17T07:30:00",
-        sleep: "2025-05-18T06:45:00",
-        weight: "2025-05-15T08:00:00"
+        hydration: "2025-05-26", // 3 days ago
+        food: "2025-05-28", // yesterday
+        steps: "2025-05-29", // today
+        activity: "2025-05-28", // yesterday
+        meditation: "2025-05-18", // over a week ago
+        sleep: "2025-05-29", // today
+        weight: "2025-05-24" // 5 days ago
       }
     },
-    403: {
+    403: { // Linda Martinez
       lastLogs: {
-        hydration: "2025-05-20T09:30:00",
-        food: "2025-05-20T12:45:00",
-        steps: "2025-05-20T23:59:00",
-        activity: "2025-05-20T15:15:00",
-        meditation: "2025-05-19T07:00:00",
-        sleep: "2025-05-20T06:30:00",
-        weight: "2025-05-17T08:00:00"
+        hydration: "2025-05-24", // 5 days ago
+        food: "2025-05-23", // 6 days ago
+        steps: "2025-05-21", // over a week ago
+        activity: "2025-05-19", // 10 days ago
+        meditation: "2025-05-25", // 4 days ago
+        sleep: "2025-05-27", // 2 days ago
+        weight: "2025-05-20" // over a week ago
       }
     },
-    404: {
+    404: { // David Miller
       lastLogs: {
-        hydration: "2025-05-17T10:15:00",
-        food: "2025-05-17T13:30:00",
-        steps: "2025-05-17T23:59:00",
-        activity: "2025-05-17T16:45:00",
-        meditation: "2025-05-16T07:30:00",
-        sleep: "2025-05-17T07:00:00",
-        weight: "2025-05-14T08:00:00"
+        hydration: "2025-05-24", // 5 days ago
+        food: "2025-05-29", // today
+        steps: "2025-05-29", // today
+        activity: "2025-05-28", // yesterday
+        meditation: "2025-05-26", // 3 days ago
+        sleep: "2025-05-29", // today
+        weight: "2025-05-27" // 2 days ago
       }
     },
-    405: {
+    405: { // Ashley Taylor
       lastLogs: {
-        hydration: "2025-05-19T10:30:00",
-        food: "2025-05-19T13:45:00",
-        steps: "2025-05-19T23:59:00",
-        activity: "2025-05-19T16:15:00",
-        meditation: "2025-05-18T07:30:00",
-        sleep: "2025-05-19T06:45:00",
-        weight: "2025-05-16T08:00:00"
+        hydration: "2025-05-29", // today
+        food: "2025-05-29", // today
+        steps: "2025-05-29", // today
+        activity: "2025-05-28", // yesterday
+        meditation: "2025-05-29", // today
+        sleep: "2025-05-29", // today
+        weight: "2025-05-28" // yesterday
       }
     },
-    406: {
+    406: { // Brian Anderson - low engagement user
       lastLogs: {
-        hydration: "2025-05-21T09:15:00",
-        food: "2025-05-21T12:30:00",
-        steps: "2025-05-21T23:59:00",
-        activity: "2025-05-21T15:45:00",
-        meditation: "2025-05-20T07:00:00",
-        sleep: "2025-05-21T06:30:00",
-        weight: "2025-05-18T08:00:00"
+        hydration: "2025-05-21", // over a week ago
+        food: "2025-05-20", // over a week ago
+        steps: "2025-05-25", // 4 days ago
+        activity: "2025-05-18", // over a week ago
+        meditation: "2025-05-27", // 2 days ago
+        sleep: "2025-05-28", // yesterday
+        weight: "2025-05-22" // week ago
       }
     }
   }

@@ -43,24 +43,24 @@ const Dashboard = () => {
               <h1 className="ml-2 text-xl font-bold text-gray-900">AI Coach Dashboard</h1>
             </div>
             <div className="flex gap-4">
-              <Button variant="outline" asChild className="flex items-center gap-2">
-                <Link to="/coaches-impact">
-                  <Users size={16} />
-                  Coach Engagement Tracker
-                </Link>
-              </Button>
-              <Button variant="outline" asChild className="flex items-center gap-2">
-                <Link to="/user-segments">
-                  <Users size={16} />
-                  User Segments
-                </Link>
-              </Button>
-              <Button variant="outline" asChild className="flex items-center gap-2">
-                <Link to="/logs-monitoring">
-                  <ClipboardList size={16} />
-                  Logs Monitoring
-                </Link>
-              </Button>
+                <Button variant="outline" asChild className="flex items-center gap-2"> 
+                  <Link to="/logs-monitoring">
+                    <ClipboardList size={16} />
+                    Logs Monitoring
+                  </Link>
+                </Button>
+                <Button variant="outline" asChild className="flex items-center gap-2">
+                  <Link to="/coaches-impact">
+                    <Users size={16} />
+                    Coach Engagement Tracker
+                  </Link>
+                </Button>
+                <Button variant="outline" asChild className="flex items-center gap-2">
+                  <Link to="/user-segments">
+                    <Users size={16} />
+                    User Segments
+                  </Link>
+                </Button>
               <div className="text-sm text-gray-500">
                 Last updated: May 21, 2025
               </div>

@@ -34,26 +34,53 @@ const LogsMonitoring = ({ coachId }: LogsMonitoringProps) => {
   const [missedUsers, setMissedUsers] = useState<Array<{ id: number; name: string; avatarUrl: string; lastLogDate: string }>>([]);
 
   useEffect(() => {
+    console.log("Filtering with:", { coachId, selectedDuration, selectedLogType });
+    
     if (coachId && selectedDuration && selectedLogType) {
       const durationFilter = durationFilters.find(d => d.value === selectedDuration);
       if (!durationFilter) return;
 
-      const cutoffDate = new Date();
-      cutoffDate.setDate(cutoffDate.getDate() - durationFilter.days);
-      const cutoffDateString = cutoffDate.toISOString().split('T')[0];
+      let cutoffDate = new Date();
+      
+      // Adjust cutoff date based on filter type
+      if (selectedDuration === "today") {
+        cutoffDate.setHours(0, 0, 0, 0);
+      } else if (selectedDuration === "yesterday") {
+        cutoffDate.setDate(cutoffDate.getDate() - 1);
+        cutoffDate.setHours(0, 0, 0, 0);
+      } else if (selectedDuration === "week") {
+        cutoffDate.setDate(cutoffDate.getDate() - 7);
+      } else if (selectedDuration === "month") {
+        cutoffDate.setDate(cutoffDate.getDate() - 30);
+      }
 
       const coachUsers = usersByCoach[coachId as keyof typeof usersByCoach] || [];
       const coachLogData = userLogData[coachId as keyof typeof userLogData] || {};
+      
+      console.log("Coach users:", coachUsers.length);
+      console.log("Cutoff date:", cutoffDate);
 
       const usersWhoMissed = coachUsers.filter(user => {
         const userLogs = coachLogData[user.id as keyof typeof coachLogData];
-        if (!userLogs || typeof userLogs !== 'object') return true; // No log data means they missed it
+        if (!userLogs || typeof userLogs !== 'object') {
+          console.log(`User ${user.id} has no logs`);
+          return true; // No log data means they missed it
+        }
 
         const userLogsAny = userLogs as any;
-        const lastLogDate = userLogsAny.lastLogs?.[selectedLogType];
-        if (!lastLogDate) return true; // No log for this type
+        const lastLogDateStr = userLogsAny.lastLogs?.[selectedLogType];
+        
+        if (!lastLogDateStr) {
+          console.log(`User ${user.id} has no ${selectedLogType} log`);
+          return true; // No log for this type
+        }
 
-        return lastLogDate < cutoffDateString;
+        const lastLogDate = new Date(lastLogDateStr);
+        const hasLogged = lastLogDate >= cutoffDate;
+        
+        console.log(`User ${user.id} last ${selectedLogType} log:`, lastLogDateStr, "Has logged since cutoff:", hasLogged);
+        
+        return !hasLogged; // Return true if they HAVEN'T logged since cutoff
       }).map(user => {
         const userLogs = coachLogData[user.id as keyof typeof coachLogData];
         let lastLogDate = "Never";
@@ -69,6 +96,7 @@ const LogsMonitoring = ({ coachId }: LogsMonitoringProps) => {
         };
       });
 
+      console.log("Users who missed:", usersWhoMissed.length);
       setMissedUsers(usersWhoMissed);
     } else {
       setMissedUsers([]);

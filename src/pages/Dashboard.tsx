@@ -44,6 +44,12 @@ const Dashboard = () => {
             </div>
             <div className="flex gap-4">
               <Button variant="outline" asChild className="flex items-center gap-2">
+                <Link to="/coaches-impact">
+                  <Users size={16} />
+                  Coaches Impact
+                </Link>
+              </Button>
+              <Button variant="outline" asChild className="flex items-center gap-2">
                 <Link to="/user-segments">
                   <Users size={16} />
                   User Segments

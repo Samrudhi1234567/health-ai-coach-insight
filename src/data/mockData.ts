@@ -1636,3 +1636,47 @@ export const chartData = {
     ]
   }
 };
+
+// User log data
+export const userLogData = {
+  1: { // Dr. Sarah Johnson's users
+    101: {
+      lastLogs: {
+        hydration: "2025-05-18T10:30:00",
+        food: "2025-05-18T12:45:00",
+        steps: "2025-05-18T23:59:00",
+        activity: "2025-05-18T15:20:00",
+        meditation: "2025-05-17T08:00:00",
+        sleep: "2025-05-18T07:30:00",
+        weight: "2025-05-15T08:00:00"
+      }
+    },
+    102: {
+      lastLogs: {
+        hydration: "2025-05-19T11:00:00",
+        food: "2025-05-19T13:15:00",
+        steps: "2025-05-19T23:59:00",
+        activity: "2025-05-19T16:30:00",
+        meditation: "2025-05-18T07:30:00",
+        sleep: "2025-05-19T06:45:00",
+        weight: "2025-05-16T08:00:00"
+      }
+    }
+    // Add more users as needed
+  },
+  2: { // Michael Chen's users
+    201: {
+      lastLogs: {
+        hydration: "2025-05-20T09:45:00",
+        food: "2025-05-20T12:30:00",
+        steps: "2025-05-20T23:59:00",
+        activity: "2025-05-20T17:00:00",
+        meditation: "2025-05-19T07:00:00",
+        sleep: "2025-05-20T06:30:00",
+        weight: "2025-05-17T08:00:00"
+      }
+    }
+    // Add more users as needed
+  }
+  // Add more coaches as needed
+};

@@ -12,7 +12,7 @@ import PredefinedQuestions from "@/components/dashboard/PredefinedQuestions";
 import AskAnything from "@/components/dashboard/AskAnything";
 import { Separator } from "@/components/ui/separator";
 import { Button } from "@/components/ui/button";
-import { LayoutDashboard, Users } from "lucide-react";
+import { LayoutDashboard, Users, ClipboardList } from "lucide-react";
 
 const Dashboard = () => {
   const [selectedCoachId, setSelectedCoachId] = useState<number | null>(null);
@@ -47,6 +47,12 @@ const Dashboard = () => {
                 <Link to="/user-segments">
                   <Users size={16} />
                   User Segments
+                </Link>
+              </Button>
+              <Button variant="outline" asChild className="flex items-center gap-2">
+                <Link to="/logs-monitoring">
+                  <ClipboardList size={16} />
+                  Logs Monitoring
                 </Link>
               </Button>
               <div className="text-sm text-gray-500">
@@ -103,3 +109,4 @@ const Dashboard = () => {
 };
 
 export default Dashboard;
+

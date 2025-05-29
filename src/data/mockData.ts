@@ -9,25 +9,39 @@ export const coaches = [
   { id: 4, name: "Robert Taylor", specialization: "Sleep & Recovery", avatarUrl: "https://randomuser.me/api/portraits/men/41.jpg" }
 ];
 
-// Users per coach
+// Users per coach (expanded to 5+ users per coach)
 export const usersByCoach = {
   1: [
     { id: 101, name: "Jessica Brown", avatarUrl: "https://randomuser.me/api/portraits/women/63.jpg" },
     { id: 102, name: "Daniel Wilson", avatarUrl: "https://randomuser.me/api/portraits/men/72.jpg" },
-    { id: 103, name: "Amanda Miller", avatarUrl: "https://randomuser.me/api/portraits/women/17.jpg" }
+    { id: 103, name: "Amanda Miller", avatarUrl: "https://randomuser.me/api/portraits/women/17.jpg" },
+    { id: 104, name: "Ryan Johnson", avatarUrl: "https://randomuser.me/api/portraits/men/45.jpg" },
+    { id: 105, name: "Sophia Davis", avatarUrl: "https://randomuser.me/api/portraits/women/24.jpg" },
+    { id: 106, name: "Marcus Thompson", avatarUrl: "https://randomuser.me/api/portraits/men/67.jpg" }
   ],
   2: [
     { id: 201, name: "Thomas Anderson", avatarUrl: "https://randomuser.me/api/portraits/men/91.jpg" },
-    { id: 202, name: "Lisa Martinez", avatarUrl: "https://randomuser.me/api/portraits/women/28.jpg" }
+    { id: 202, name: "Lisa Martinez", avatarUrl: "https://randomuser.me/api/portraits/women/28.jpg" },
+    { id: 203, name: "Alex Rodriguez", avatarUrl: "https://randomuser.me/api/portraits/men/15.jpg" },
+    { id: 204, name: "Emma Thompson", avatarUrl: "https://randomuser.me/api/portraits/women/52.jpg" },
+    { id: 205, name: "Jake Williams", avatarUrl: "https://randomuser.me/api/portraits/men/38.jpg" },
+    { id: 206, name: "Olivia Brown", avatarUrl: "https://randomuser.me/api/portraits/women/71.jpg" }
   ],
   3: [
     { id: 301, name: "Kevin Harris", avatarUrl: "https://randomuser.me/api/portraits/men/18.jpg" },
     { id: 302, name: "Jennifer Garcia", avatarUrl: "https://randomuser.me/api/portraits/women/39.jpg" },
-    { id: 303, name: "Christopher Lee", avatarUrl: "https://randomuser.me/api/portraits/men/59.jpg" }
+    { id: 303, name: "Christopher Lee", avatarUrl: "https://randomuser.me/api/portraits/men/59.jpg" },
+    { id: 304, name: "Sarah Wilson", avatarUrl: "https://randomuser.me/api/portraits/women/82.jpg" },
+    { id: 305, name: "Michael Davis", avatarUrl: "https://randomuser.me/api/portraits/men/26.jpg" },
+    { id: 306, name: "Rachel Green", avatarUrl: "https://randomuser.me/api/portraits/women/34.jpg" }
   ],
   4: [
     { id: 401, name: "Stephanie Clark", avatarUrl: "https://randomuser.me/api/portraits/women/58.jpg" },
-    { id: 402, name: "Jason Rodriguez", avatarUrl: "https://randomuser.me/api/portraits/men/29.jpg" }
+    { id: 402, name: "Jason Rodriguez", avatarUrl: "https://randomuser.me/api/portraits/men/29.jpg" },
+    { id: 403, name: "Linda Martinez", avatarUrl: "https://randomuser.me/api/portraits/women/47.jpg" },
+    { id: 404, name: "David Miller", avatarUrl: "https://randomuser.me/api/portraits/men/84.jpg" },
+    { id: 405, name: "Ashley Taylor", avatarUrl: "https://randomuser.me/api/portraits/women/65.jpg" },
+    { id: 406, name: "Brian Anderson", avatarUrl: "https://randomuser.me/api/portraits/men/53.jpg" }
   ]
 };
 
@@ -45,8 +59,20 @@ export const appFeatures = [
   "HRA Questionnaire"
 ];
 
-// User detailed data
+// Log types for the new logs monitoring page
+export const logTypes = [
+  "hydration",
+  "food", 
+  "steps",
+  "activity",
+  "meditation",
+  "sleep",
+  "weight"
+];
+
+// User detailed data (expanded for all users)
 export const userData = {
+  // Dr. Sarah Johnson's users (Nutrition & Weight Management)
   101: {
     personalInfo: {
       age: 34,
@@ -77,8 +103,7 @@ export const userData = {
     },
     callNotes: [
       { date: "2025-05-10", note: "Jessica reported improved energy levels after dietary changes" },
-      { date: "2025-05-03", note: "Discussed strategies for consistent meal planning" },
-      { date: "2025-04-26", note: "Focus needed on sleep hygiene and evening routine" }
+      { date: "2025-05-03", note: "Discussed strategies for consistent meal planning" }
     ]
   },
   102: {
@@ -105,16 +130,139 @@ export const userData = {
     },
     healthAssessment: {
       severeIssues: [
-        { issue: "High Blood Pressure", causes: ["Salt intake", "Insufficient cardio", "Stress"] },
-        { issue: "Back Pain", causes: ["Poor posture", "Weak core muscles", "Long sitting hours"] }
+        { issue: "High Blood Pressure", causes: ["Salt intake", "Insufficient cardio", "Stress"] }
       ]
     },
     callNotes: [
-      { date: "2025-05-15", note: "Daniel making good progress with strength training program" },
-      { date: "2025-05-08", note: "Needs to improve hydration levels throughout the day" },
-      { date: "2025-05-01", note: "Blood pressure showing signs of improvement with new routine" }
+      { date: "2025-05-15", note: "Daniel making good progress with strength training program" }
     ]
   },
+  103: {
+    personalInfo: {
+      age: 28,
+      gender: "Female",
+      lastAppOpen: "2025-05-20",
+      lifestyle: "Active",
+      engagementScore: 6.5,
+      subscriptionStatus: "Unpaid",
+      bmi: 22.1
+    },
+    activityInsights: {
+      appLaunches: 15,
+      daysActive: 12,
+      mostActiveFeature: "Water Intake",
+      leastActiveFeature: "Goal Setting",
+      videosWatched: 5,
+      daysInSystem: 45
+    },
+    featureEngagement: {
+      ghostedFeatures: ["Goal Setting", "HRA Questionnaire"],
+      consistentFeatures: ["Water Intake", "Nutrition Tracking"]
+    },
+    healthAssessment: {
+      severeIssues: [
+        { issue: "Iron Deficiency", causes: ["Poor diet", "Heavy periods", "Low iron absorption"] }
+      ]
+    },
+    callNotes: [
+      { date: "2025-05-12", note: "Amanda needs to focus on iron-rich foods" }
+    ]
+  },
+  104: {
+    personalInfo: {
+      age: 35,
+      gender: "Male",
+      lastAppOpen: "2025-05-17",
+      lifestyle: "Sedentary",
+      engagementScore: 4.2,
+      subscriptionStatus: "Paid",
+      bmi: 28.5
+    },
+    activityInsights: {
+      appLaunches: 8,
+      daysActive: 6,
+      mostActiveFeature: "Step Counter",
+      leastActiveFeature: "Nutrition Tracking",
+      videosWatched: 2,
+      daysInSystem: 30
+    },
+    featureEngagement: {
+      ghostedFeatures: ["Nutrition Tracking", "Workout Logging", "Water Intake"],
+      consistentFeatures: ["Step Counter"]
+    },
+    healthAssessment: {
+      severeIssues: [
+        { issue: "Obesity", causes: ["Sedentary lifestyle", "Poor eating habits", "Stress eating"] }
+      ]
+    },
+    callNotes: [
+      { date: "2025-05-14", note: "Ryan struggling with motivation, needs more support" }
+    ]
+  },
+  105: {
+    personalInfo: {
+      age: 26,
+      gender: "Female",
+      lastAppOpen: "2025-05-21",
+      lifestyle: "Active",
+      engagementScore: 9.1,
+      subscriptionStatus: "Paid",
+      bmi: 21.8
+    },
+    activityInsights: {
+      appLaunches: 35,
+      daysActive: 28,
+      mostActiveFeature: "Nutrition Tracking",
+      leastActiveFeature: "Video Tutorials",
+      videosWatched: 15,
+      daysInSystem: 95
+    },
+    featureEngagement: {
+      ghostedFeatures: ["Video Tutorials"],
+      consistentFeatures: ["Nutrition Tracking", "Water Intake", "Step Counter", "Goal Setting"]
+    },
+    healthAssessment: {
+      severeIssues: [
+        { issue: "Perfectionism", causes: ["High standards", "Fear of failure", "Social pressure"] }
+      ]
+    },
+    callNotes: [
+      { date: "2025-05-18", note: "Sophia excelling in all areas, might need work-life balance guidance" }
+    ]
+  },
+  106: {
+    personalInfo: {
+      age: 38,
+      gender: "Male",
+      lastAppOpen: "2025-05-16",
+      lifestyle: "Moderately Active",
+      engagementScore: 5.8,
+      subscriptionStatus: "Unpaid",
+      bmi: 25.2
+    },
+    activityInsights: {
+      appLaunches: 12,
+      daysActive: 10,
+      mostActiveFeature: "Sleep Monitoring",
+      leastActiveFeature: "Meditation Sessions",
+      videosWatched: 4,
+      daysInSystem: 60
+    },
+    featureEngagement: {
+      ghostedFeatures: ["Meditation Sessions", "HRA Questionnaire"],
+      consistentFeatures: ["Sleep Monitoring", "Step Counter"]
+    },
+    healthAssessment: {
+      severeIssues: [
+        { issue: "Sleep Apnea", causes: ["Weight", "Poor sleep hygiene", "Stress"] }
+      ]
+    },
+    callNotes: [
+      { date: "2025-05-11", note: "Marcus reports better sleep quality with new routine" }
+    ]
+  },
+
+  // Michael Chen's users (Fitness & Strength Training)
   201: {
     personalInfo: {
       age: 29,
@@ -143,12 +291,166 @@ export const userData = {
       ]
     },
     callNotes: [
-      { date: "2025-05-17", note: "Thomas achieved new personal record in strength metrics" },
-      { date: "2025-05-10", note: "Discussed importance of rest days in training cycle" },
-      { date: "2025-05-03", note: "Need to focus on post-workout recovery strategies" }
+      { date: "2025-05-17", note: "Thomas achieved new personal record in strength metrics" }
     ]
   },
-  // Sample for ID 301 - under mental health coach
+  202: {
+    personalInfo: {
+      age: 31,
+      gender: "Female",
+      lastAppOpen: "2025-05-19",
+      lifestyle: "Very Active",
+      engagementScore: 8.7,
+      subscriptionStatus: "Paid",
+      bmi: 22.4
+    },
+    activityInsights: {
+      appLaunches: 24,
+      daysActive: 22,
+      mostActiveFeature: "Workout Logging",
+      leastActiveFeature: "Water Intake",
+      videosWatched: 14,
+      daysInSystem: 78
+    },
+    featureEngagement: {
+      ghostedFeatures: ["Water Intake"],
+      consistentFeatures: ["Workout Logging", "Nutrition Tracking", "Goal Setting"]
+    },
+    healthAssessment: {
+      severeIssues: [
+        { issue: "Overtraining Syndrome", causes: ["Excessive training", "Inadequate rest", "Poor nutrition timing"] }
+      ]
+    },
+    callNotes: [
+      { date: "2025-05-16", note: "Lisa needs to incorporate more rest days" }
+    ]
+  },
+  203: {
+    personalInfo: {
+      age: 25,
+      gender: "Male",
+      lastAppOpen: "2025-05-21",
+      lifestyle: "Active",
+      engagementScore: 7.3,
+      subscriptionStatus: "Paid",
+      bmi: 24.8
+    },
+    activityInsights: {
+      appLaunches: 19,
+      daysActive: 16,
+      mostActiveFeature: "Step Counter",
+      leastActiveFeature: "Meditation Sessions",
+      videosWatched: 9,
+      daysInSystem: 52
+    },
+    featureEngagement: {
+      ghostedFeatures: ["Meditation Sessions", "HRA Questionnaire"],
+      consistentFeatures: ["Step Counter", "Workout Logging"]
+    },
+    healthAssessment: {
+      severeIssues: [
+        { issue: "Knee Pain", causes: ["Running on hard surfaces", "Poor form", "Inadequate stretching"] }
+      ]
+    },
+    callNotes: [
+      { date: "2025-05-13", note: "Alex needs to focus on proper running form" }
+    ]
+  },
+  204: {
+    personalInfo: {
+      age: 33,
+      gender: "Female",
+      lastAppOpen: "2025-05-18",
+      lifestyle: "Moderately Active",
+      engagementScore: 6.9,
+      subscriptionStatus: "Unpaid",
+      bmi: 23.7
+    },
+    activityInsights: {
+      appLaunches: 16,
+      daysActive: 13,
+      mostActiveFeature: "Nutrition Tracking",
+      leastActiveFeature: "Video Tutorials",
+      videosWatched: 6,
+      daysInSystem: 40
+    },
+    featureEngagement: {
+      ghostedFeatures: ["Video Tutorials", "Goal Setting"],
+      consistentFeatures: ["Nutrition Tracking", "Water Intake"]
+    },
+    healthAssessment: {
+      severeIssues: [
+        { issue: "Lower Back Pain", causes: ["Weak core", "Poor posture", "Sedentary work"] }
+      ]
+    },
+    callNotes: [
+      { date: "2025-05-15", note: "Emma showing improvement in core strength exercises" }
+    ]
+  },
+  205: {
+    personalInfo: {
+      age: 27,
+      gender: "Male",
+      lastAppOpen: "2025-05-20",
+      lifestyle: "Very Active",
+      engagementScore: 8.9,
+      subscriptionStatus: "Paid",
+      bmi: 22.1
+    },
+    activityInsights: {
+      appLaunches: 26,
+      daysActive: 24,
+      mostActiveFeature: "Workout Logging",
+      leastActiveFeature: "Stress Management",
+      videosWatched: 16,
+      daysInSystem: 88
+    },
+    featureEngagement: {
+      ghostedFeatures: ["Stress Management"],
+      consistentFeatures: ["Workout Logging", "Nutrition Tracking", "Sleep Monitoring", "Water Intake"]
+    },
+    healthAssessment: {
+      severeIssues: [
+        { issue: "Exercise Addiction", causes: ["Compulsive behavior", "Body image issues", "Perfectionism"] }
+      ]
+    },
+    callNotes: [
+      { date: "2025-05-19", note: "Jake needs guidance on balanced approach to fitness" }
+    ]
+  },
+  206: {
+    personalInfo: {
+      age: 30,
+      gender: "Female",
+      lastAppOpen: "2025-05-17",
+      lifestyle: "Active",
+      engagementScore: 7.6,
+      subscriptionStatus: "Paid",
+      bmi: 21.9
+    },
+    activityInsights: {
+      appLaunches: 20,
+      daysActive: 17,
+      mostActiveFeature: "Goal Setting",
+      leastActiveFeature: "HRA Questionnaire",
+      videosWatched: 11,
+      daysInSystem: 71
+    },
+    featureEngagement: {
+      ghostedFeatures: ["HRA Questionnaire"],
+      consistentFeatures: ["Goal Setting", "Workout Logging", "Step Counter"]
+    },
+    healthAssessment: {
+      severeIssues: [
+        { issue: "Shoulder Impingement", causes: ["Poor form", "Muscle imbalances", "Overuse"] }
+      ]
+    },
+    callNotes: [
+      { date: "2025-05-14", note: "Olivia making progress with shoulder rehabilitation exercises" }
+    ]
+  },
+
+  // Dr. Emily Williams' users (Mental Health & Stress Management)
   301: {
     personalInfo: {
       age: 36,
@@ -178,14 +480,426 @@ export const userData = {
       ]
     },
     callNotes: [
-      { date: "2025-05-16", note: "Kevin reports improved sleep quality after implementing meditation routine" },
-      { date: "2025-05-09", note: "Discussed stress triggers and coping mechanisms" },
-      { date: "2025-05-02", note: "Need to focus on consistent bedtime routine" }
+      { date: "2025-05-16", note: "Kevin reports improved sleep quality after implementing meditation routine" }
+    ]
+  },
+  302: {
+    personalInfo: {
+      age: 29,
+      gender: "Female",
+      lastAppOpen: "2025-05-21",
+      lifestyle: "Sedentary",
+      engagementScore: 8.4,
+      subscriptionStatus: "Paid",
+      bmi: 24.2
+    },
+    activityInsights: {
+      appLaunches: 23,
+      daysActive: 20,
+      mostActiveFeature: "Stress Management",
+      leastActiveFeature: "Step Counter",
+      videosWatched: 13,
+      daysInSystem: 67
+    },
+    featureEngagement: {
+      ghostedFeatures: ["Step Counter", "Workout Logging"],
+      consistentFeatures: ["Stress Management", "Meditation Sessions", "Sleep Monitoring"]
+    },
+    healthAssessment: {
+      severeIssues: [
+        { issue: "Depression", causes: ["Work burnout", "Social isolation", "Hormonal changes"] }
+      ]
+    },
+    callNotes: [
+      { date: "2025-05-18", note: "Jennifer showing improvement in mood tracking consistency" }
+    ]
+  },
+  303: {
+    personalInfo: {
+      age: 41,
+      gender: "Male",
+      lastAppOpen: "2025-05-20",
+      lifestyle: "Sedentary",
+      engagementScore: 6.1,
+      subscriptionStatus: "Paid",
+      bmi: 27.3
+    },
+    activityInsights: {
+      appLaunches: 14,
+      daysActive: 11,
+      mostActiveFeature: "Sleep Monitoring",
+      leastActiveFeature: "Nutrition Tracking",
+      videosWatched: 7,
+      daysInSystem: 85
+    },
+    featureEngagement: {
+      ghostedFeatures: ["Nutrition Tracking", "Water Intake", "Step Counter"],
+      consistentFeatures: ["Sleep Monitoring", "Stress Management"]
+    },
+    healthAssessment: {
+      severeIssues: [
+        { issue: "Chronic Stress", causes: ["Work demands", "Family responsibilities", "Financial pressure"] }
+      ]
+    },
+    callNotes: [
+      { date: "2025-05-17", note: "Christopher needs to work on stress coping strategies" }
+    ]
+  },
+  304: {
+    personalInfo: {
+      age: 32,
+      gender: "Female",
+      lastAppOpen: "2025-05-19",
+      lifestyle: "Moderately Active",
+      engagementScore: 7.8,
+      subscriptionStatus: "Paid",
+      bmi: 23.5
+    },
+    activityInsights: {
+      appLaunches: 21,
+      daysActive: 18,
+      mostActiveFeature: "Meditation Sessions",
+      leastActiveFeature: "Goal Setting",
+      videosWatched: 10,
+      daysInSystem: 76
+    },
+    featureEngagement: {
+      ghostedFeatures: ["Goal Setting"],
+      consistentFeatures: ["Meditation Sessions", "Stress Management", "Sleep Monitoring", "Water Intake"]
+    },
+    healthAssessment: {
+      severeIssues: [
+        { issue: "Panic Attacks", causes: ["High stress", "Caffeine sensitivity", "Poor sleep"] }
+      ]
+    },
+    callNotes: [
+      { date: "2025-05-16", note: "Sarah responding well to breathing exercises" }
+    ]
+  },
+  305: {
+    personalInfo: {
+      age: 28,
+      gender: "Male",
+      lastAppOpen: "2025-05-18",
+      lifestyle: "Active",
+      engagementScore: 5.9,
+      subscriptionStatus: "Unpaid",
+      bmi: 24.7
+    },
+    activityInsights: {
+      appLaunches: 11,
+      daysActive: 9,
+      mostActiveFeature: "Video Tutorials",
+      leastActiveFeature: "HRA Questionnaire",
+      videosWatched: 8,
+      daysInSystem: 35
+    },
+    featureEngagement: {
+      ghostedFeatures: ["HRA Questionnaire", "Goal Setting"],
+      consistentFeatures: ["Video Tutorials", "Meditation Sessions"]
+    },
+    healthAssessment: {
+      severeIssues: [
+        { issue: "Social Anxiety", causes: ["Past trauma", "Low self-esteem", "Perfectionism"] }
+      ]
+    },
+    callNotes: [
+      { date: "2025-05-15", note: "Michael making slow but steady progress with exposure therapy techniques" }
+    ]
+  },
+  306: {
+    personalInfo: {
+      age: 34,
+      gender: "Female",
+      lastAppOpen: "2025-05-21",
+      lifestyle: "Moderately Active",
+      engagementScore: 8.6,
+      subscriptionStatus: "Paid",
+      bmi: 22.8
+    },
+    activityInsights: {
+      appLaunches: 25,
+      daysActive: 22,
+      mostActiveFeature: "Stress Management",
+      leastActiveFeature: "Workout Logging",
+      videosWatched: 14,
+      daysInSystem: 92
+    },
+    featureEngagement: {
+      ghostedFeatures: ["Workout Logging"],
+      consistentFeatures: ["Stress Management", "Meditation Sessions", "Sleep Monitoring", "Nutrition Tracking"]
+    },
+    healthAssessment: {
+      severeIssues: [
+        { issue: "Burnout", causes: ["Work overload", "Lack of boundaries", "Poor self-care"] }
+      ]
+    },
+    callNotes: [
+      { date: "2025-05-19", note: "Rachel implementing better work-life balance strategies" }
+    ]
+  },
+
+  // Robert Taylor's users (Sleep & Recovery)
+  401: {
+    personalInfo: {
+      age: 37,
+      gender: "Female",
+      lastAppOpen: "2025-05-20",
+      lifestyle: "Moderately Active",
+      engagementScore: 7.9,
+      subscriptionStatus: "Paid",
+      bmi: 25.1
+    },
+    activityInsights: {
+      appLaunches: 22,
+      daysActive: 19,
+      mostActiveFeature: "Sleep Monitoring",
+      leastActiveFeature: "Workout Logging",
+      videosWatched: 12,
+      daysInSystem: 89
+    },
+    featureEngagement: {
+      ghostedFeatures: ["Workout Logging"],
+      consistentFeatures: ["Sleep Monitoring", "Stress Management", "Water Intake"]
+    },
+    healthAssessment: {
+      severeIssues: [
+        { issue: "Chronic Insomnia", causes: ["Stress", "Irregular schedule", "Poor sleep hygiene"] }
+      ]
+    },
+    callNotes: [
+      { date: "2025-05-18", note: "Stephanie showing improvement with new sleep routine" }
+    ]
+  },
+  402: {
+    personalInfo: {
+      age: 31,
+      gender: "Male",
+      lastAppOpen: "2025-05-19",
+      lifestyle: "Active",
+      engagementScore: 8.3,
+      subscriptionStatus: "Paid",
+      bmi: 23.9
+    },
+    activityInsights: {
+      appLaunches: 24,
+      daysActive: 21,
+      mostActiveFeature: "Sleep Monitoring",
+      leastActiveFeature: "Meditation Sessions",
+      videosWatched: 15,
+      daysInSystem: 73
+    },
+    featureEngagement: {
+      ghostedFeatures: ["Meditation Sessions"],
+      consistentFeatures: ["Sleep Monitoring", "Workout Logging", "Nutrition Tracking"]
+    },
+    healthAssessment: {
+      severeIssues: [
+        { issue: "Sleep Apnea", causes: ["Weight", "Alcohol consumption", "Sleep position"] }
+      ]
+    },
+    callNotes: [
+      { date: "2025-05-17", note: "Jason considering sleep study consultation" }
+    ]
+  },
+  403: {
+    personalInfo: {
+      age: 44,
+      gender: "Female",
+      lastAppOpen: "2025-05-18",
+      lifestyle: "Sedentary",
+      engagementScore: 6.7,
+      subscriptionStatus: "Unpaid",
+      bmi: 26.8
+    },
+    activityInsights: {
+      appLaunches: 15,
+      daysActive: 12,
+      mostActiveFeature: "Sleep Monitoring",
+      leastActiveFeature: "Step Counter",
+      videosWatched: 6,
+      daysInSystem: 58
+    },
+    featureEngagement: {
+      ghostedFeatures: ["Step Counter", "Workout Logging", "Goal Setting"],
+      consistentFeatures: ["Sleep Monitoring", "Stress Management"]
+    },
+    healthAssessment: {
+      severeIssues: [
+        { issue: "Restless Leg Syndrome", causes: ["Iron deficiency", "Caffeine", "Stress"] }
+      ]
+    },
+    callNotes: [
+      { date: "2025-05-16", note: "Linda needs iron level testing" }
+    ]
+  },
+  404: {
+    personalInfo: {
+      age: 39,
+      gender: "Male",
+      lastAppOpen: "2025-05-21",
+      lifestyle: "Moderately Active",
+      engagementScore: 7.4,
+      subscriptionStatus: "Paid",
+      bmi: 24.6
+    },
+    activityInsights: {
+      appLaunches: 18,
+      daysActive: 15,
+      mostActiveFeature: "Sleep Monitoring",
+      leastActiveFeature: "Water Intake",
+      videosWatched: 9,
+      daysInSystem: 64
+    },
+    featureEngagement: {
+      ghostedFeatures: ["Water Intake", "HRA Questionnaire"],
+      consistentFeatures: ["Sleep Monitoring", "Nutrition Tracking", "Step Counter"]
+    },
+    healthAssessment: {
+      severeIssues: [
+        { issue: "Shift Work Sleep Disorder", causes: ["Irregular schedule", "Light exposure", "Poor sleep environment"] }
+      ]
+    },
+    callNotes: [
+      { date: "2025-05-20", note: "David adapting well to shift work sleep strategies" }
+    ]
+  },
+  405: {
+    personalInfo: {
+      age: 26,
+      gender: "Female",
+      lastAppOpen: "2025-05-19",
+      lifestyle: "Active",
+      engagementScore: 8.8,
+      subscriptionStatus: "Paid",
+      bmi: 21.5
+    },
+    activityInsights: {
+      appLaunches: 27,
+      daysActive: 24,
+      mostActiveFeature: "Sleep Monitoring",
+      leastActiveFeature: "Video Tutorials",
+      videosWatched: 16,
+      daysInSystem: 81
+    },
+    featureEngagement: {
+      ghostedFeatures: ["Video Tutorials"],
+      consistentFeatures: ["Sleep Monitoring", "Workout Logging", "Nutrition Tracking", "Meditation Sessions"]
+    },
+    healthAssessment: {
+      severeIssues: [
+        { issue: "Delayed Sleep Phase", causes: ["Natural circadian rhythm", "Evening light exposure", "Stress"] }
+      ]
+    },
+    callNotes: [
+      { date: "2025-05-17", note: "Ashley making excellent progress with light therapy" }
+    ]
+  },
+  406: {
+    personalInfo: {
+      age: 33,
+      gender: "Male",
+      lastAppOpen: "2025-05-20",
+      lifestyle: "Sedentary",
+      engagementScore: 5.2,
+      subscriptionStatus: "Unpaid",
+      bmi: 28.1
+    },
+    activityInsights: {
+      appLaunches: 10,
+      daysActive: 8,
+      mostActiveFeature: "Sleep Monitoring",
+      leastActiveFeature: "Nutrition Tracking",
+      videosWatched: 4,
+      daysInSystem: 47
+    },
+    featureEngagement: {
+      ghostedFeatures: ["Nutrition Tracking", "Workout Logging", "Goal Setting", "Water Intake"],
+      consistentFeatures: ["Sleep Monitoring"]
+    },
+    healthAssessment: {
+      severeIssues: [
+        { issue: "Chronic Fatigue", causes: ["Poor sleep quality", "Sedentary lifestyle", "Depression"] }
+      ]
+    },
+    callNotes: [
+      { date: "2025-05-18", note: "Brian needs comprehensive approach to address fatigue" }
     ]
   }
 };
 
-// Predefined questions
+// User-specific predefined questions based on their data and issues
+export const userSpecificQuestions = {
+  101: {
+    engagement: [
+      "How has Jessica's nutrition tracking consistency improved her dietary habits?",
+      "What time of day does Jessica typically log her meals?",
+      "Is Jessica's water intake tracking correlating with her energy levels?"
+    ],
+    hraIssues: [
+      "How is Jessica managing her acidity issues with dietary changes?",
+      "What stress management techniques has Jessica tried?",
+      "Are Jessica's irregular meal times improving?"
+    ],
+    ghostedActions: [
+      "When did Jessica last use the meditation feature?",
+      "Has Jessica tried the sleep monitoring feature?",
+      "What prevented Jessica from completing her weekly stress assessment?"
+    ],
+    insights: [
+      "Is there a pattern between Jessica's meal timing and energy levels?",
+      "How does Jessica's caffeine intake affect her acidity symptoms?",
+      "What correlation exists between Jessica's work stress and eating patterns?"
+    ]
+  },
+  102: {
+    engagement: [
+      "How consistent is Daniel with his workout logging?",
+      "What types of exercises does Daniel log most frequently?",
+      "Is Daniel's app usage higher on workout days?"
+    ],
+    hraIssues: [
+      "How is Daniel's blood pressure responding to his fitness routine?",
+      "What dietary changes has Daniel made to reduce sodium intake?",
+      "Is Daniel's back pain improving with core strengthening?"
+    ],
+    ghostedActions: [
+      "When did Daniel last track his water intake?",
+      "Has Daniel used the meditation sessions for stress relief?",
+      "What nutrition tracking habits has Daniel abandoned?"
+    ],
+    insights: [
+      "Is there correlation between Daniel's workout intensity and sleep quality?",
+      "How does Daniel's hydration affect his workout performance?",
+      "What behavior changes correlate with Daniel's blood pressure improvements?"
+    ]
+  },
+  // Add more user-specific questions for other users...
+  201: {
+    engagement: [
+      "How has Thomas's workout logging evolved over his 65 days in the system?",
+      "What types of strength training does Thomas log most frequently?",
+      "Is Thomas's high engagement score sustainable long-term?"
+    ],
+    hraIssues: [
+      "How is Thomas managing his muscle strain recovery?",
+      "What warm-up routines has Thomas implemented?",
+      "Is Thomas following proper recovery protocols?"
+    ],
+    ghostedActions: [
+      "When did Thomas last engage with stress management features?",
+      "Has Thomas tried the meditation sessions for recovery?",
+      "What stress management tools has Thomas ignored?"
+    ],
+    insights: [
+      "Is there correlation between Thomas's training intensity and injury risk?",
+      "How does Thomas's sleep quality affect his workout performance?",
+      "What patterns exist in Thomas's most productive training days?"
+    ]
+  }
+};
+
+// General predefined questions (fallback)
 export const predefinedQuestions = {
   engagement: [
     "Which features has the user engaged with most in the past 30 days?",
@@ -247,3 +961,280 @@ export const chartData = {
     { day: "Sunday", morning: 0, afternoon: 2, evening: 5 }
   ]
 };
+
+// Mock data for logs monitoring (simulating which users haven't logged specific activities)
+export const userLogData = {
+  1: { // Dr. Sarah Johnson's users
+    101: { // Jessica Brown
+      lastLogs: {
+        hydration: "2025-05-21",
+        food: "2025-05-21", 
+        steps: "2025-05-20",
+        activity: "2025-05-19",
+        meditation: "2025-05-15", // missed recently
+        sleep: "2025-05-21",
+        weight: "2025-05-18"
+      }
+    },
+    102: { // Daniel Wilson
+      lastLogs: {
+        hydration: "2025-05-17", // missed recently
+        food: "2025-05-20",
+        steps: "2025-05-21",
+        activity: "2025-05-21",
+        meditation: "2025-05-10", // missed recently
+        sleep: "2025-05-20",
+        weight: "2025-05-19"
+      }
+    },
+    103: { // Amanda Miller
+      lastLogs: {
+        hydration: "2025-05-21",
+        food: "2025-05-21",
+        steps: "2025-05-19",
+        activity: "2025-05-18",
+        meditation: "2025-05-16",
+        sleep: "2025-05-20",
+        weight: "2025-05-12" // missed recently
+      }
+    },
+    104: { // Ryan Johnson
+      lastLogs: {
+        hydration: "2025-05-14", // missed recently
+        food: "2025-05-15", // missed recently
+        steps: "2025-05-17",
+        activity: "2025-05-13", // missed recently
+        meditation: "2025-05-10", // missed recently
+        sleep: "2025-05-17",
+        weight: "2025-05-16"
+      }
+    },
+    105: { // Sophia Davis
+      lastLogs: {
+        hydration: "2025-05-21",
+        food: "2025-05-21",
+        steps: "2025-05-21",
+        activity: "2025-05-21",
+        meditation: "2025-05-20",
+        sleep: "2025-05-21",
+        weight: "2025-05-21"
+      }
+    },
+    106: { // Marcus Thompson
+      lastLogs: {
+        hydration: "2025-05-18",
+        food: "2025-05-17",
+        steps: "2025-05-16",
+        activity: "2025-05-15", // missed recently
+        meditation: "2025-05-12", // missed recently
+        sleep: "2025-05-16",
+        weight: "2025-05-14"
+      }
+    }
+  },
+  2: { // Michael Chen's users
+    201: { // Thomas Anderson
+      lastLogs: {
+        hydration: "2025-05-20",
+        food: "2025-05-20",
+        steps: "2025-05-20",
+        activity: "2025-05-20",
+        meditation: "2025-05-15", // missed recently
+        sleep: "2025-05-20",
+        weight: "2025-05-19"
+      }
+    },
+    202: { // Lisa Martinez
+      lastLogs: {
+        hydration: "2025-05-16", // missed recently
+        food: "2025-05-19",
+        steps: "2025-05-19",
+        activity: "2025-05-19",
+        meditation: "2025-05-17",
+        sleep: "2025-05-19",
+        weight: "2025-05-18"
+      }
+    },
+    203: { // Alex Rodriguez
+      lastLogs: {
+        hydration: "2025-05-20",
+        food: "2025-05-19",
+        steps: "2025-05-21",
+        activity: "2025-05-21",
+        meditation: "2025-05-12", // missed recently
+        sleep: "2025-05-20",
+        weight: "2025-05-17"
+      }
+    },
+    204: { // Emma Thompson
+      lastLogs: {
+        hydration: "2025-05-18",
+        food: "2025-05-18",
+        steps: "2025-05-17",
+        activity: "2025-05-16",
+        meditation: "2025-05-15",
+        sleep: "2025-05-18",
+        weight: "2025-05-15" // missed recently
+      }
+    },
+    205: { // Jake Williams
+      lastLogs: {
+        hydration: "2025-05-20",
+        food: "2025-05-20",
+        steps: "2025-05-20",
+        activity: "2025-05-20",
+        meditation: "2025-05-14", // missed recently
+        sleep: "2025-05-20",
+        weight: "2025-05-19"
+      }
+    },
+    206: { // Olivia Brown
+      lastLogs: {
+        hydration: "2025-05-17",
+        food: "2025-05-16",
+        steps: "2025-05-17",
+        activity: "2025-05-17",
+        meditation: "2025-05-16",
+        sleep: "2025-05-17",
+        weight: "2025-05-13" // missed recently
+      }
+    }
+  },
+  3: { // Dr. Emily Williams' users
+    301: { // Kevin Harris
+      lastLogs: {
+        hydration: "2025-05-18",
+        food: "2025-05-17",
+        steps: "2025-05-16", // missed recently
+        activity: "2025-05-14", // missed recently
+        meditation: "2025-05-19",
+        sleep: "2025-05-19",
+        weight: "2025-05-15"
+      }
+    },
+    302: { // Jennifer Garcia
+      lastLogs: {
+        hydration: "2025-05-20",
+        food: "2025-05-19",
+        steps: "2025-05-17", // missed recently
+        activity: "2025-05-16", // missed recently
+        meditation: "2025-05-21",
+        sleep: "2025-05-21",
+        weight: "2025-05-18"
+      }
+    },
+    303: { // Christopher Lee
+      lastLogs: {
+        hydration: "2025-05-16", // missed recently
+        food: "2025-05-15", // missed recently
+        steps: "2025-05-17", // missed recently
+        activity: "2025-05-14", // missed recently
+        meditation: "2025-05-19",
+        sleep: "2025-05-20",
+        weight: "2025-05-17"
+      }
+    },
+    304: { // Sarah Wilson
+      lastLogs: {
+        hydration: "2025-05-19",
+        food: "2025-05-18",
+        steps: "2025-05-18",
+        activity: "2025-05-17",
+        meditation: "2025-05-19",
+        sleep: "2025-05-19",
+        weight: "2025-05-16"
+      }
+    },
+    305: { // Michael Davis
+      lastLogs: {
+        hydration: "2025-05-17",
+        food: "2025-05-16",
+        steps: "2025-05-18",
+        activity: "2025-05-18",
+        meditation: "2025-05-18",
+        sleep: "2025-05-17",
+        weight: "2025-05-14" // missed recently
+      }
+    },
+    306: { // Rachel Green
+      lastLogs: {
+        hydration: "2025-05-21",
+        food: "2025-05-20",
+        steps: "2025-05-19",
+        activity: "2025-05-18", // missed recently
+        meditation: "2025-05-21",
+        sleep: "2025-05-21",
+        weight: "2025-05-19"
+      }
+    }
+  },
+  4: { // Robert Taylor's users
+    401: { // Stephanie Clark
+      lastLogs: {
+        hydration: "2025-05-20",
+        food: "2025-05-19",
+        steps: "2025-05-19",
+        activity: "2025-05-17", // missed recently
+        meditation: "2025-05-18",
+        sleep: "2025-05-20",
+        weight: "2025-05-18"
+      }
+    },
+    402: { // Jason Rodriguez
+      lastLogs: {
+        hydration: "2025-05-18",
+        food: "2025-05-19",
+        steps: "2025-05-19",
+        activity: "2025-05-19",
+        meditation: "2025-05-15", // missed recently
+        sleep: "2025-05-19",
+        weight: "2025-05-17"
+      }
+    },
+    403: { // Linda Martinez
+      lastLogs: {
+        hydration: "2025-05-17",
+        food: "2025-05-16",
+        steps: "2025-05-15", // missed recently
+        activity: "2025-05-14", // missed recently
+        meditation: "2025-05-17",
+        sleep: "2025-05-18",
+        weight: "2025-05-15"
+      }
+    },
+    404: { // David Miller
+      lastLogs: {
+        hydration: "2025-05-19", // missed recently
+        food: "2025-05-21",
+        steps: "2025-05-21",
+        activity: "2025-05-20",
+        meditation: "2025-05-18",
+        sleep: "2025-05-21",
+        weight: "2025-05-19"
+      }
+    },
+    405: { // Ashley Taylor
+      lastLogs: {
+        hydration: "2025-05-19",
+        food: "2025-05-19",
+        steps: "2025-05-19",
+        activity: "2025-05-19",
+        meditation: "2025-05-19",
+        sleep: "2025-05-19",
+        weight: "2025-05-18"
+      }
+    },
+    406: { // Brian Anderson
+      lastLogs: {
+        hydration: "2025-05-16", // missed recently
+        food: "2025-05-15", // missed recently
+        steps: "2025-05-17",
+        activity: "2025-05-14", // missed recently
+        meditation: "2025-05-18",
+        sleep: "2025-05-20",
+        weight: "2025-05-16"
+      }
+    }
+  }
+};
+

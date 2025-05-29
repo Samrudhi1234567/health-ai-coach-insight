@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from "react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectTrigger, SelectValue } from "@/components/ui/select";
@@ -48,15 +49,19 @@ const LogsMonitoring = ({ coachId }: LogsMonitoringProps) => {
         const userLogs = coachLogData[user.id as keyof typeof coachLogData];
         if (!userLogs || typeof userLogs !== 'object') return true; // No log data means they missed it
 
-        const lastLogDate = (userLogs as any).lastLogs?.[selectedLogType as keyof typeof (userLogs as any).lastLogs];
+        const userLogsAny = userLogs as any;
+        const lastLogDate = userLogsAny.lastLogs?.[selectedLogType];
         if (!lastLogDate) return true; // No log for this type
 
         return lastLogDate < cutoffDateString;
       }).map(user => {
         const userLogs = coachLogData[user.id as keyof typeof coachLogData];
-        const lastLogDate = userLogs && typeof userLogs === 'object' 
-          ? (userLogs as any).lastLogs?.[selectedLogType as keyof typeof (userLogs as any).lastLogs] || "Never"
-          : "Never";
+        let lastLogDate = "Never";
+        
+        if (userLogs && typeof userLogs === 'object') {
+          const userLogsAny = userLogs as any;
+          lastLogDate = userLogsAny.lastLogs?.[selectedLogType] || "Never";
+        }
         
         return {
           ...user,

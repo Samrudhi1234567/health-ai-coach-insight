@@ -1,4 +1,3 @@
-
 // Mock data for the AI Coach Dashboard
 
 // Coaches
@@ -967,274 +966,273 @@ export const userLogData = {
   1: { // Dr. Sarah Johnson's users
     101: { // Jessica Brown
       lastLogs: {
-        hydration: "2025-05-21",
-        food: "2025-05-21", 
-        steps: "2025-05-20",
-        activity: "2025-05-19",
-        meditation: "2025-05-15", // missed recently
-        sleep: "2025-05-21",
-        weight: "2025-05-18"
+        hydration: "2025-05-29", // today
+        food: "2025-05-29", // today
+        steps: "2025-05-28", // yesterday
+        activity: "2025-05-27", // 2 days ago
+        meditation: "2025-05-20", // over a week ago
+        sleep: "2025-05-29", // today
+        weight: "2025-05-25" // 4 days ago
       }
     },
     102: { // Daniel Wilson
       lastLogs: {
-        hydration: "2025-05-17", // missed recently
-        food: "2025-05-20",
-        steps: "2025-05-21",
-        activity: "2025-05-21",
-        meditation: "2025-05-10", // missed recently
-        sleep: "2025-05-20",
-        weight: "2025-05-19"
+        hydration: "2025-05-22", // week ago
+        food: "2025-05-28", // yesterday
+        steps: "2025-05-29", // today
+        activity: "2025-05-29", // today
+        meditation: "2025-05-15", // 2 weeks ago
+        sleep: "2025-05-28", // yesterday
+        weight: "2025-05-26" // 3 days ago
       }
     },
     103: { // Amanda Miller
       lastLogs: {
-        hydration: "2025-05-21",
-        food: "2025-05-21",
-        steps: "2025-05-19",
-        activity: "2025-05-18",
-        meditation: "2025-05-16",
-        sleep: "2025-05-20",
-        weight: "2025-05-12" // missed recently
+        hydration: "2025-05-29", // today
+        food: "2025-05-29", // today
+        steps: "2025-05-27", // 2 days ago
+        activity: "2025-05-26", // 3 days ago
+        meditation: "2025-05-23", // 6 days ago
+        sleep: "2025-05-28", // yesterday
+        weight: "2025-05-18" // over a week ago
       }
     },
-    104: { // Ryan Johnson
+    104: { // Ryan Johnson - low engagement user
       lastLogs: {
-        hydration: "2025-05-14", // missed recently
-        food: "2025-05-15", // missed recently
-        steps: "2025-05-17",
-        activity: "2025-05-13", // missed recently
-        meditation: "2025-05-10", // missed recently
-        sleep: "2025-05-17",
-        weight: "2025-05-16"
+        hydration: "2025-05-20", // over a week ago
+        food: "2025-05-21", // over a week ago
+        steps: "2025-05-27", // 2 days ago
+        activity: "2025-05-19", // 10 days ago
+        meditation: "2025-05-10", // almost 3 weeks ago
+        sleep: "2025-05-26", // 3 days ago
+        weight: "2025-05-24" // 5 days ago
       }
     },
-    105: { // Sophia Davis
+    105: { // Sophia Davis - high engagement user
       lastLogs: {
-        hydration: "2025-05-21",
-        food: "2025-05-21",
-        steps: "2025-05-21",
-        activity: "2025-05-21",
-        meditation: "2025-05-20",
-        sleep: "2025-05-21",
-        weight: "2025-05-21"
+        hydration: "2025-05-29", // today
+        food: "2025-05-29", // today
+        steps: "2025-05-29", // today
+        activity: "2025-05-29", // today
+        meditation: "2025-05-28", // yesterday
+        sleep: "2025-05-29", // today
+        weight: "2025-05-29" // today
       }
     },
     106: { // Marcus Thompson
       lastLogs: {
-        hydration: "2025-05-18",
-        food: "2025-05-17",
-        steps: "2025-05-16",
-        activity: "2025-05-15", // missed recently
-        meditation: "2025-05-12", // missed recently
-        sleep: "2025-05-16",
-        weight: "2025-05-14"
+        hydration: "2025-05-26", // 3 days ago
+        food: "2025-05-25", // 4 days ago
+        steps: "2025-05-23", // 6 days ago
+        activity: "2025-05-22", // week ago
+        meditation: "2025-05-16", // almost 2 weeks ago
+        sleep: "2025-05-28", // yesterday
+        weight: "2025-05-20" // over a week ago
       }
     }
   },
   2: { // Michael Chen's users
     201: { // Thomas Anderson
       lastLogs: {
-        hydration: "2025-05-20",
-        food: "2025-05-20",
-        steps: "2025-05-20",
-        activity: "2025-05-20",
-        meditation: "2025-05-15", // missed recently
-        sleep: "2025-05-20",
-        weight: "2025-05-19"
+        hydration: "2025-05-28", // yesterday
+        food: "2025-05-29", // today
+        steps: "2025-05-29", // today
+        activity: "2025-05-29", // today
+        meditation: "2025-05-17", // almost 2 weeks ago
+        sleep: "2025-05-28", // yesterday
+        weight: "2025-05-27" // 2 days ago
       }
     },
     202: { // Lisa Martinez
       lastLogs: {
-        hydration: "2025-05-16", // missed recently
-        food: "2025-05-19",
-        steps: "2025-05-19",
-        activity: "2025-05-19",
-        meditation: "2025-05-17",
-        sleep: "2025-05-19",
-        weight: "2025-05-18"
+        hydration: "2025-05-23", // 6 days ago
+        food: "2025-05-28", // yesterday
+        steps: "2025-05-29", // today
+        activity: "2025-05-29", // today
+        meditation: "2025-05-25", // 4 days ago
+        sleep: "2025-05-28", // yesterday
+        weight: "2025-05-26" // 3 days ago
       }
     },
     203: { // Alex Rodriguez
       lastLogs: {
-        hydration: "2025-05-20",
-        food: "2025-05-19",
-        steps: "2025-05-21",
-        activity: "2025-05-21",
-        meditation: "2025-05-12", // missed recently
-        sleep: "2025-05-20",
-        weight: "2025-05-17"
+        hydration: "2025-05-29", // today
+        food: "2025-05-27", // 2 days ago
+        steps: "2025-05-29", // today
+        activity: "2025-05-29", // today
+        meditation: "2025-05-14", // 2 weeks ago
+        sleep: "2025-05-28", // yesterday
+        weight: "2025-05-24" // 5 days ago
       }
     },
     204: { // Emma Thompson
       lastLogs: {
-        hydration: "2025-05-18",
-        food: "2025-05-18",
-        steps: "2025-05-17",
-        activity: "2025-05-16",
-        meditation: "2025-05-15",
-        sleep: "2025-05-18",
-        weight: "2025-05-15" // missed recently
+        hydration: "2025-05-27", // 2 days ago
+        food: "2025-05-26", // 3 days ago
+        steps: "2025-05-25", // 4 days ago
+        activity: "2025-05-24", // 5 days ago
+        meditation: "2025-05-22", // week ago
+        sleep: "2025-05-27", // 2 days ago
+        weight: "2025-05-19" // 10 days ago
       }
     },
     205: { // Jake Williams
       lastLogs: {
-        hydration: "2025-05-20",
-        food: "2025-05-20",
-        steps: "2025-05-20",
-        activity: "2025-05-20",
-        meditation: "2025-05-14", // missed recently
-        sleep: "2025-05-20",
-        weight: "2025-05-19"
+        hydration: "2025-05-29", // today
+        food: "2025-05-29", // today
+        steps: "2025-05-29", // today
+        activity: "2025-05-29", // today
+        meditation: "2025-05-21", // over a week ago
+        sleep: "2025-05-29", // today
+        weight: "2025-05-28" // yesterday
       }
     },
     206: { // Olivia Brown
       lastLogs: {
-        hydration: "2025-05-17",
-        food: "2025-05-16",
-        steps: "2025-05-17",
-        activity: "2025-05-17",
-        meditation: "2025-05-16",
-        sleep: "2025-05-17",
-        weight: "2025-05-13" // missed recently
+        hydration: "2025-05-25", // 4 days ago
+        food: "2025-05-24", // 5 days ago
+        steps: "2025-05-28", // yesterday
+        activity: "2025-05-28", // yesterday
+        meditation: "2025-05-26", // 3 days ago
+        sleep: "2025-05-27", // 2 days ago
+        weight: "2025-05-18" // over a week ago
       }
     }
   },
   3: { // Dr. Emily Williams' users
     301: { // Kevin Harris
       lastLogs: {
-        hydration: "2025-05-18",
-        food: "2025-05-17",
-        steps: "2025-05-16", // missed recently
-        activity: "2025-05-14", // missed recently
-        meditation: "2025-05-19",
-        sleep: "2025-05-19",
-        weight: "2025-05-15"
+        hydration: "2025-05-26", // 3 days ago
+        food: "2025-05-25", // 4 days ago
+        steps: "2025-05-23", // 6 days ago
+        activity: "2025-05-20", // over a week ago
+        meditation: "2025-05-29", // today
+        sleep: "2025-05-29", // today
+        weight: "2025-05-22" // week ago
       }
     },
     302: { // Jennifer Garcia
       lastLogs: {
-        hydration: "2025-05-20",
-        food: "2025-05-19",
-        steps: "2025-05-17", // missed recently
-        activity: "2025-05-16", // missed recently
-        meditation: "2025-05-21",
-        sleep: "2025-05-21",
-        weight: "2025-05-18"
+        hydration: "2025-05-28", // yesterday
+        food: "2025-05-27", // 2 days ago
+        steps: "2025-05-24", // 5 days ago
+        activity: "2025-05-21", // over a week ago
+        meditation: "2025-05-29", // today
+        sleep: "2025-05-29", // today
+        weight: "2025-05-25" // 4 days ago
       }
     },
     303: { // Christopher Lee
       lastLogs: {
-        hydration: "2025-05-16", // missed recently
-        food: "2025-05-15", // missed recently
-        steps: "2025-05-17", // missed recently
-        activity: "2025-05-14", // missed recently
-        meditation: "2025-05-19",
-        sleep: "2025-05-20",
-        weight: "2025-05-17"
+        hydration: "2025-05-22", // week ago
+        food: "2025-05-20", // over a week ago
+        steps: "2025-05-23", // 6 days ago
+        activity: "2025-05-19", // 10 days ago
+        meditation: "2025-05-28", // yesterday
+        sleep: "2025-05-29", // today
+        weight: "2025-05-24" // 5 days ago
       }
     },
     304: { // Sarah Wilson
       lastLogs: {
-        hydration: "2025-05-19",
-        food: "2025-05-18",
-        steps: "2025-05-18",
-        activity: "2025-05-17",
-        meditation: "2025-05-19",
-        sleep: "2025-05-19",
-        weight: "2025-05-16"
+        hydration: "2025-05-28", // yesterday
+        food: "2025-05-27", // 2 days ago
+        steps: "2025-05-26", // 3 days ago
+        activity: "2025-05-25", // 4 days ago
+        meditation: "2025-05-29", // today
+        sleep: "2025-05-29", // today
+        weight: "2025-05-23" // 6 days ago
       }
     },
     305: { // Michael Davis
       lastLogs: {
-        hydration: "2025-05-17",
-        food: "2025-05-16",
-        steps: "2025-05-18",
-        activity: "2025-05-18",
-        meditation: "2025-05-18",
-        sleep: "2025-05-17",
-        weight: "2025-05-14" // missed recently
+        hydration: "2025-05-25", // 4 days ago
+        food: "2025-05-24", // 5 days ago
+        steps: "2025-05-27", // 2 days ago
+        activity: "2025-05-28", // yesterday
+        meditation: "2025-05-28", // yesterday
+        sleep: "2025-05-26", // 3 days ago
+        weight: "2025-05-17" // almost 2 weeks ago
       }
     },
     306: { // Rachel Green
       lastLogs: {
-        hydration: "2025-05-21",
-        food: "2025-05-20",
-        steps: "2025-05-19",
-        activity: "2025-05-18", // missed recently
-        meditation: "2025-05-21",
-        sleep: "2025-05-21",
-        weight: "2025-05-19"
+        hydration: "2025-05-29", // today
+        food: "2025-05-28", // yesterday
+        steps: "2025-05-27", // 2 days ago
+        activity: "2025-05-23", // 6 days ago
+        meditation: "2025-05-29", // today
+        sleep: "2025-05-29", // today
+        weight: "2025-05-26" // 3 days ago
       }
     }
   },
   4: { // Robert Taylor's users
     401: { // Stephanie Clark
       lastLogs: {
-        hydration: "2025-05-20",
-        food: "2025-05-19",
-        steps: "2025-05-19",
-        activity: "2025-05-17", // missed recently
-        meditation: "2025-05-18",
-        sleep: "2025-05-20",
-        weight: "2025-05-18"
+        hydration: "2025-05-28", // yesterday
+        food: "2025-05-27", // 2 days ago
+        steps: "2025-05-26", // 3 days ago
+        activity: "2025-05-22", // week ago
+        meditation: "2025-05-26", // 3 days ago
+        sleep: "2025-05-29", // today
+        weight: "2025-05-25" // 4 days ago
       }
     },
     402: { // Jason Rodriguez
       lastLogs: {
-        hydration: "2025-05-18",
-        food: "2025-05-19",
-        steps: "2025-05-19",
-        activity: "2025-05-19",
-        meditation: "2025-05-15", // missed recently
-        sleep: "2025-05-19",
-        weight: "2025-05-17"
+        hydration: "2025-05-26", // 3 days ago
+        food: "2025-05-28", // yesterday
+        steps: "2025-05-29", // today
+        activity: "2025-05-28", // yesterday
+        meditation: "2025-05-18", // over a week ago
+        sleep: "2025-05-29", // today
+        weight: "2025-05-24" // 5 days ago
       }
     },
     403: { // Linda Martinez
       lastLogs: {
-        hydration: "2025-05-17",
-        food: "2025-05-16",
-        steps: "2025-05-15", // missed recently
-        activity: "2025-05-14", // missed recently
-        meditation: "2025-05-17",
-        sleep: "2025-05-18",
-        weight: "2025-05-15"
+        hydration: "2025-05-24", // 5 days ago
+        food: "2025-05-23", // 6 days ago
+        steps: "2025-05-21", // over a week ago
+        activity: "2025-05-19", // 10 days ago
+        meditation: "2025-05-25", // 4 days ago
+        sleep: "2025-05-27", // 2 days ago
+        weight: "2025-05-20" // over a week ago
       }
     },
     404: { // David Miller
       lastLogs: {
-        hydration: "2025-05-19", // missed recently
-        food: "2025-05-21",
-        steps: "2025-05-21",
-        activity: "2025-05-20",
-        meditation: "2025-05-18",
-        sleep: "2025-05-21",
-        weight: "2025-05-19"
+        hydration: "2025-05-24", // 5 days ago
+        food: "2025-05-29", // today
+        steps: "2025-05-29", // today
+        activity: "2025-05-28", // yesterday
+        meditation: "2025-05-26", // 3 days ago
+        sleep: "2025-05-29", // today
+        weight: "2025-05-27" // 2 days ago
       }
     },
     405: { // Ashley Taylor
       lastLogs: {
-        hydration: "2025-05-19",
-        food: "2025-05-19",
-        steps: "2025-05-19",
-        activity: "2025-05-19",
-        meditation: "2025-05-19",
-        sleep: "2025-05-19",
-        weight: "2025-05-18"
+        hydration: "2025-05-29", // today
+        food: "2025-05-29", // today
+        steps: "2025-05-29", // today
+        activity: "2025-05-28", // yesterday
+        meditation: "2025-05-29", // today
+        sleep: "2025-05-29", // today
+        weight: "2025-05-28" // yesterday
       }
     },
-    406: { // Brian Anderson
+    406: { // Brian Anderson - low engagement user
       lastLogs: {
-        hydration: "2025-05-16", // missed recently
-        food: "2025-05-15", // missed recently
-        steps: "2025-05-17",
-        activity: "2025-05-14", // missed recently
-        meditation: "2025-05-18",
-        sleep: "2025-05-20",
-        weight: "2025-05-16"
+        hydration: "2025-05-21", // over a week ago
+        food: "2025-05-20", // over a week ago
+        steps: "2025-05-25", // 4 days ago
+        activity: "2025-05-18", // over a week ago
+        meditation: "2025-05-27", // 2 days ago
+        sleep: "2025-05-28", // yesterday
+        weight: "2025-05-22" // week ago
       }
     }
   }
 };
-

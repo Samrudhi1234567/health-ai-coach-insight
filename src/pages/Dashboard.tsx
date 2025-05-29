@@ -60,12 +60,6 @@ const Dashboard = () => {
                   <ClipboardList size={16} />
                   Logs Monitoring
                 </Link>
-                <Button variant="outline" asChild className="flex items-center gap-2">
-                <Link to="/coaches-impact">
-                  <Users size={16} />
-                  Coach Engagement Tracker
-                </Link>
-              </Button>
               </Button>
               <div className="text-sm text-gray-500">
                 Last updated: May 21, 2025

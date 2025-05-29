@@ -1100,1053 +1100,139 @@ export const userLogData = {
     }
   },
   3: { // Dr. Emily Williams' users
-    301: {
-      weeklyEngagement: [
-        { week: "Week 1", sessions: 12 },
-        { week: "Week 2", sessions: 15 },
-        { week: "Week 3", sessions: 10 },
-        { week: "Week 4", sessions: 14 }
-      ],
-      featureUsage: [
-        { name: "Nutrition Tracking", usage: 25 },
-        { name: "Workout Logging", usage: 10 },
-        { name: "Sleep Monitoring", usage: 30 },
-        { name: "Stress Management", usage: 22 },
-        { name: "Meditation Sessions", usage: 18 },
-        { name: "Water Intake", usage: 20 },
-        { name: "Step Counter", usage: 15 },
-        { name: "Goal Setting", usage: 8 },
-        { name: "Video Tutorials", usage: 7 },
-        { name: "HRA Questionnaire", usage: 4 }
-      ],
-      dailyAppOpenTime: [
-        { day: "Monday", morning: 2, afternoon: 1, evening: 2 },
-        { day: "Tuesday", morning: 1, afternoon: 2, evening: 2 },
-        { day: "Wednesday", morning: 2, afternoon: 2, evening: 1 },
-        { day: "Thursday", morning: 1, afternoon: 1, evening: 2 },
-        { day: "Friday", morning: 2, afternoon: 1, evening: 2 },
-        { day: "Saturday", morning: 1, afternoon: 2, evening: 2 },
-        { day: "Sunday", morning: 1, afternoon: 1, evening: 3 }
-      ]
+    301: { // Kevin Harris
+      lastLogs: {
+        hydration: "2025-05-26", // 3 days ago
+        food: "2025-05-25", // 4 days ago
+        steps: "2025-05-23", // 6 days ago
+        activity: "2025-05-20", // over a week ago
+        meditation: "2025-05-29", // today
+        sleep: "2025-05-29", // today
+        weight: "2025-05-22" // week ago
+      }
     },
-    302: {
-      weeklyEngagement: [
-        { week: "Week 1", sessions: 14 },
-        { week: "Week 2", sessions: 17 },
-        { week: "Week 3", sessions: 13 },
-        { week: "Week 4", sessions: 18 }
-      ],
-      featureUsage: [
-        { name: "Nutrition Tracking", usage: 35 },
-        { name: "Workout Logging", usage: 12 },
-        { name: "Sleep Monitoring", usage: 28 },
-        { name: "Stress Management", usage: 30 },
-        { name: "Meditation Sessions", usage: 25 },
-        { name: "Water Intake", usage: 18 },
-        { name: "Step Counter", usage: 10 },
-        { name: "Goal Setting", usage: 12 },
-        { name: "Video Tutorials", usage: 9 },
-        { name: "HRA Questionnaire", usage: 6 }
-      ],
-      dailyAppOpenTime: [
-        { day: "Monday", morning: 3, afternoon: 2, evening: 2 },
-        { day: "Tuesday", morning: 2, afternoon: 1, evening: 3 },
-        { day: "Wednesday", morning: 4, afternoon: 2, evening: 2 },
-        { day: "Thursday", morning: 2, afternoon: 3, evening: 2 },
-        { day: "Friday", morning: 2, afternoon: 2, evening: 3 },
-        { day: "Saturday", morning: 2, afternoon: 4, evening: 2 },
-        { day: "Sunday", morning: 1, afternoon: 2, evening: 5 }
-      ]
+    302: { // Jennifer Garcia
+      lastLogs: {
+        hydration: "2025-05-28", // yesterday
+        food: "2025-05-27", // 2 days ago
+        steps: "2025-05-24", // 5 days ago
+        activity: "2025-05-21", // over a week ago
+        meditation: "2025-05-29", // today
+        sleep: "2025-05-29", // today
+        weight: "2025-05-25" // 4 days ago
+      }
     },
-    303: {
-      weeklyEngagement: [
-        { week: "Week 1", sessions: 9 },
-        { week: "Week 2", sessions: 11 },
-        { week: "Week 3", sessions: 8 },
-        { week: "Week 4", sessions: 13 }
-      ],
-      featureUsage: [
-        { name: "Nutrition Tracking", usage: 20 },
-        { name: "Workout Logging", usage: 8 },
-        { name: "Sleep Monitoring", usage: 25 },
-        { name: "Stress Management", usage: 20 },
-        { name: "Meditation Sessions", usage: 15 },
-        { name: "Water Intake", usage: 12 },
-        { name: "Step Counter", usage: 8 },
-        { name: "Goal Setting", usage: 6 },
-        { name: "Video Tutorials", usage: 5 },
-        { name: "HRA Questionnaire", usage: 3 }
-      ],
-      dailyAppOpenTime: [
-        { day: "Monday", morning: 1, afternoon: 1, evening: 2 },
-        { day: "Tuesday", morning: 1, afternoon: 1, evening: 2 },
-        { day: "Wednesday", morning: 2, afternoon: 1, evening: 1 },
-        { day: "Thursday", morning: 1, afternoon: 2, evening: 1 },
-        { day: "Friday", morning: 1, afternoon: 1, evening: 2 },
-        { day: "Saturday", morning: 1, afternoon: 2, evening: 2 },
-        { day: "Sunday", morning: 1, afternoon: 1, evening: 3 }
-      ]
+    303: { // Christopher Lee
+      lastLogs: {
+        hydration: "2025-05-22", // week ago
+        food: "2025-05-20", // over a week ago
+        steps: "2025-05-23", // 6 days ago
+        activity: "2025-05-19", // 10 days ago
+        meditation: "2025-05-28", // yesterday
+        sleep: "2025-05-29", // today
+        weight: "2025-05-24" // 5 days ago
+      }
     },
-    304: {
-      weeklyEngagement: [
-        { week: "Week 1", sessions: 13 },
-        { week: "Week 2", sessions: 16 },
-        { week: "Week 3", sessions: 12 },
-        { week: "Week 4", sessions: 17 }
-      ],
-      featureUsage: [
-        { name: "Nutrition Tracking", usage: 28 },
-        { name: "Workout Logging", usage: 10 },
-        { name: "Sleep Monitoring", usage: 22 },
-        { name: "Stress Management", usage: 25 },
-        { name: "Meditation Sessions", usage: 20 },
-        { name: "Water Intake", usage: 15 },
-        { name: "Step Counter", usage: 12 },
-        { name: "Goal Setting", usage: 10 },
-        { name: "Video Tutorials", usage: 8 },
-        { name: "HRA Questionnaire", usage: 5 }
-      ],
-      dailyAppOpenTime: [
-        { day: "Monday", morning: 2, afternoon: 2, evening: 2 },
-        { day: "Tuesday", morning: 2, afternoon: 1, evening: 2 },
-        { day: "Wednesday", morning: 3, afternoon: 2, evening: 2 },
-        { day: "Thursday", morning: 2, afternoon: 2, evening: 2 },
-        { day: "Friday", morning: 2, afternoon: 2, evening: 2 },
-        { day: "Saturday", morning: 2, afternoon: 3, evening: 2 },
-        { day: "Sunday", morning: 1, afternoon: 2, evening: 4 }
-      ]
+    304: { // Sarah Wilson
+      lastLogs: {
+        hydration: "2025-05-28", // yesterday
+        food: "2025-05-27", // 2 days ago
+        steps: "2025-05-26", // 3 days ago
+        activity: "2025-05-25", // 4 days ago
+        meditation: "2025-05-29", // today
+        sleep: "2025-05-29", // today
+        weight: "2025-05-23" // 6 days ago
+      }
     },
-    305: {
-      weeklyEngagement: [
-        { week: "Week 1", sessions: 7 },
-        { week: "Week 2", sessions: 10 },
-        { week: "Week 3", sessions: 6 },
-        { week: "Week 4", sessions: 12 }
-      ],
-      featureUsage: [
-        { name: "Nutrition Tracking", usage: 15 },
-        { name: "Workout Logging", usage: 7 },
-        { name: "Sleep Monitoring", usage: 18 },
-        { name: "Stress Management", usage: 12 },
-        { name: "Meditation Sessions", usage: 14 },
-        { name: "Water Intake", usage: 10 },
-        { name: "Step Counter", usage: 8 },
-        { name: "Goal Setting", usage: 5 },
-        { name: "Video Tutorials", usage: 9 },
-        { name: "HRA Questionnaire", usage: 2 }
-      ],
-      dailyAppOpenTime: [
-        { day: "Monday", morning: 1, afternoon: 1, evening: 1 },
-        { day: "Tuesday", morning: 0, afternoon: 1, evening: 1 },
-        { day: "Wednesday", morning: 1, afternoon: 1, evening: 1 },
-        { day: "Thursday", morning: 1, afternoon: 1, evening: 1 },
-        { day: "Friday", morning: 1, afternoon: 1, evening: 1 },
-        { day: "Saturday", morning: 1, afternoon: 1, evening: 1 },
-        { day: "Sunday", morning: 0, afternoon: 1, evening: 2 }
-      ]
+    305: { // Michael Davis
+      lastLogs: {
+        hydration: "2025-05-25", // 4 days ago
+        food: "2025-05-24", // 5 days ago
+        steps: "2025-05-27", // 2 days ago
+        activity: "2025-05-28", // yesterday
+        meditation: "2025-05-28", // yesterday
+        sleep: "2025-05-26", // 3 days ago
+        weight: "2025-05-17" // almost 2 weeks ago
+      }
     },
-    306: {
-      weeklyEngagement: [
-        { week: "Week 1", sessions: 16 },
-        { week: "Week 2", sessions: 18 },
-        { week: "Week 3", sessions: 14 },
-        { week: "Week 4", sessions: 20 }
-      ],
-      featureUsage: [
-        { name: "Nutrition Tracking", usage: 40 },
-        { name: "Workout Logging", usage: 12 },
-        { name: "Sleep Monitoring", usage: 25 },
-        { name: "Stress Management", usage: 30 },
-        { name: "Meditation Sessions", usage: 28 },
-        { name: "Water Intake", usage: 18 },
-        { name: "Step Counter", usage: 10 },
-        { name: "Goal Setting", usage: 12 },
-        { name: "Video Tutorials", usage: 9 },
-        { name: "HRA Questionnaire", usage: 6 }
-      ],
-      dailyAppOpenTime: [
-        { day: "Monday", morning: 3, afternoon: 2, evening: 2 },
-        { day: "Tuesday", morning: 2, afternoon: 1, evening: 3 },
-        { day: "Wednesday", morning: 4, afternoon: 2, evening: 2 },
-        { day: "Thursday", morning: 2, afternoon: 3, evening: 2 },
-        { day: "Friday", morning: 2, afternoon: 2, evening: 3 },
-        { day: "Saturday", morning: 2, afternoon: 4, evening: 2 },
-        { day: "Sunday", morning: 1, afternoon: 2, evening: 5 }
-      ]
-    },
-    401: {
-      weeklyEngagement: [
-        { week: "Week 1", sessions: 11 },
-        { week: "Week 2", sessions: 13 },
-        { week: "Week 3", sessions: 9 },
-        { week: "Week 4", sessions: 15 }
-      ],
-      featureUsage: [
-        { name: "Nutrition Tracking", usage: 22 },
-        { name: "Workout Logging", usage: 10 },
-        { name: "Sleep Monitoring", usage: 35 },
-        { name: "Stress Management", usage: 20 },
-        { name: "Meditation Sessions", usage: 12 },
-        { name: "Water Intake", usage: 18 },
-        { name: "Step Counter", usage: 10 },
-        { name: "Goal Setting", usage: 8 },
-        { name: "Video Tutorials", usage: 7 },
-        { name: "HRA Questionnaire", usage: 4 }
-      ],
-      dailyAppOpenTime: [
-        { day: "Monday", morning: 2, afternoon: 1, evening: 2 },
-        { day: "Tuesday", morning: 1, afternoon: 2, evening: 2 },
-        { day: "Wednesday", morning: 2, afternoon: 2, evening: 1 },
-        { day: "Thursday", morning: 1, afternoon: 1, evening: 2 },
-        { day: "Friday", morning: 2, afternoon: 1, evening: 2 },
-        { day: "Saturday", morning: 1, afternoon: 2, evening: 2 },
-        { day: "Sunday", morning: 1, afternoon: 1, evening: 3 }
-      ]
-    },
-    402: {
-      weeklyEngagement: [
-        { week: "Week 1", sessions: 13 },
-        { week: "Week 2", sessions: 16 },
-        { week: "Week 3", sessions: 12 },
-        { week: "Week 4", sessions: 17 }
-      ],
-      featureUsage: [
-        { name: "Nutrition Tracking", usage: 28 },
-        { name: "Workout Logging", usage: 12 },
-        { name: "Sleep Monitoring", usage: 32 },
-        { name: "Stress Management", usage: 25 },
-        { name: "Meditation Sessions", usage: 20 },
-        { name: "Water Intake", usage: 15 },
-        { name: "Step Counter", usage: 12 },
-        { name: "Goal Setting", usage: 10 },
-        { name: "Video Tutorials", usage: 8 },
-        { name: "HRA Questionnaire", usage: 5 }
-      ],
-      dailyAppOpenTime: [
-        { day: "Monday", morning: 2, afternoon: 2, evening: 2 },
-        { day: "Tuesday", morning: 2, afternoon: 1, evening: 2 },
-        { day: "Wednesday", morning: 3, afternoon: 2, evening: 2 },
-        { day: "Thursday", morning: 2, afternoon: 2, evening: 2 },
-        { day: "Friday", morning: 2, afternoon: 2, evening: 2 },
-        { day: "Saturday", morning: 2, afternoon: 3, evening: 2 },
-        { day: "Sunday", morning: 1, afternoon: 2, evening: 4 }
-      ]
-    },
-    403: {
-      weeklyEngagement: [
-        { week: "Week 1", sessions: 7 },
-        { week: "Week 2", sessions: 10 },
-        { week: "Week 3", sessions: 6 },
-        { week: "Week 4", sessions: 12 }
-      ],
-      featureUsage: [
-        { name: "Nutrition Tracking", usage: 15 },
-        { name: "Workout Logging", usage: 7 },
-        { name: "Sleep Monitoring", usage: 38 },
-        { name: "Stress Management", usage: 12 },
-        { name: "Meditation Sessions", usage: 14 },
-        { name: "Water Intake", usage: 10 },
-        { name: "Step Counter", usage: 8 },
-        { name: "Goal Setting", usage: 5 },
-        { name: "Video Tutorials", usage: 9 },
-        { name: "HRA Questionnaire", usage: 2 }
-      ],
-      dailyAppOpenTime: [
-        { day: "Monday", morning: 1, afternoon: 1, evening: 1 },
-        { day: "Tuesday", morning: 0, afternoon: 1, evening: 1 },
-        { day: "Wednesday", morning: 1, afternoon: 1, evening: 1 },
-        { day: "Thursday", morning: 1, afternoon: 1, evening: 1 },
-        { day: "Friday", morning: 1, afternoon: 1, evening: 1 },
-        { day: "Saturday", morning: 1, afternoon: 1, evening: 1 },
-        { day: "Sunday", morning: 0, afternoon: 1, evening: 2 }
-      ]
-    },
-    404: {
-      weeklyEngagement: [
-        { week: "Week 1", sessions: 15 },
-        { week: "Week 2", sessions: 18 },
-        { week: "Week 3", sessions: 12 },
-        { week: "Week 4", sessions: 19 }
-      ],
-      featureUsage: [
-        { name: "Nutrition Tracking", usage: 32 },
-        { name: "Workout Logging", usage: 15 },
-        { name: "Sleep Monitoring", usage: 30 },
-        { name: "Stress Management", usage: 18 },
-        { name: "Meditation Sessions", usage: 16 },
-        { name: "Water Intake", usage: 12 },
-        { name: "Step Counter", usage: 10 },
-        { name: "Goal Setting", usage: 8 },
-        { name: "Video Tutorials", usage: 7 },
-        { name: "HRA Questionnaire", usage: 4 }
-      ],
-      dailyAppOpenTime: [
-        { day: "Monday", morning: 2, afternoon: 1, evening: 2 },
-        { day: "Tuesday", morning: 1, afternoon: 2, evening: 2 },
-        { day: "Wednesday", morning: 2, afternoon: 2, evening: 1 },
-        { day: "Thursday", morning: 1, afternoon: 1, evening: 2 },
-        { day: "Friday", morning: 2, afternoon: 1, evening: 2 },
-        { day: "Saturday", morning: 1, afternoon: 2, evening: 2 },
-        { day: "Sunday", morning: 1, afternoon: 1, evening: 3 }
-      ]
-    },
-    405: {
-      weeklyEngagement: [
-        { week: "Week 1", sessions: 13 },
-        { week: "Week 2", sessions: 16 },
-        { week: "Week 3", sessions: 12 },
-        { week: "Week 4", sessions: 17 }
-      ],
-      featureUsage: [
-        { name: "Nutrition Tracking", usage: 28 },
-        { name: "Workout Logging", usage: 12 },
-        { name: "Sleep Monitoring", usage: 32 },
-        { name: "Stress Management", usage: 25 },
-        { name: "Meditation Sessions", usage: 20 },
-        { name: "Water Intake", usage: 15 },
-        { name: "Step Counter", usage: 12 },
-        { name: "Goal Setting", usage: 10 },
-        { name: "Video Tutorials", usage: 8 },
-        { name: "HRA Questionnaire", usage: 5 }
-      ],
-      dailyAppOpenTime: [
-        { day: "Monday", morning: 2, afternoon: 2, evening: 2 },
-        { day: "Tuesday", morning: 2, afternoon: 1, evening: 2 },
-        { day: "Wednesday", morning: 3, afternoon: 2, evening: 2 },
-        { day: "Thursday", morning: 2, afternoon: 2, evening: 2 },
-        { day: "Friday", morning: 2, afternoon: 2, evening: 2 },
-        { day: "Saturday", morning: 2, afternoon: 3, evening: 2 },
-        { day: "Sunday", morning: 1, afternoon: 2, evening: 4 }
-      ]
-    },
-    406: {
-      weeklyEngagement: [
-        { week: "Week 1", sessions: 7 },
-        { week: "Week 2", sessions: 10 },
-        { week: "Week 3", sessions: 6 },
-        { week: "Week 4", sessions: 12 }
-      ],
-      featureUsage: [
-        { name: "Nutrition Tracking", usage: 15 },
-        { name: "Workout Logging", usage: 7 },
-        { name: "Sleep Monitoring", usage: 18 },
-        { name: "Stress Management", usage: 12 },
-        { name: "Meditation Sessions", usage: 14 },
-        { name: "Water Intake", usage: 10 },
-        { name: "Step Counter", usage: 8 },
-        { name: "Goal Setting", usage: 5 },
-        { name: "Video Tutorials", usage: 9 },
-        { name: "HRA Questionnaire", usage: 2 }
-      ],
-      dailyAppOpenTime: [
-        { day: "Monday", morning: 1, afternoon: 1, evening: 1 },
-        { day: "Tuesday", morning: 0, afternoon: 1, evening: 1 },
-        { day: "Wednesday", morning: 1, afternoon: 1, evening: 1 },
-        { day: "Thursday", morning: 1, afternoon: 1, evening: 1 },
-        { day: "Friday", morning: 1, afternoon: 1, evening: 1 },
-        { day: "Saturday", morning: 1, afternoon: 1, evening: 1 },
-        { day: "Sunday", morning: 0, afternoon: 1, evening: 2 }
-      ]
+    306: { // Rachel Green
+      lastLogs: {
+        hydration: "2025-05-29", // today
+        food: "2025-05-28", // yesterday
+        steps: "2025-05-27", // 2 days ago
+        activity: "2025-05-23", // 6 days ago
+        meditation: "2025-05-29", // today
+        sleep: "2025-05-29", // today
+        weight: "2025-05-26" // 3 days ago
+      }
     }
-  }
-};
-
-// Chart data for each user (unique per user)
-export const chartDataByUser = {
-  101: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 10 },
-      { week: "Week 2", sessions: 14 },
-      { week: "Week 3", sessions: 8 },
-      { week: "Week 4", sessions: 17 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 60 },
-      { name: "Workout Logging", usage: 20 },
-      { name: "Sleep Monitoring", usage: 15 },
-      { name: "Stress Management", usage: 10 },
-      { name: "Meditation Sessions", usage: 5 },
-      { name: "Water Intake", usage: 55 },
-      { name: "Step Counter", usage: 70 },
-      { name: "Goal Setting", usage: 30 },
-      { name: "Video Tutorials", usage: 12 },
-      { name: "HRA Questionnaire", usage: 7 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 2, afternoon: 1, evening: 2 },
-      { day: "Tuesday", morning: 1, afternoon: 0, evening: 3 },
-      { day: "Wednesday", morning: 3, afternoon: 2, evening: 1 },
-      { day: "Thursday", morning: 1, afternoon: 2, evening: 2 },
-      { day: "Friday", morning: 2, afternoon: 1, evening: 2 },
-      { day: "Saturday", morning: 1, afternoon: 3, evening: 2 },
-      { day: "Sunday", morning: 0, afternoon: 2, evening: 4 }
-    ]
   },
-  102: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 13 },
-      { week: "Week 2", sessions: 16 },
-      { week: "Week 3", sessions: 12 },
-      { week: "Week 4", sessions: 19 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 30 },
-      { name: "Workout Logging", usage: 65 },
-      { name: "Sleep Monitoring", usage: 20 },
-      { name: "Stress Management", usage: 18 },
-      { name: "Meditation Sessions", usage: 7 },
-      { name: "Water Intake", usage: 25 },
-      { name: "Step Counter", usage: 60 },
-      { name: "Goal Setting", usage: 40 },
-      { name: "Video Tutorials", usage: 20 },
-      { name: "HRA Questionnaire", usage: 10 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 3, afternoon: 2, evening: 1 },
-      { day: "Tuesday", morning: 2, afternoon: 1, evening: 2 },
-      { day: "Wednesday", morning: 4, afternoon: 1, evening: 2 },
-      { day: "Thursday", morning: 2, afternoon: 2, evening: 1 },
-      { day: "Friday", morning: 1, afternoon: 2, evening: 3 },
-      { day: "Saturday", morning: 2, afternoon: 3, evening: 1 },
-      { day: "Sunday", morning: 1, afternoon: 1, evening: 4 }
-    ]
-  },
-  103: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 8 },
-      { week: "Week 2", sessions: 12 },
-      { week: "Week 3", sessions: 7 },
-      { week: "Week 4", sessions: 15 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 40 },
-      { name: "Workout Logging", usage: 18 },
-      { name: "Sleep Monitoring", usage: 12 },
-      { name: "Stress Management", usage: 8 },
-      { name: "Meditation Sessions", usage: 6 },
-      { name: "Water Intake", usage: 50 },
-      { name: "Step Counter", usage: 55 },
-      { name: "Goal Setting", usage: 10 },
-      { name: "Video Tutorials", usage: 8 },
-      { name: "HRA Questionnaire", usage: 5 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 1, afternoon: 2, evening: 1 },
-      { day: "Tuesday", morning: 0, afternoon: 1, evening: 2 },
-      { day: "Wednesday", morning: 2, afternoon: 1, evening: 1 },
-      { day: "Thursday", morning: 1, afternoon: 1, evening: 2 },
-      { day: "Friday", morning: 1, afternoon: 0, evening: 2 },
-      { day: "Saturday", morning: 2, afternoon: 2, evening: 1 },
-      { day: "Sunday", morning: 1, afternoon: 1, evening: 3 }
-    ]
-  },
-  104: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 5 },
-      { week: "Week 2", sessions: 7 },
-      { week: "Week 3", sessions: 4 },
-      { week: "Week 4", sessions: 9 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 10 },
-      { name: "Workout Logging", usage: 8 },
-      { name: "Sleep Monitoring", usage: 10 },
-      { name: "Stress Management", usage: 6 },
-      { name: "Meditation Sessions", usage: 3 },
-      { name: "Water Intake", usage: 12 },
-      { name: "Step Counter", usage: 25 },
-      { name: "Goal Setting", usage: 5 },
-      { name: "Video Tutorials", usage: 2 },
-      { name: "HRA Questionnaire", usage: 1 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 0, afternoon: 1, evening: 1 },
-      { day: "Tuesday", morning: 1, afternoon: 0, evening: 1 },
-      { day: "Wednesday", morning: 1, afternoon: 1, evening: 0 },
-      { day: "Thursday", morning: 0, afternoon: 1, evening: 1 },
-      { day: "Friday", morning: 1, afternoon: 0, evening: 1 },
-      { day: "Saturday", morning: 0, afternoon: 1, evening: 1 },
-      { day: "Sunday", morning: 1, afternoon: 0, evening: 2 }
-    ]
-  },
-  105: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 16 },
-      { week: "Week 2", sessions: 18 },
-      { week: "Week 3", sessions: 14 },
-      { week: "Week 4", sessions: 20 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 75 },
-      { name: "Workout Logging", usage: 30 },
-      { name: "Sleep Monitoring", usage: 18 },
-      { name: "Stress Management", usage: 12 },
-      { name: "Meditation Sessions", usage: 10 },
-      { name: "Water Intake", usage: 65 },
-      { name: "Step Counter", usage: 80 },
-      { name: "Goal Setting", usage: 45 },
-      { name: "Video Tutorials", usage: 5 },
-      { name: "HRA Questionnaire", usage: 8 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 3, afternoon: 2, evening: 2 },
-      { day: "Tuesday", morning: 2, afternoon: 1, evening: 3 },
-      { day: "Wednesday", morning: 4, afternoon: 2, evening: 2 },
-      { day: "Thursday", morning: 2, afternoon: 3, evening: 2 },
-      { day: "Friday", morning: 2, afternoon: 2, evening: 3 },
-      { day: "Saturday", morning: 2, afternoon: 4, evening: 2 },
-      { day: "Sunday", morning: 1, afternoon: 2, evening: 5 }
-    ]
-  },
-  106: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 7 },
-      { week: "Week 2", sessions: 9 },
-      { week: "Week 3", sessions: 6 },
-      { week: "Week 4", sessions: 11 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 20 },
-      { name: "Workout Logging", usage: 10 },
-      { name: "Sleep Monitoring", usage: 25 },
-      { name: "Stress Management", usage: 8 },
-      { name: "Meditation Sessions", usage: 4 },
-      { name: "Water Intake", usage: 18 },
-      { name: "Step Counter", usage: 30 },
-      { name: "Goal Setting", usage: 8 },
-      { name: "Video Tutorials", usage: 3 },
-      { name: "HRA Questionnaire", usage: 2 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 1, afternoon: 1, evening: 1 },
-      { day: "Tuesday", morning: 0, afternoon: 1, evening: 1 },
-      { day: "Wednesday", morning: 1, afternoon: 1, evening: 1 },
-      { day: "Thursday", morning: 1, afternoon: 1, evening: 1 },
-      { day: "Friday", morning: 1, afternoon: 1, evening: 1 },
-      { day: "Saturday", morning: 1, afternoon: 1, evening: 1 },
-      { day: "Sunday", morning: 0, afternoon: 1, evening: 2 }
-    ]
-  },
-  201: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 14 },
-      { week: "Week 2", sessions: 17 },
-      { week: "Week 3", sessions: 13 },
-      { week: "Week 4", sessions: 18 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 55 },
-      { name: "Workout Logging", usage: 70 },
-      { name: "Sleep Monitoring", usage: 22 },
-      { name: "Stress Management", usage: 9 },
-      { name: "Meditation Sessions", usage: 6 },
-      { name: "Water Intake", usage: 40 },
-      { name: "Step Counter", usage: 65 },
-      { name: "Goal Setting", usage: 35 },
-      { name: "Video Tutorials", usage: 15 },
-      { name: "HRA Questionnaire", usage: 9 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 2, afternoon: 2, evening: 2 },
-      { day: "Tuesday", morning: 2, afternoon: 1, evening: 2 },
-      { day: "Wednesday", morning: 3, afternoon: 2, evening: 2 },
-      { day: "Thursday", morning: 2, afternoon: 2, evening: 2 },
-      { day: "Friday", morning: 2, afternoon: 2, evening: 2 },
-      { day: "Saturday", morning: 2, afternoon: 3, evening: 2 },
-      { day: "Sunday", morning: 1, afternoon: 2, evening: 4 }
-    ]
-  },
-  202: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 12 },
-      { week: "Week 2", sessions: 15 },
-      { week: "Week 3", sessions: 11 },
-      { week: "Week 4", sessions: 16 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 45 },
-      { name: "Workout Logging", usage: 60 },
-      { name: "Sleep Monitoring", usage: 19 },
-      { name: "Stress Management", usage: 11 },
-      { name: "Meditation Sessions", usage: 8 },
-      { name: "Water Intake", usage: 35 },
-      { name: "Step Counter", usage: 55 },
-      { name: "Goal Setting", usage: 30 },
-      { name: "Video Tutorials", usage: 10 },
-      { name: "HRA Questionnaire", usage: 6 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 2, afternoon: 1, evening: 2 },
-      { day: "Tuesday", morning: 1, afternoon: 1, evening: 2 },
-      { day: "Wednesday", morning: 2, afternoon: 2, evening: 1 },
-      { day: "Thursday", morning: 1, afternoon: 2, evening: 2 },
-      { day: "Friday", morning: 2, afternoon: 1, evening: 2 },
-      { day: "Saturday", morning: 1, afternoon: 2, evening: 2 },
-      { day: "Sunday", morning: 1, afternoon: 1, evening: 3 }
-    ]
-  },
-  203: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 9 },
-      { week: "Week 2", sessions: 13 },
-      { week: "Week 3", sessions: 8 },
-      { week: "Week 4", sessions: 14 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 35 },
-      { name: "Workout Logging", usage: 25 },
-      { name: "Sleep Monitoring", usage: 14 },
-      { name: "Stress Management", usage: 7 },
-      { name: "Meditation Sessions", usage: 5 },
-      { name: "Water Intake", usage: 30 },
-      { name: "Step Counter", usage: 40 },
-      { name: "Goal Setting", usage: 20 },
-      { name: "Video Tutorials", usage: 7 },
-      { name: "HRA Questionnaire", usage: 4 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 1, afternoon: 2, evening: 1 },
-      { day: "Tuesday", morning: 0, afternoon: 1, evening: 2 },
-      { day: "Wednesday", morning: 2, afternoon: 1, evening: 1 },
-      { day: "Thursday", morning: 1, afternoon: 1, evening: 2 },
-      { day: "Friday", morning: 1, afternoon: 0, evening: 2 },
-      { day: "Saturday", morning: 2, afternoon: 2, evening: 1 },
-      { day: "Sunday", morning: 1, afternoon: 1, evening: 3 }
-    ]
-  },
-  204: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 7 },
-      { week: "Week 2", sessions: 10 },
-      { week: "Week 3", sessions: 6 },
-      { week: "Week 4", sessions: 12 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 25 },
-      { name: "Workout Logging", usage: 15 },
-      { name: "Sleep Monitoring", usage: 10 },
-      { name: "Stress Management", usage: 6 },
-      { name: "Meditation Sessions", usage: 4 },
-      { name: "Water Intake", usage: 20 },
-      { name: "Step Counter", usage: 30 },
-      { name: "Goal Setting", usage: 10 },
-      { name: "Video Tutorials", usage: 5 },
-      { name: "HRA Questionnaire", usage: 2 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 1, afternoon: 1, evening: 1 },
-      { day: "Tuesday", morning: 0, afternoon: 1, evening: 1 },
-      { day: "Wednesday", morning: 1, afternoon: 1, evening: 1 },
-      { day: "Thursday", morning: 1, afternoon: 1, evening: 1 },
-      { day: "Friday", morning: 1, afternoon: 1, evening: 1 },
-      { day: "Saturday", morning: 1, afternoon: 1, evening: 1 },
-      { day: "Sunday", morning: 0, afternoon: 1, evening: 2 }
-    ]
-  },
-  205: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 15 },
-      { week: "Week 2", sessions: 18 },
-      { week: "Week 3", sessions: 12 },
-      { week: "Week 4", sessions: 19 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 65 },
-      { name: "Workout Logging", usage: 80 },
-      { name: "Sleep Monitoring", usage: 25 },
-      { name: "Stress Management", usage: 10 },
-      { name: "Meditation Sessions", usage: 8 },
-      { name: "Water Intake", usage: 60 },
-      { name: "Step Counter", usage: 75 },
-      { name: "Goal Setting", usage: 50 },
-      { name: "Video Tutorials", usage: 18 },
-      { name: "HRA Questionnaire", usage: 11 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 3, afternoon: 2, evening: 2 },
-      { day: "Tuesday", morning: 2, afternoon: 1, evening: 3 },
-      { day: "Wednesday", morning: 4, afternoon: 2, evening: 2 },
-      { day: "Thursday", morning: 2, afternoon: 3, evening: 2 },
-      { day: "Friday", morning: 2, afternoon: 2, evening: 3 },
-      { day: "Saturday", morning: 2, afternoon: 4, evening: 2 },
-      { day: "Sunday", morning: 1, afternoon: 2, evening: 5 }
-    ]
-  },
-  206: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 11 },
-      { week: "Week 2", sessions: 14 },
-      { week: "Week 3", sessions: 9 },
-      { week: "Week 4", sessions: 16 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 35 },
-      { name: "Workout Logging", usage: 40 },
-      { name: "Sleep Monitoring", usage: 15 },
-      { name: "Stress Management", usage: 7 },
-      { name: "Meditation Sessions", usage: 6 },
-      { name: "Water Intake", usage: 30 },
-      { name: "Step Counter", usage: 45 },
-      { name: "Goal Setting", usage: 25 },
-      { name: "Video Tutorials", usage: 9 },
-      { name: "HRA Questionnaire", usage: 5 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 2, afternoon: 1, evening: 2 },
-      { day: "Tuesday", morning: 1, afternoon: 1, evening: 2 },
-      { day: "Wednesday", morning: 2, afternoon: 2, evening: 1 },
-      { day: "Thursday", morning: 1, afternoon: 2, evening: 2 },
-      { day: "Friday", morning: 2, afternoon: 1, evening: 2 },
-      { day: "Saturday", morning: 1, afternoon: 2, evening: 2 },
-      { day: "Sunday", morning: 1, afternoon: 1, evening: 3 }
-    ]
-  },
-  301: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 10 },
-      { week: "Week 2", sessions: 14 },
-      { week: "Week 3", sessions: 8 },
-      { week: "Week 4", sessions: 17 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 60 },
-      { name: "Workout Logging", usage: 20 },
-      { name: "Sleep Monitoring", usage: 15 },
-      { name: "Stress Management", usage: 10 },
-      { name: "Meditation Sessions", usage: 5 },
-      { name: "Water Intake", usage: 55 },
-      { name: "Step Counter", usage: 70 },
-      { name: "Goal Setting", usage: 30 },
-      { name: "Video Tutorials", usage: 12 },
-      { name: "HRA Questionnaire", usage: 7 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 2, afternoon: 1, evening: 2 },
-      { day: "Tuesday", morning: 1, afternoon: 0, evening: 3 },
-      { day: "Wednesday", morning: 3, afternoon: 2, evening: 1 },
-      { day: "Thursday", morning: 1, afternoon: 2, evening: 2 },
-      { day: "Friday", morning: 2, afternoon: 1, evening: 2 },
-      { day: "Saturday", morning: 1, afternoon: 3, evening: 2 },
-      { day: "Sunday", morning: 0, afternoon: 2, evening: 4 }
-    ]
-  },
-  302: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 13 },
-      { week: "Week 2", sessions: 16 },
-      { week: "Week 3", sessions: 12 },
-      { week: "Week 4", sessions: 19 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 30 },
-      { name: "Workout Logging", usage: 65 },
-      { name: "Sleep Monitoring", usage: 20 },
-      { name: "Stress Management", usage: 18 },
-      { name: "Meditation Sessions", usage: 7 },
-      { name: "Water Intake", usage: 25 },
-      { name: "Step Counter", usage: 60 },
-      { name: "Goal Setting", usage: 40 },
-      { name: "Video Tutorials", usage: 20 },
-      { name: "HRA Questionnaire", usage: 10 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 3, afternoon: 2, evening: 1 },
-      { day: "Tuesday", morning: 2, afternoon: 1, evening: 2 },
-      { day: "Wednesday", morning: 4, afternoon: 1, evening: 2 },
-      { day: "Thursday", morning: 2, afternoon: 2, evening: 1 },
-      { day: "Friday", morning: 1, afternoon: 2, evening: 3 },
-      { day: "Saturday", morning: 2, afternoon: 3, evening: 1 },
-      { day: "Sunday", morning: 1, afternoon: 1, evening: 4 }
-    ]
-  },
-  303: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 9 },
-      { week: "Week 2", sessions: 13 },
-      { week: "Week 3", sessions: 8 },
-      { week: "Week 4", sessions: 14 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 35 },
-      { name: "Workout Logging", usage: 25 },
-      { name: "Sleep Monitoring", usage: 14 },
-      { name: "Stress Management", usage: 7 },
-      { name: "Meditation Sessions", usage: 5 },
-      { name: "Water Intake", usage: 30 },
-      { name: "Step Counter", usage: 40 },
-      { name: "Goal Setting", usage: 20 },
-      { name: "Video Tutorials", usage: 7 },
-      { name: "HRA Questionnaire", usage: 4 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 1, afternoon: 2, evening: 1 },
-      { day: "Tuesday", morning: 0, afternoon: 1, evening: 2 },
-      { day: "Wednesday", morning: 2, afternoon: 1, evening: 1 },
-      { day: "Thursday", morning: 1, afternoon: 1, evening: 2 },
-      { day: "Friday", morning: 1, afternoon: 0, evening: 2 },
-      { day: "Saturday", morning: 2, afternoon: 2, evening: 1 },
-      { day: "Sunday", morning: 1, afternoon: 1, evening: 3 }
-    ]
-  },
-  304: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 7 },
-      { week: "Week 2", sessions: 10 },
-      { week: "Week 3", sessions: 6 },
-      { week: "Week 4", sessions: 12 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 25 },
-      { name: "Workout Logging", usage: 15 },
-      { name: "Sleep Monitoring", usage: 10 },
-      { name: "Stress Management", usage: 6 },
-      { name: "Meditation Sessions", usage: 4 },
-      { name: "Water Intake", usage: 20 },
-      { name: "Step Counter", usage: 30 },
-      { name: "Goal Setting", usage: 10 },
-      { name: "Video Tutorials", usage: 5 },
-      { name: "HRA Questionnaire", usage: 2 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 1, afternoon: 1, evening: 1 },
-      { day: "Tuesday", morning: 0, afternoon: 1, evening: 1 },
-      { day: "Wednesday", morning: 1, afternoon: 1, evening: 1 },
-      { day: "Thursday", morning: 1, afternoon: 1, evening: 1 },
-      { day: "Friday", morning: 1, afternoon: 1, evening: 1 },
-      { day: "Saturday", morning: 1, afternoon: 1, evening: 1 },
-      { day: "Sunday", morning: 0, afternoon: 1, evening: 2 }
-    ]
-  },
-  305: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 15 },
-      { week: "Week 2", sessions: 18 },
-      { week: "Week 3", sessions: 12 },
-      { week: "Week 4", sessions: 19 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 65 },
-      { name: "Workout Logging", usage: 80 },
-      { name: "Sleep Monitoring", usage: 25 },
-      { name: "Stress Management", usage: 10 },
-      { name: "Meditation Sessions", usage: 8 },
-      { name: "Water Intake", usage: 60 },
-      { name: "Step Counter", usage: 75 },
-      { name: "Goal Setting", usage: 50 },
-      { name: "Video Tutorials", usage: 18 },
-      { name: "HRA Questionnaire", usage: 11 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 3, afternoon: 2, evening: 2 },
-      { day: "Tuesday", morning: 2, afternoon: 1, evening: 3 },
-      { day: "Wednesday", morning: 4, afternoon: 2, evening: 2 },
-      { day: "Thursday", morning: 2, afternoon: 3, evening: 2 },
-      { day: "Friday", morning: 2, afternoon: 2, evening: 3 },
-      { day: "Saturday", morning: 2, afternoon: 4, evening: 2 },
-      { day: "Sunday", morning: 1, afternoon: 2, evening: 5 }
-    ]
-  },
-  306: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 11 },
-      { week: "Week 2", sessions: 14 },
-      { week: "Week 3", sessions: 9 },
-      { week: "Week 4", sessions: 16 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 35 },
-      { name: "Workout Logging", usage: 40 },
-      { name: "Sleep Monitoring", usage: 15 },
-      { name: "Stress Management", usage: 7 },
-      { name: "Meditation Sessions", usage: 6 },
-      { name: "Water Intake", usage: 30 },
-      { name: "Step Counter", usage: 45 },
-      { name: "Goal Setting", usage: 25 },
-      { name: "Video Tutorials", usage: 9 },
-      { name: "HRA Questionnaire", usage: 5 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 2, afternoon: 1, evening: 2 },
-      { day: "Tuesday", morning: 1, afternoon: 1, evening: 2 },
-      { day: "Wednesday", morning: 2, afternoon: 2, evening: 1 },
-      { day: "Thursday", morning: 1, afternoon: 2, evening: 2 },
-      { day: "Friday", morning: 2, afternoon: 1, evening: 2 },
-      { day: "Saturday", morning: 1, afternoon: 2, evening: 2 },
-      { day: "Sunday", morning: 1, afternoon: 1, evening: 3 }
-    ]
-  },
-  401: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 10 },
-      { week: "Week 2", sessions: 14 },
-      { week: "Week 3", sessions: 8 },
-      { week: "Week 4", sessions: 17 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 60 },
-      { name: "Workout Logging", usage: 20 },
-      { name: "Sleep Monitoring", usage: 15 },
-      { name: "Stress Management", usage: 10 },
-      { name: "Meditation Sessions", usage: 5 },
-      { name: "Water Intake", usage: 55 },
-      { name: "Step Counter", usage: 70 },
-      { name: "Goal Setting", usage: 30 },
-      { name: "Video Tutorials", usage: 12 },
-      { name: "HRA Questionnaire", usage: 7 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 2, afternoon: 1, evening: 2 },
-      { day: "Tuesday", morning: 1, afternoon: 0, evening: 3 },
-      { day: "Wednesday", morning: 3, afternoon: 2, evening: 1 },
-      { day: "Thursday", morning: 1, afternoon: 2, evening: 2 },
-      { day: "Friday", morning: 2, afternoon: 1, evening: 2 },
-      { day: "Saturday", morning: 1, afternoon: 3, evening: 2 },
-      { day: "Sunday", morning: 0, afternoon: 2, evening: 4 }
-    ]
-  },
-  402: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 13 },
-      { week: "Week 2", sessions: 16 },
-      { week: "Week 3", sessions: 12 },
-      { week: "Week 4", sessions: 19 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 30 },
-      { name: "Workout Logging", usage: 65 },
-      { name: "Sleep Monitoring", usage: 20 },
-      { name: "Stress Management", usage: 18 },
-      { name: "Meditation Sessions", usage: 7 },
-      { name: "Water Intake", usage: 25 },
-      { name: "Step Counter", usage: 60 },
-      { name: "Goal Setting", usage: 40 },
-      { name: "Video Tutorials", usage: 20 },
-      { name: "HRA Questionnaire", usage: 10 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 3, afternoon: 2, evening: 1 },
-      { day: "Tuesday", morning: 2, afternoon: 1, evening: 2 },
-      { day: "Wednesday", morning: 4, afternoon: 1, evening: 2 },
-      { day: "Thursday", morning: 2, afternoon: 2, evening: 1 },
-      { day: "Friday", morning: 1, afternoon: 2, evening: 3 },
-      { day: "Saturday", morning: 2, afternoon: 3, evening: 1 },
-      { day: "Sunday", morning: 1, afternoon: 1, evening: 4 }
-    ]
-  },
-  403: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 9 },
-      { week: "Week 2", sessions: 13 },
-      { week: "Week 3", sessions: 8 },
-      { week: "Week 4", sessions: 14 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 35 },
-      { name: "Workout Logging", usage: 25 },
-      { name: "Sleep Monitoring", usage: 14 },
-      { name: "Stress Management", usage: 7 },
-      { name: "Meditation Sessions", usage: 5 },
-      { name: "Water Intake", usage: 30 },
-      { name: "Step Counter", usage: 40 },
-      { name: "Goal Setting", usage: 20 },
-      { name: "Video Tutorials", usage: 7 },
-      { name: "HRA Questionnaire", usage: 4 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 1, afternoon: 2, evening: 1 },
-      { day: "Tuesday", morning: 0, afternoon: 1, evening: 2 },
-      { day: "Wednesday", morning: 2, afternoon: 1, evening: 1 },
-      { day: "Thursday", morning: 1, afternoon: 1, evening: 2 },
-      { day: "Friday", morning: 1, afternoon: 0, evening: 2 },
-      { day: "Saturday", morning: 2, afternoon: 2, evening: 1 },
-      { day: "Sunday", morning: 1, afternoon: 1, evening: 3 }
-    ]
-  },
-  404: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 7 },
-      { week: "Week 2", sessions: 10 },
-      { week: "Week 3", sessions: 6 },
-      { week: "Week 4", sessions: 12 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 25 },
-      { name: "Workout Logging", usage: 15 },
-      { name: "Sleep Monitoring", usage: 10 },
-      { name: "Stress Management", usage: 6 },
-      { name: "Meditation Sessions", usage: 4 },
-      { name: "Water Intake", usage: 20 },
-      { name: "Step Counter", usage: 30 },
-      { name: "Goal Setting", usage: 10 },
-      { name: "Video Tutorials", usage: 5 },
-      { name: "HRA Questionnaire", usage: 2 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 1, afternoon: 1, evening: 1 },
-      { day: "Tuesday", morning: 0, afternoon: 1, evening: 1 },
-      { day: "Wednesday", morning: 1, afternoon: 1, evening: 1 },
-      { day: "Thursday", morning: 1, afternoon: 1, evening: 1 },
-      { day: "Friday", morning: 1, afternoon: 1, evening: 1 },
-      { day: "Saturday", morning: 1, afternoon: 1, evening: 1 },
-      { day: "Sunday", morning: 0, afternoon: 1, evening: 2 }
-    ]
-  },
-  405: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 15 },
-      { week: "Week 2", sessions: 18 },
-      { week: "Week 3", sessions: 12 },
-      { week: "Week 4", sessions: 19 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 65 },
-      { name: "Workout Logging", usage: 80 },
-      { name: "Sleep Monitoring", usage: 25 },
-      { name: "Stress Management", usage: 10 },
-      { name: "Meditation Sessions", usage: 8 },
-      { name: "Water Intake", usage: 60 },
-      { name: "Step Counter", usage: 75 },
-      { name: "Goal Setting", usage: 50 },
-      { name: "Video Tutorials", usage: 18 },
-      { name: "HRA Questionnaire", usage: 11 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 3, afternoon: 2, evening: 2 },
-      { day: "Tuesday", morning: 2, afternoon: 1, evening: 3 },
-      { day: "Wednesday", morning: 4, afternoon: 2, evening: 2 },
-      { day: "Thursday", morning: 2, afternoon: 3, evening: 2 },
-      { day: "Friday", morning: 2, afternoon: 2, evening: 3 },
-      { day: "Saturday", morning: 2, afternoon: 4, evening: 2 },
-      { day: "Sunday", morning: 1, afternoon: 2, evening: 5 }
-    ]
-  },
-  406: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 11 },
-      { week: "Week 2", sessions: 14 },
-      { week: "Week 3", sessions: 9 },
-      { week: "Week 4", sessions: 16 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 35 },
-      { name: "Workout Logging", usage: 40 },
-      { name: "Sleep Monitoring", usage: 15 },
-      { name: "Stress Management", usage: 7 },
-      { name: "Meditation Sessions", usage: 6 },
-      { name: "Water Intake", usage: 30 },
-      { name: "Step Counter", usage: 45 },
-      { name: "Goal Setting", usage: 25 },
-      { name: "Video Tutorials", usage: 9 },
-      { name: "HRA Questionnaire", usage: 5 }
-    ],
-    dailyAppOpenTime: [
-      { day: "Monday", morning: 2, afternoon: 1, evening: 2 },
-      { day: "Tuesday", morning: 1, afternoon: 1, evening: 2 },
-      { day: "Wednesday", morning: 2, afternoon: 2, evening: 1 },
-      { day: "Thursday", morning: 1, afternoon: 2, evening: 2 },
-      { day: "Friday", morning: 2, afternoon: 1, evening: 2 },
-      { day: "Saturday", morning: 1, afternoon: 2, evening: 2 },
-      { day: "Sunday", morning: 1, afternoon: 1, evening: 3 }
-    ]
+  4: { // Robert Taylor's users
+    401: { // Stephanie Clark
+      lastLogs: {
+        hydration: "2025-05-28", // yesterday
+        food: "2025-05-27", // 2 days ago
+        steps: "2025-05-26", // 3 days ago
+        activity: "2025-05-22", // week ago
+        meditation: "2025-05-26", // 3 days ago
+        sleep: "2025-05-29", // today
+        weight: "2025-05-25" // 4 days ago
+      }
+    },
+    402: { // Jason Rodriguez
+      lastLogs: {
+        hydration: "2025-05-26", // 3 days ago
+        food: "2025-05-28", // yesterday
+        steps: "2025-05-29", // today
+        activity: "2025-05-28", // yesterday
+        meditation: "2025-05-18", // over a week ago
+        sleep: "2025-05-29", // today
+        weight: "2025-05-24" // 5 days ago
+      }
+    },
+    403: { // Linda Martinez
+      lastLogs: {
+        hydration: "2025-05-24", // 5 days ago
+        food: "2025-05-23", // 6 days ago
+        steps: "2025-05-21", // over a week ago
+        activity: "2025-05-19", // 10 days ago
+        meditation: "2025-05-25", // 4 days ago
+        sleep: "2025-05-27", // 2 days ago
+        weight: "2025-05-20" // over a week ago
+      }
+    },
+    404: { // David Miller
+      lastLogs: {
+        hydration: "2025-05-24", // 5 days ago
+        food: "2025-05-29", // today
+        steps: "2025-05-29", // today
+        activity: "2025-05-28", // yesterday
+        meditation: "2025-05-26", // 3 days ago
+        sleep: "2025-05-29", // today
+        weight: "2025-05-27" // 2 days ago
+      }
+    },
+    405: { // Ashley Taylor
+      lastLogs: {
+        hydration: "2025-05-29", // today
+        food: "2025-05-29", // today
+        steps: "2025-05-29", // today
+        activity: "2025-05-28", // yesterday
+        meditation: "2025-05-29", // today
+        sleep: "2025-05-29", // today
+        weight: "2025-05-28" // yesterday
+      }
+    },
+    406: { // Brian Anderson - low engagement user
+      lastLogs: {
+        hydration: "2025-05-21", // over a week ago
+        food: "2025-05-20", // over a week ago
+        steps: "2025-05-25", // 4 days ago
+        activity: "2025-05-18", // over a week ago
+        meditation: "2025-05-27", // 2 days ago
+        sleep: "2025-05-28", // yesterday
+        weight: "2025-05-22" // week ago
+      }
+    }
   }
 };

@@ -46,7 +46,7 @@ const Dashboard = () => {
                 <Button variant="outline" asChild className="flex items-center gap-2"> 
                   <Link to="/logs-monitoring">
                     <ClipboardList size={16} />
-                    Logs Monitoring
+                    Log Skipping Monitor
                   </Link>
                 </Button>
                 <Button variant="outline" asChild className="flex items-center gap-2">

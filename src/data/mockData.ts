@@ -1364,7 +1364,6 @@ export const userSpecificResponses = {
       chartType: "none"
     }
   },
-  // Add more users...
   201: { // Thomas Anderson
     sleep: {
       answer: "Thomas maintains excellent sleep hygiene with 7.8 hours average, but recovery sleep suffers after intense training days.",
@@ -1422,4 +1421,17 @@ export const userSpecificResponses = {
       chartType: "line",
       data: [
         { day: "Monday", level: 8.2, meditation: 0 },
-        { day: "Tuesday", level: 6.5, meditation:
+        { day: "Tuesday", level: 6.5, meditation: 1 },
+        { day: "Wednesday", level: 7.1, meditation: 0 },
+        { day: "Thursday", level: 6.8, meditation: 1 },
+        { day: "Friday", level: 5.9, meditation: 1 },
+        { day: "Saturday", level: 4.2, meditation: 1 },
+        { day: "Sunday", level: 8.5, meditation: 0 }
+      ]
+    },
+    default: {
+      answer: "Kevin responds well to meditation but needs consistent practice to manage Sunday anxiety spikes.",
+      chartType: "none"
+    }
+  }
+};

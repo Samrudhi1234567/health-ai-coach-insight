@@ -1303,12 +1303,12 @@ export const userPredefinedQuestions = {
       "Is David creating an optimal sleep environment for day sleeping?"
     ],
     ghostedActions: [
-      "Why does David avoid water intake tracking?",
-      "Has David explored hydration strategies for shift work?",
-      "What would motivate David to complete health assessments?"
+      "Why has David abandoned most tracking features?",
+      "Has David explored gentle activity options for fatigue?",
+      "What would motivate David to gradually increase his health tracking?"
     ],
     insights: [
-      "How do David's shift patterns correlate with his sleep quality?",
+      "How does David's shift patterns correlate with his sleep quality?",
       "What nutrition timing strategies help David's energy levels?",
       "How can David optimize his sleep schedule for his work rotation?"
     ]
@@ -1361,137 +1361,217 @@ export const userPredefinedQuestions = {
 
 // User-specific chart data
 export const userSpecificChartData = {
-  101: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 18 },
-      { week: "Week 2", sessions: 22 },
-      { week: "Week 3", sessions: 20 },
-      { week: "Week 4", sessions: 25 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 95 },
-      { name: "Water Intake", usage: 78 },
-      { name: "Step Counter", usage: 65 },
-      { name: "Goal Setting", usage: 45 },
-      { name: "Stress Management", usage: 25 },
-      { name: "Sleep Monitoring", usage: 15 },
-      { name: "Meditation Sessions", usage: 10 }
-    ],
-    healthTrends: [
-      { day: "Monday", acidity: 7.2, stress: 6.8 },
-      { day: "Tuesday", acidity: 6.5, stress: 6.2 },
-      { day: "Wednesday", acidity: 8.1, stress: 7.5 },
-      { day: "Thursday", acidity: 6.8, stress: 6.0 },
-      { day: "Friday", acidity: 5.9, stress: 5.5 },
-      { day: "Saturday", acidity: 4.2, stress: 4.0 },
-      { day: "Sunday", acidity: 5.5, stress: 5.2 }
-    ]
-  },
-  102: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 20 },
-      { week: "Week 2", sessions: 25 },
-      { week: "Week 3", sessions: 23 },
-      { week: "Week 4", sessions: 28 }
-    ],
-    featureUsage: [
-      { name: "Workout Logging", usage: 92 },
-      { name: "Step Counter", usage: 88 },
-      { name: "Goal Setting", usage: 75 },
-      { name: "Sleep Monitoring", usage: 45 },
-      { name: "Nutrition Tracking", usage: 25 },
-      { name: "Water Intake", usage: 20 },
-      { name: "Meditation Sessions", usage: 8 }
-    ],
-    performanceMetrics: [
-      { day: "Monday", bloodPressure: 145, workoutIntensity: 8.5 },
-      { day: "Tuesday", bloodPressure: 142, workoutIntensity: 7.8 },
-      { day: "Wednesday", bloodPressure: 148, workoutIntensity: 9.2 },
-      { day: "Thursday", bloodPressure: 140, workoutIntensity: 8.0 },
-      { day: "Friday", bloodPressure: 143, workoutIntensity: 8.8 },
-      { day: "Saturday", bloodPressure: 138, workoutIntensity: 7.5 },
-      { day: "Sunday", bloodPressure: 141, workoutIntensity: 6.0 }
-    ]
-  },
-  103: {
+  1: {
     weeklyEngagement: [
       { week: "Week 1", sessions: 12 },
       { week: "Week 2", sessions: 15 },
-      { week: "Week 3", sessions: 14 },
-      { week: "Week 4", sessions: 18 }
+      { week: "Week 3", sessions: 18 },
+      { week: "Week 4", sessions: 22 }
     ],
     featureUsage: [
-      { name: "Water Intake", usage: 85 },
-      { name: "Nutrition Tracking", usage: 70 },
-      { name: "Step Counter", usage: 55 },
-      { name: "Sleep Monitoring", usage: 40 },
-      { name: "Workout Logging", usage: 30 },
-      { name: "Stress Management", usage: 25 },
-      { name: "Goal Setting", usage: 15 }
+      { name: "Hydration", usage: 85 },
+      { name: "Food Log", usage: 70 },
+      { name: "Exercise", usage: 60 },
+      { name: "Sleep", usage: 90 }
     ],
     healthTrends: [
-      { day: "Monday", ironLevels: 65, energy: 5.2 },
-      { day: "Tuesday", ironLevels: 68, energy: 5.8 },
-      { day: "Wednesday", ironLevels: 70, energy: 6.0 },
-      { day: "Thursday", ironLevels: 72, energy: 6.5 },
-      { day: "Friday", ironLevels: 75, energy: 7.0 },
-      { day: "Saturday", ironLevels: 78, energy: 7.2 },
-      { day: "Sunday", ironLevels: 76, energy: 6.8 }
-    ]
-  },
-  104: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 6 },
-      { week: "Week 2", sessions: 8 },
-      { week: "Week 3", sessions: 5 },
-      { week: "Week 4", sessions: 10 }
-    ],
-    featureUsage: [
-      { name: "Step Counter", usage: 45 },
-      { name: "Sleep Monitoring", usage: 25 },
-      { name: "Goal Setting", usage: 15 },
-      { name: "Water Intake", usage: 10 },
-      { name: "Nutrition Tracking", usage: 8 },
-      { name: "Workout Logging", usage: 5 },
-      { name: "Stress Management", usage: 3 }
-    ],
-    healthTrends: [
-      { day: "Monday", weight: 195, motivation: 3.2 },
-      { day: "Tuesday", weight: 194.8, motivation: 3.8 },
-      { day: "Wednesday", weight: 194.5, motivation: 4.0 },
-      { day: "Thursday", weight: 194.2, motivation: 4.5 },
-      { day: "Friday", weight: 194.0, motivation: 5.0 },
-      { day: "Saturday", weight: 193.8, motivation: 5.2 },
-      { day: "Sunday", weight: 193.5, motivation: 4.8 }
-    ]
-  },
-  105: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 32 },
-      { week: "Week 2", sessions: 35 },
-      { week: "Week 3", sessions: 38 },
-      { week: "Week 4", sessions: 40 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 98 },
-      { name: "Water Intake", usage: 95 },
-      { name: "Step Counter", usage: 92 },
-      { name: "Goal Setting", usage: 88 },
-      { name: "Sleep Monitoring", usage: 85 },
-      { name: "Workout Logging", usage: 80 },
-      { name: "Stress Management", usage: 70 }
+      { day: "Mon", acidity: 6.2, stress: 4 },
+      { day: "Tue", acidity: 6.5, stress: 3 },
+      { day: "Wed", acidity: 6.8, stress: 5 },
+      { day: "Thu", acidity: 6.4, stress: 3 },
+      { day: "Fri", acidity: 6.7, stress: 4 }
     ],
     performanceMetrics: [
-      { day: "Monday", perfectionism: 8.5, satisfaction: 7.2 },
-      { day: "Tuesday", perfectionism: 8.8, satisfaction: 7.0 },
-      { day: "Wednesday", perfectionism: 9.2, satisfaction: 6.8 },
-      { day: "Thursday", perfectionism: 8.0, satisfaction: 7.8 },
-      { day: "Friday", perfectionism: 7.5, satisfaction: 8.2 },
-      { day: "Saturday", perfectionism: 6.8, satisfaction: 8.5 },
-      { day: "Sunday", perfectionism: 7.2, satisfaction: 8.0 }
+      { day: "Mon", bloodPressure: 120, workoutIntensity: 7 },
+      { day: "Tue", bloodPressure: 118, workoutIntensity: 8 },
+      { day: "Wed", bloodPressure: 122, workoutIntensity: 6 },
+      { day: "Thu", bloodPressure: 119, workoutIntensity: 9 },
+      { day: "Fri", bloodPressure: 121, workoutIntensity: 7 }
+    ],
+    mentalHealthTrends: [
+      { day: "Mon", mood: 7, energy: 6 },
+      { day: "Tue", mood: 8, energy: 7 },
+      { day: "Wed", mood: 6, energy: 5 },
+      { day: "Thu", mood: 9, energy: 8 },
+      { day: "Fri", mood: 7, energy: 6 }
     ]
   },
-  106: {
+  2: {
+    weeklyEngagement: [
+      { week: "Week 1", sessions: 8 },
+      { week: "Week 2", sessions: 11 },
+      { week: "Week 3", sessions: 14 },
+      { week: "Week 4", sessions: 16 }
+    ],
+    featureUsage: [
+      { name: "Meditation", usage: 95 },
+      { name: "Sleep Log", usage: 88 },
+      { name: "Food Log", usage: 45 },
+      { name: "Exercise", usage: 35 }
+    ],
+    healthTrends: [
+      { day: "Mon", acidity: 7.1, stress: 6 },
+      { day: "Tue", acidity: 6.9, stress: 5 },
+      { day: "Wed", acidity: 7.2, stress: 7 },
+      { day: "Thu", acidity: 6.8, stress: 4 },
+      { day: "Fri", acidity: 7.0, stress: 6 }
+    ],
+    performanceMetrics: [
+      { day: "Mon", bloodPressure: 125, workoutIntensity: 4 },
+      { day: "Tue", bloodPressure: 127, workoutIntensity: 3 },
+      { day: "Wed", bloodPressure: 124, workoutIntensity: 5 },
+      { day: "Thu", bloodPressure: 126, workoutIntensity: 4 },
+      { day: "Fri", bloodPressure: 125, workoutIntensity: 4 }
+    ],
+    mentalHealthTrends: [
+      { day: "Mon", mood: 5, energy: 4 },
+      { day: "Tue", mood: 6, energy: 5 },
+      { day: "Wed", mood: 4, energy: 3 },
+      { day: "Thu", mood: 7, energy: 6 },
+      { day: "Fri", mood: 6, energy: 5 }
+    ]
+  },
+  3: {
+    weeklyEngagement: [
+      { week: "Week 1", sessions: 18 },
+      { week: "Week 2", sessions: 22 },
+      { week: "Week 3", sessions: 25 },
+      { week: "Week 4", sessions: 28 }
+    ],
+    featureUsage: [
+      { name: "Exercise", usage: 92 },
+      { name: "Food Log", usage: 88 },
+      { name: "Hydration", usage: 95 },
+      { name: "Sleep", usage: 85 }
+    ],
+    healthTrends: [
+      { day: "Mon", acidity: 5.8, stress: 2 },
+      { day: "Tue", acidity: 6.0, stress: 1 },
+      { day: "Wed", acidity: 5.9, stress: 3 },
+      { day: "Thu", acidity: 6.1, stress: 2 },
+      { day: "Fri", acidity: 5.7, stress: 2 }
+    ],
+    performanceMetrics: [
+      { day: "Mon", bloodPressure: 110, workoutIntensity: 9 },
+      { day: "Tue", bloodPressure: 108, workoutIntensity: 10 },
+      { day: "Wed", bloodPressure: 112, workoutIntensity: 8 },
+      { day: "Thu", bloodPressure: 109, workoutIntensity: 9 },
+      { day: "Fri", bloodPressure: 111, workoutIntensity: 8 }
+    ],
+    mentalHealthTrends: [
+      { day: "Mon", mood: 9, energy: 9 },
+      { day: "Tue", mood: 8, energy: 8 },
+      { day: "Wed", mood: 9, energy: 9 },
+      { day: "Thu", mood: 8, energy: 8 },
+      { day: "Fri", mood: 9, energy: 9 }
+    ]
+  },
+  4: {
+    weeklyEngagement: [
+      { week: "Week 1", sessions: 5 },
+      { week: "Week 2", sessions: 7 },
+      { week: "Week 3", sessions: 6 },
+      { week: "Week 4", sessions: 9 }
+    ],
+    featureUsage: [
+      { name: "Sleep Log", usage: 60 },
+      { name: "Hydration", usage: 40 },
+      { name: "Food Log", usage: 30 },
+      { name: "Exercise", usage: 20 }
+    ],
+    healthTrends: [
+      { day: "Mon", acidity: 7.5, stress: 8 },
+      { day: "Tue", acidity: 7.3, stress: 7 },
+      { day: "Wed", acidity: 7.6, stress: 9 },
+      { day: "Thu", acidity: 7.2, stress: 6 },
+      { day: "Fri", acidity: 7.4, stress: 8 }
+    ],
+    performanceMetrics: [
+      { day: "Mon", bloodPressure: 135, workoutIntensity: 2 },
+      { day: "Tue", bloodPressure: 138, workoutIntensity: 1 },
+      { day: "Wed", bloodPressure: 140, workoutIntensity: 3 },
+      { day: "Thu", bloodPressure: 136, workoutIntensity: 2 },
+      { day: "Fri", bloodPressure: 137, workoutIntensity: 2 }
+    ],
+    mentalHealthTrends: [
+      { day: "Mon", mood: 3, energy: 2 },
+      { day: "Tue", mood: 4, energy: 3 },
+      { day: "Wed", mood: 2, energy: 2 },
+      { day: "Thu", mood: 5, energy: 4 },
+      { day: "Fri", mood: 3, energy: 3 }
+    ]
+  },
+  5: {
+    weeklyEngagement: [
+      { week: "Week 1", sessions: 14 },
+      { week: "Week 2", sessions: 16 },
+      { week: "Week 3", sessions: 19 },
+      { week: "Week 4", sessions: 21 }
+    ],
+    featureUsage: [
+      { name: "Food Log", usage: 78 },
+      { name: "Exercise", usage: 82 },
+      { name: "Hydration", usage: 75 },
+      { name: "Meditation", usage: 65 }
+    ],
+    healthTrends: [
+      { day: "Mon", acidity: 6.3, stress: 3 },
+      { day: "Tue", acidity: 6.5, stress: 4 },
+      { day: "Wed", acidity: 6.2, stress: 2 },
+      { day: "Thu", acidity: 6.6, stress: 5 },
+      { day: "Fri", acidity: 6.4, stress: 3 }
+    ],
+    performanceMetrics: [
+      { day: "Mon", bloodPressure: 118, workoutIntensity: 7 },
+      { day: "Tue", bloodPressure: 116, workoutIntensity: 8 },
+      { day: "Wed", bloodPressure: 120, workoutIntensity: 6 },
+      { day: "Thu", bloodPressure: 117, workoutIntensity: 8 },
+      { day: "Fri", bloodPressure: 119, workoutIntensity: 7 }
+    ],
+    mentalHealthTrends: [
+      { day: "Mon", mood: 7, energy: 7 },
+      { day: "Tue", mood: 8, energy: 8 },
+      { day: "Wed", mood: 6, energy: 6 },
+      { day: "Thu", mood: 8, energy: 7 },
+      { day: "Fri", mood: 7, energy: 7 }
+    ]
+  },
+  6: {
+    weeklyEngagement: [
+      { week: "Week 1", sessions: 20 },
+      { week: "Week 2", sessions: 24 },
+      { week: "Week 3", sessions: 26 },
+      { week: "Week 4", sessions: 30 }
+    ],
+    featureUsage: [
+      { name: "Meditation", usage: 98 },
+      { name: "Sleep Log", usage: 95 },
+      { name: "Hydration", usage: 90 },
+      { name: "Food Log", usage: 85 }
+    ],
+    healthTrends: [
+      { day: "Mon", acidity: 5.5, stress: 1 },
+      { day: "Tue", acidity: 5.7, stress: 2 },
+      { day: "Wed", acidity: 5.6, stress: 1 },
+      { day: "Thu", acidity: 5.8, stress: 2 },
+      { day: "Fri", acidity: 5.4, stress: 1 }
+    ],
+    performanceMetrics: [
+      { day: "Mon", bloodPressure: 105, workoutIntensity: 10 },
+      { day: "Tue", bloodPressure: 107, workoutIntensity: 9 },
+      { day: "Wed", bloodPressure: 106, workoutIntensity: 10 },
+      { day: "Thu", bloodPressure: 104, workoutIntensity: 9 },
+      { day: "Fri", bloodPressure: 108, workoutIntensity: 10 }
+    ],
+    mentalHealthTrends: [
+      { day: "Mon", mood: 10, energy: 10 },
+      { day: "Tue", mood: 9, energy: 9 },
+      { day: "Wed", mood: 10, energy: 10 },
+      { day: "Thu", mood: 9, energy: 9 },
+      { day: "Fri", mood: 10, energy: 10 }
+    ]
+  },
+  7: {
     weeklyEngagement: [
       { week: "Week 1", sessions: 10 },
       { week: "Week 2", sessions: 12 },
@@ -1499,25 +1579,104 @@ export const userSpecificChartData = {
       { week: "Week 4", sessions: 14 }
     ],
     featureUsage: [
-      { name: "Sleep Monitoring", usage: 78 },
-      { name: "Step Counter", usage: 55 },
-      { name: "Water Intake", usage: 40 },
-      { name: "Stress Management", usage: 35 },
-      { name: "Nutrition Tracking", usage: 25 },
-      { name: "Workout Logging", usage: 20 },
-      { name: "Meditation Sessions", usage: 15 }
+      { name: "Exercise", usage: 55 },
+      { name: "Food Log", usage: 65 },
+      { name: "Sleep Log", usage: 70 },
+      { name: "Hydration", usage: 50 }
     ],
     healthTrends: [
-      { day: "Monday", sleepQuality: 5.2, apneaEvents: 12 },
-      { day: "Tuesday", sleepQuality: 5.8, apneaEvents: 10 },
-      { day: "Wednesday", sleepQuality: 6.0, apneaEvents: 9 },
-      { day: "Thursday", sleepQuality: 6.5, apneaEvents: 8 },
-      { day: "Friday", sleepQuality: 7.0, apneaEvents: 7 },
-      { day: "Saturday", sleepQuality: 7.2, apneaEvents: 6 },
-      { day: "Sunday", sleepQuality: 6.8, apneaEvents: 7 }
+      { day: "Mon", acidity: 6.8, stress: 5 },
+      { day: "Tue", acidity: 6.6, stress: 4 },
+      { day: "Wed", acidity: 7.0, stress: 6 },
+      { day: "Thu", acidity: 6.7, stress: 4 },
+      { day: "Fri", acidity: 6.9, stress: 5 }
+    ],
+    performanceMetrics: [
+      { day: "Mon", bloodPressure: 122, workoutIntensity: 5 },
+      { day: "Tue", bloodPressure: 124, workoutIntensity: 6 },
+      { day: "Wed", bloodPressure: 121, workoutIntensity: 4 },
+      { day: "Thu", bloodPressure: 125, workoutIntensity: 6 },
+      { day: "Fri", bloodPressure: 123, workoutIntensity: 5 }
+    ],
+    mentalHealthTrends: [
+      { day: "Mon", mood: 6, energy: 5 },
+      { day: "Tue", mood: 7, energy: 6 },
+      { day: "Wed", mood: 5, energy: 4 },
+      { day: "Thu", mood: 7, energy: 6 },
+      { day: "Fri", mood: 6, energy: 5 }
     ]
   },
-  201: {
+  8: {
+    weeklyEngagement: [
+      { week: "Week 1", sessions: 16 },
+      { week: "Week 2", sessions: 18 },
+      { week: "Week 3", sessions: 20 },
+      { week: "Week 4", sessions: 23 }
+    ],
+    featureUsage: [
+      { name: "Food Log", usage: 88 },
+      { name: "Hydration", usage: 92 },
+      { name: "Exercise", usage: 75 },
+      { name: "Sleep Log", usage: 80 }
+    ],
+    healthTrends: [
+      { day: "Mon", acidity: 6.1, stress: 3 },
+      { day: "Tue", acidity: 6.3, stress: 4 },
+      { day: "Wed", acidity: 6.0, stress: 2 },
+      { day: "Thu", acidity: 6.4, stress: 4 },
+      { day: "Fri", acidity: 6.2, stress: 3 }
+    ],
+    performanceMetrics: [
+      { day: "Mon", bloodPressure: 115, workoutIntensity: 7 },
+      { day: "Tue", bloodPressure: 117, workoutIntensity: 8 },
+      { day: "Wed", bloodPressure: 114, workoutIntensity: 6 },
+      { day: "Thu", bloodPressure: 118, workoutIntensity: 8 },
+      { day: "Fri", bloodPressure: 116, workoutIntensity: 7 }
+    ],
+    mentalHealthTrends: [
+      { day: "Mon", mood: 8, energy: 7 },
+      { day: "Tue", mood: 7, energy: 8 },
+      { day: "Wed", mood: 9, energy: 8 },
+      { day: "Thu", mood: 7, energy: 7 },
+      { day: "Fri", mood: 8, energy: 8 }
+    ]
+  },
+  9: {
+    weeklyEngagement: [
+      { week: "Week 1", sessions: 6 },
+      { week: "Week 2", sessions: 4 },
+      { week: "Week 3", sessions: 8 },
+      { week: "Week 4", sessions: 7 }
+    ],
+    featureUsage: [
+      { name: "Sleep Log", usage: 45 },
+      { name: "Hydration", usage: 35 },
+      { name: "Food Log", usage: 25 },
+      { name: "Exercise", usage: 15 }
+    ],
+    healthTrends: [
+      { day: "Mon", acidity: 7.8, stress: 9 },
+      { day: "Tue", acidity: 7.6, stress: 8 },
+      { day: "Wed", acidity: 8.0, stress: 10 },
+      { day: "Thu", acidity: 7.7, stress: 7 },
+      { day: "Fri", acidity: 7.9, stress: 9 }
+    ],
+    performanceMetrics: [
+      { day: "Mon", bloodPressure: 145, workoutIntensity: 1 },
+      { day: "Tue", bloodPressure: 148, workoutIntensity: 2 },
+      { day: "Wed", bloodPressure: 150, workoutIntensity: 1 },
+      { day: "Thu", bloodPressure: 147, workoutIntensity: 1 },
+      { day: "Fri", bloodPressure: 149, workoutIntensity: 2 }
+    ],
+    mentalHealthTrends: [
+      { day: "Mon", mood: 2, energy: 1 },
+      { day: "Tue", mood: 3, energy: 2 },
+      { day: "Wed", mood: 1, energy: 1 },
+      { day: "Thu", mood: 4, energy: 3 },
+      { day: "Fri", mood: 2, energy: 2 }
+    ]
+  },
+  10: {
     weeklyEngagement: [
       { week: "Week 1", sessions: 25 },
       { week: "Week 2", sessions: 28 },
@@ -1525,534 +1684,37 @@ export const userSpecificChartData = {
       { week: "Week 4", sessions: 32 }
     ],
     featureUsage: [
-      { name: "Workout Logging", usage: 96 },
-      { name: "Nutrition Tracking", usage: 88 },
-      { name: "Sleep Monitoring", usage: 85 },
-      { name: "Step Counter", usage: 90 },
-      { name: "Goal Setting", usage: 75 },
-      { name: "Water Intake", usage: 70 },
-      { name: "Stress Management", usage: 25 }
-    ],
-    performanceMetrics: [
-      { day: "Monday", muscleStrain: 6.5, performance: 9.2 },
-      { day: "Tuesday", muscleStrain: 5.8, performance: 8.8 },
-      { day: "Wednesday", muscleStrain: 7.2, performance: 9.5 },
-      { day: "Thursday", muscleStrain: 4.5, performance: 8.5 },
-      { day: "Friday", muscleStrain: 6.0, performance: 9.0 },
-      { day: "Saturday", muscleStrain: 3.2, performance: 7.8 },
-      { day: "Sunday", muscleStrain: 2.8, performance: 6.5 }
-    ]
-  },
-  202: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 22 },
-      { week: "Week 2", sessions: 24 },
-      { week: "Week 3", sessions: 26 },
-      { week: "Week 4", sessions: 28 }
-    ],
-    featureUsage: [
-      { name: "Workout Logging", usage: 94 },
-      { name: "Nutrition Tracking", usage: 82 },
-      { name: "Goal Setting", usage: 78 },
-      { name: "Sleep Monitoring", usage: 75 },
-      { name: "Step Counter", usage: 70 },
-      { name: "Stress Management", usage: 45 },
-      { name: "Water Intake", usage: 30 }
-    ],
-    performanceMetrics: [
-      { day: "Monday", overtrainingRisk: 7.5, recovery: 6.2 },
-      { day: "Tuesday", overtrainingRisk: 8.2, recovery: 5.8 },
-      { day: "Wednesday", overtrainingRisk: 8.8, recovery: 5.0 },
-      { day: "Thursday", overtrainingRisk: 6.5, recovery: 7.5 },
-      { day: "Friday", overtrainingRisk: 7.0, recovery: 7.0 },
-      { day: "Saturday", overtrainingRisk: 4.2, recovery: 8.5 },
-      { day: "Sunday", overtrainingRisk: 3.8, recovery: 8.8 }
-    ]
-  },
-  203: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 16 },
-      { week: "Week 2", sessions: 19 },
-      { week: "Week 3", sessions: 18 },
-      { week: "Week 4", sessions: 22 }
-    ],
-    featureUsage: [
-      { name: "Step Counter", usage: 88 },
-      { name: "Workout Logging", usage: 75 },
-      { name: "Sleep Monitoring", usage: 60 },
-      { name: "Goal Setting", usage: 50 },
-      { name: "Nutrition Tracking", usage: 45 },
-      { name: "Water Intake", usage: 40 },
-      { name: "Stress Management", usage: 25 }
+      { name: "Exercise", usage: 100 },
+      { name: "Food Log", usage: 98 },
+      { name: "Hydration", usage: 100 },
+      { name: "Meditation", usage: 95 }
     ],
     healthTrends: [
-      { day: "Monday", kneePain: 6.8, runningForm: 7.2 },
-      { day: "Tuesday", kneePain: 6.2, runningForm: 7.8 },
-      { day: "Wednesday", kneePain: 5.5, runningForm: 8.0 },
-      { day: "Thursday", kneePain: 5.0, runningForm: 8.5 },
-      { day: "Friday", kneePain: 4.8, runningForm: 8.8 },
-      { day: "Saturday", kneePain: 4.2, runningForm: 9.0 },
-      { day: "Sunday", kneePain: 4.0, runningForm: 9.2 }
-    ]
-  },
-  204: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 14 },
-      { week: "Week 2", sessions: 16 },
-      { week: "Week 3", sessions: 15 },
-      { week: "Week 4", sessions: 18 }
-    ],
-    featureUsage: [
-      { name: "Nutrition Tracking", usage: 80 },
-      { name: "Water Intake", usage: 75 },
-      { name: "Sleep Monitoring", usage: 60 },
-      { name: "Step Counter", usage: 55 },
-      { name: "Workout Logging", usage: 45 },
-      { name: "Stress Management", usage: 40 },
-      { name: "Goal Setting", usage: 25 }
-    ],
-    healthTrends: [
-      { day: "Monday", backPain: 7.2, coreStrength: 4.5 },
-      { day: "Tuesday", backPain: 6.8, coreStrength: 5.0 },
-      { day: "Wednesday", backPain: 6.2, coreStrength: 5.5 },
-      { day: "Thursday", backPain: 5.8, coreStrength: 6.0 },
-      { day: "Friday", backPain: 5.2, coreStrength: 6.5 },
-      { day: "Saturday", backPain: 4.8, coreStrength: 7.0 },
-      { day: "Sunday", backPain: 5.0, coreStrength: 6.8 }
-    ]
-  },
-  205: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 24 },
-      { week: "Week 2", sessions: 26 },
-      { week: "Week 3", sessions: 28 },
-      { week: "Week 4", sessions: 30 }
-    ],
-    featureUsage: [
-      { name: "Workout Logging", usage: 95 },
-      { name: "Nutrition Tracking", usage: 90 },
-      { name: "Sleep Monitoring", usage: 85 },
-      { name: "Water Intake", usage: 82 },
-      { name: "Step Counter", usage: 88 },
-      { name: "Goal Setting", usage: 75 },
-      { name: "Stress Management", usage: 30 }
+      { day: "Mon", acidity: 5.2, stress: 1 },
+      { day: "Tue", acidity: 5.4, stress: 1 },
+      { day: "Wed", acidity: 5.1, stress: 0 },
+      { day: "Thu", acidity: 5.5, stress: 2 },
+      { day: "Fri", acidity: 5.3, stress: 1 }
     ],
     performanceMetrics: [
-      { day: "Monday", exerciseAddiction: 8.5, wellbeingBalance: 5.2 },
-      { day: "Tuesday", exerciseAddiction: 8.8, wellbeingBalance: 5.0 },
-      { day: "Wednesday", exerciseAddiction: 9.2, wellbeingBalance: 4.5 },
-      { day: "Thursday", exerciseAddiction: 8.0, wellbeingBalance: 6.0 },
-      { day: "Friday", exerciseAddiction: 7.5, wellbeingBalance: 6.5 },
-      { day: "Saturday", exerciseAddiction: 6.8, wellbeingBalance: 7.2 },
-      { day: "Sunday", exerciseAddiction: 7.2, wellbeingBalance: 6.8 }
-    ]
-  },
-  206: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 18 },
-      { week: "Week 2", sessions: 20 },
-      { week: "Week 3", sessions: 19 },
-      { week: "Week 4", sessions: 22 }
-    ],
-    featureUsage: [
-      { name: "Goal Setting", usage: 85 },
-      { name: "Workout Logging", usage: 78 },
-      { name: "Step Counter", usage: 70 },
-      { name: "Sleep Monitoring", usage: 65 },
-      { name: "Nutrition Tracking", usage: 60 },
-      { name: "Water Intake", usage: 55 },
-      { name: "Stress Management", usage: 45 }
-    ],
-    healthTrends: [
-      { day: "Monday", shoulderPain: 6.5, rehabilitation: 6.8 },
-      { day: "Tuesday", shoulderPain: 6.0, rehabilitation: 7.2 },
-      { day: "Wednesday", shoulderPain: 5.5, rehabilitation: 7.8 },
-      { day: "Thursday", shoulderPain: 5.0, rehabilitation: 8.0 },
-      { day: "Friday", shoulderPain: 4.8, rehabilitation: 8.2 },
-      { day: "Saturday", shoulderPain: 4.2, rehabilitation: 8.5 },
-      { day: "Sunday", shoulderPain: 4.5, rehabilitation: 8.0 }
-    ]
-  },
-  301: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 15 },
-      { week: "Week 2", sessions: 18 },
-      { week: "Week 3", sessions: 17 },
-      { week: "Week 4", sessions: 20 }
-    ],
-    featureUsage: [
-      { name: "Meditation Sessions", usage: 85 },
-      { name: "Stress Management", usage: 80 },
-      { name: "Sleep Monitoring", usage: 75 },
-      { name: "Water Intake", usage: 45 },
-      { name: "Step Counter", usage: 35 },
-      { name: "Nutrition Tracking", usage: 30 },
-      { name: "Workout Logging", usage: 15 }
+      { day: "Mon", bloodPressure: 100, workoutIntensity: 10 },
+      { day: "Tue", bloodPressure: 102, workoutIntensity: 10 },
+      { day: "Wed", bloodPressure: 99, workoutIntensity: 10 },
+      { day: "Thu", bloodPressure: 101, workoutIntensity: 10 },
+      { day: "Fri", bloodPressure: 103, workoutIntensity: 10 }
     ],
     mentalHealthTrends: [
-      { day: "Monday", anxiety: 8.2, meditation: 7.5 },
-      { day: "Tuesday", anxiety: 6.5, meditation: 8.0 },
-      { day: "Wednesday", anxiety: 7.1, meditation: 7.8 },
-      { day: "Thursday", anxiety: 6.8, meditation: 8.2 },
-      { day: "Friday", anxiety: 5.9, meditation: 8.5 },
-      { day: "Saturday", anxiety: 4.2, meditation: 9.0 },
-      { day: "Sunday", anxiety: 8.5, meditation: 6.5 }
-    ]
-  },
-  302: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 20 },
-      { week: "Week 2", sessions: 23 },
-      { week: "Week 3", sessions: 22 },
-      { week: "Week 4", sessions: 25 }
-    ],
-    featureUsage: [
-      { name: "Stress Management", usage: 88 },
-      { name: "Meditation Sessions", usage: 82 },
-      { name: "Sleep Monitoring", usage: 78 },
-      { name: "Mood Tracking", usage: 75 },
-      { name: "Water Intake", usage: 50 },
-      { name: "Nutrition Tracking", usage: 40 },
-      { name: "Step Counter", usage: 25 }
-    ],
-    mentalHealthTrends: [
-      { day: "Monday", depression: 7.5, moodScore: 4.2 },
-      { day: "Tuesday", depression: 6.8, moodScore: 5.0 },
-      { day: "Wednesday", depression: 6.2, moodScore: 5.5 },
-      { day: "Thursday", depression: 5.8, moodScore: 6.0 },
-      { day: "Friday", depression: 5.2, moodScore: 6.8 },
-      { day: "Saturday", depression: 4.5, moodScore: 7.2 },
-      { day: "Sunday", depression: 5.0, moodScore: 6.5 }
-    ]
-  },
-  303: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 12 },
-      { week: "Week 2", sessions: 14 },
-      { week: "Week 3", sessions: 11 },
-      { week: "Week 4", sessions: 16 }
-    ],
-    featureUsage: [
-      { name: "Sleep Monitoring", usage: 70 },
-      { name: "Stress Management", usage: 65 },
-      { name: "Meditation Sessions", usage: 45 },
-      { name: "Water Intake", usage: 25 },
-      { name: "Step Counter", usage: 20 },
-      { name: "Nutrition Tracking", usage: 15 },
-      { name: "Workout Logging", usage: 10 }
-    ],
-    mentalHealthTrends: [
-      { day: "Monday", stress: 8.8, coping: 4.2 },
-      { day: "Tuesday", stress: 8.5, coping: 4.8 },
-      { day: "Wednesday", stress: 8.2, coping: 5.0 },
-      { day: "Thursday", stress: 7.8, coping: 5.5 },
-      { day: "Friday", stress: 7.2, coping: 6.0 },
-      { day: "Saturday", stress: 6.5, coping: 6.8 },
-      { day: "Sunday", stress: 7.0, coping: 6.2 }
-    ]
-  },
-  304: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 19 },
-      { week: "Week 2", sessions: 21 },
-      { week: "Week 3", sessions: 20 },
-      { week: "Week 4", sessions: 24 }
-    ],
-    featureUsage: [
-      { name: "Meditation Sessions", usage: 88 },
-      { name: "Stress Management", usage: 85 },
-      { name: "Sleep Monitoring", usage: 80 },
-      { name: "Water Intake", usage: 75 },
-      { name: "Breathing Exercises", usage: 70 },
-      { name: "Step Counter", usage: 50 },
-      { name: "Goal Setting", usage: 25 }
-    ],
-    mentalHealthTrends: [
-      { day: "Monday", panicAttacks: 3, breathing: 8.2 },
-      { day: "Tuesday", panicAttacks: 1, breathing: 8.8 },
-      { day: "Wednesday", panicAttacks: 2, breathing: 8.5 },
-      { day: "Thursday", panicAttacks: 0, breathing: 9.0 },
-      { day: "Friday", panicAttacks: 1, breathing: 8.8 },
-      { day: "Saturday", panicAttacks: 0, breathing: 9.2 },
-      { day: "Sunday", panicAttacks: 1, breathing: 8.5 }
-    ]
-  },
-  305: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 9 },
-      { week: "Week 2", sessions: 11 },
-      { week: "Week 3", sessions: 10 },
-      { week: "Week 4", sessions: 13 }
-    ],
-    featureUsage: [
-      { name: "Video Tutorials", usage: 65 },
-      { name: "Meditation Sessions", usage: 60 },
-      { name: "Stress Management", usage: 55 },
-      { name: "Sleep Monitoring", usage: 40 },
-      { name: "Social Skills", usage: 35 },
-      { name: "Step Counter", usage: 25 },
-      { name: "Goal Setting", usage: 15 }
-    ],
-    mentalHealthTrends: [
-      { day: "Monday", socialAnxiety: 8.5, confidence: 3.2 },
-      { day: "Tuesday", socialAnxiety: 7.8, confidence: 4.0 },
-      { day: "Wednesday", socialAnxiety: 7.2, confidence: 4.5 },
-      { day: "Thursday", socialAnxiety: 6.8, confidence: 5.0 },
-      { day: "Friday", socialAnxiety: 6.2, confidence: 5.5 },
-      { day: "Saturday", socialAnxiety: 5.8, confidence: 6.0 },
-      { day: "Sunday", socialAnxiety: 6.5, confidence: 5.2 }
-    ]
-  },
-  306: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 23 },
-      { week: "Week 2", sessions: 25 },
-      { week: "Week 3", sessions: 24 },
-      { week: "Week 4", sessions: 27 }
-    ],
-    featureUsage: [
-      { name: "Stress Management", usage: 92 },
-      { name: "Meditation Sessions", usage: 85 },
-      { name: "Sleep Monitoring", usage: 82 },
-      { name: "Nutrition Tracking", usage: 78 },
-      { name: "Work-Life Balance", usage: 75 },
-      { name: "Water Intake", usage: 65 },
-      { name: "Workout Logging", usage: 35 }
-    ],
-    mentalHealthTrends: [
-      { day: "Monday", burnout: 8.2, workBalance: 4.5 },
-      { day: "Tuesday", burnout: 7.5, workBalance: 5.2 },
-      { day: "Wednesday", burnout: 7.0, workBalance: 5.8 },
-      { day: "Thursday", burnout: 6.5, workBalance: 6.2 },
-      { day: "Friday", burnout: 5.8, workBalance: 7.0 },
-      { day: "Saturday", burnout: 4.2, workBalance: 8.5 },
-      { day: "Sunday", burnout: 5.5, workBalance: 7.8 }
-    ]
-  },
-  401: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 20 },
-      { week: "Week 2", sessions: 22 },
-      { week: "Week 3", sessions: 21 },
-      { week: "Week 4", sessions: 24 }
-    ],
-    featureUsage: [
-      { name: "Sleep Monitoring", usage: 95 },
-      { name: "Stress Management", usage: 70 },
-      { name: "Water Intake", usage: 65 },
-      { name: "Sleep Hygiene", usage: 85 },
-      { name: "Meditation Sessions", usage: 60 },
-      { name: "Step Counter", usage: 45 },
-      { name: "Workout Logging", usage: 25 }
-    ],
-    sleepTrends: [
-      { day: "Monday", insomnia: 8.2, sleepQuality: 3.5 },
-      { day: "Tuesday", insomnia: 7.8, sleepQuality: 4.0 },
-      { day: "Wednesday", insomnia: 7.2, sleepQuality: 4.5 },
-      { day: "Thursday", insomnia: 6.8, sleepQuality: 5.0 },
-      { day: "Friday", insomnia: 6.2, sleepQuality: 5.8 },
-      { day: "Saturday", insomnia: 5.5, sleepQuality: 6.5 },
-      { day: "Sunday", insomnia: 6.0, sleepQuality: 6.0 }
-    ]
-  },
-  402: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 22 },
-      { week: "Week 2", sessions: 24 },
-      { week: "Week 3", sessions: 23 },
-      { week: "Week 4", sessions: 26 }
-    ],
-    featureUsage: [
-      { name: "Sleep Monitoring", usage: 92 },
-      { name: "Workout Logging", usage: 85 },
-      { name: "Nutrition Tracking", usage: 78 },
-      { name: "Sleep Apnea Tracking", usage: 88 },
-      { name: "Step Counter", usage: 70 },
-      { name: "Water Intake", usage: 65 },
-      { name: "Meditation Sessions", usage: 30 }
-    ],
-    sleepTrends: [
-      { day: "Monday", apneaEvents: 12, sleepQuality: 4.2 },
-      { day: "Tuesday", apneaEvents: 10, sleepQuality: 5.0 },
-      { day: "Wednesday", apneaEvents: 9, sleepQuality: 5.5 },
-      { day: "Thursday", apneaEvents: 8, sleepQuality: 6.0 },
-      { day: "Friday", apneaEvents: 7, sleepQuality: 6.5 },
-      { day: "Saturday", apneaEvents: 6, sleepQuality: 7.0 },
-      { day: "Sunday", apneaEvents: 8, sleepQuality: 6.2 }
-    ]
-  },
-  403: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 13 },
-      { week: "Week 2", sessions: 15 },
-      { week: "Week 3", sessions: 14 },
-      { week: "Week 4", sessions: 17 }
-    ],
-    featureUsage: [
-      { name: "Sleep Monitoring", usage: 80 },
-      { name: "Stress Management", usage: 65 },
-      { name: "Iron Tracking", usage: 55 },
-      { name: "Restless Leg Management", usage: 70 },
-      { name: "Water Intake", usage: 40 },
-      { name: "Step Counter", usage: 25 },
-      { name: "Workout Logging", usage: 15 }
-    ],
-    sleepTrends: [
-      { day: "Monday", restlessLegs: 8.5, ironLevels: 45 },
-      { day: "Tuesday", restlessLegs: 8.0, ironLevels: 48 },
-      { day: "Wednesday", restlessLegs: 7.5, ironLevels: 52 },
-      { day: "Thursday", restlessLegs: 7.0, ironLevels: 55 },
-      { day: "Friday", restlessLegs: 6.5, ironLevels: 58 },
-      { day: "Saturday", restlessLegs: 6.0, ironLevels: 62 },
-      { day: "Sunday", restlessLegs: 6.8, ironLevels: 60 }
-    ]
-  },
-  404: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 16 },
-      { week: "Week 2", sessions: 18 },
-      { week: "Week 3", sessions: 17 },
-      { week: "Week 4", sessions: 20 }
-    ],
-    featureUsage: [
-      { name: "Sleep Monitoring", usage: 88 },
-      { name: "Nutrition Tracking", usage: 75 },
-      { name: "Step Counter", usage: 70 },
-      { name: "Shift Work Tracking", usage: 85 },
-      { name: "Light Therapy", usage: 60 },
-      { name: "Stress Management", usage: 55 },
-      { name: "Water Intake", usage: 35 }
-    ],
-    sleepTrends: [
-      { day: "Monday", shiftDisorder: 7.5, adaptation: 5.2 },
-      { day: "Tuesday", shiftDisorder: 7.0, adaptation: 5.8 },
-      { day: "Wednesday", shiftDisorder: 6.5, adaptation: 6.2 },
-      { day: "Thursday", shiftDisorder: 6.0, adaptation: 6.8 },
-      { day: "Friday", shiftDisorder: 5.5, adaptation: 7.2 },
-      { day: "Saturday", shiftDisorder: 5.0, adaptation: 7.8 },
-      { day: "Sunday", shiftDisorder: 5.8, adaptation: 7.0 }
-    ]
-  },
-  405: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 25 },
-      { week: "Week 2", sessions: 27 },
-      { week: "Week 3", sessions: 26 },
-      { week: "Week 4", sessions: 29 }
-    ],
-    featureUsage: [
-      { name: "Sleep Monitoring", usage: 95 },
-      { name: "Workout Logging", usage: 88 },
-      { name: "Nutrition Tracking", usage: 85 },
-      { name: "Light Therapy", usage: 92 },
-      { name: "Meditation Sessions", usage: 80 },
-      { name: "Circadian Tracking", usage: 90 },
-      { name: "Video Tutorials", usage: 35 }
-    ],
-    sleepTrends: [
-      { day: "Monday", circadianShift: 6.5, lightTherapy: 8.8 },
-      { day: "Tuesday", circadianShift: 6.0, lightTherapy: 9.0 },
-      { day: "Wednesday", circadianShift: 5.5, lightTherapy: 9.2 },
-      { day: "Thursday", circadianShift: 5.0, lightTherapy: 9.5 },
-      { day: "Friday", circadianShift: 4.5, lightTherapy: 9.8 },
-      { day: "Saturday", circadianShift: 4.0, lightTherapy: 9.5 },
-      { day: "Sunday", circadianShift: 4.8, lightTherapy: 9.0 }
-    ]
-  },
-  406: {
-    weeklyEngagement: [
-      { week: "Week 1", sessions: 8 },
-      { week: "Week 2", sessions: 10 },
-      { week: "Week 3", sessions: 7 },
-      { week: "Week 4", sessions: 12 }
-    ],
-    featureUsage: [
-      { name: "Sleep Monitoring", usage: 75 },
-      { name: "Fatigue Tracking", usage: 60 },
-      { name: "Mood Tracking", usage: 45 },
-      { name: "Energy Management", usage: 50 },
-      { name: "Step Counter", usage: 25 },
-      { name: "Water Intake", usage: 20 },
-      { name: "Nutrition Tracking", usage: 15 }
-    ],
-    sleepTrends: [
-      { day: "Monday", fatigue: 8.8, energy: 2.5 },
-      { day: "Tuesday", fatigue: 8.5, energy: 3.0 },
-      { day: "Wednesday", fatigue: 8.0, energy: 3.5 },
-      { day: "Thursday", fatigue: 7.5, energy: 4.0 },
-      { day: "Friday", fatigue: 7.0, energy: 4.5 },
-      { day: "Saturday", fatigue: 6.5, energy: 5.2 },
-      { day: "Sunday", fatigue: 7.2, energy: 4.8 }
+      { day: "Mon", mood: 10, energy: 10 },
+      { day: "Tue", mood: 10, energy: 10 },
+      { day: "Wed", mood: 10, energy: 10 },
+      { day: "Thu", mood: 10, energy: 10 },
+      { day: "Fri", mood: 10, energy: 10 }
     ]
   }
 };
 
-// General predefined questions (fallback)
-export const predefinedQuestions = {
-  engagement: [
-    "Which features has the user engaged with most in the past 30 days?",
-    "How has the user's app usage frequency changed over time?",
-    "Is the user's engagement score improving or declining?",
-    "What time of day does the user typically access the app?",
-    "How does this user's engagement compare to others with similar profiles?"
-  ],
-  hraIssues: [
-    "What health issues has the user reported in their HRA?",
-    "How have the user's reported symptoms changed since their last assessment?",
-    "Is the user following recommendations for their health issues?",
-    "Which health issues appear to be improving based on recent data?",
-    "Are there connections between different health issues the user is experiencing?"
-  ],
-  ghostedActions: [
-    "Which features has the user stopped using recently?",
-    "When did the user last track their sleep data?",
-    "Has the user completed their weekly check-in questionnaire?",
-    "Which recommended activities has the user not started?",
-    "What nutrition tracking patterns has the user abandoned?"
-  ],
-  insights: [
-    "What patterns exist in the user's most active days?",
-    "Is there a correlation between sleep quality and activity level?",
-    "How does nutrition tracking relate to reported energy levels?",
-    "What behavior changes correlate with improvement in symptoms?",
-    "When is the user most likely to complete recommended actions?"
-  ]
-};
-
-// Chart data for visualizations
-export const chartData = {
-  weeklyEngagement: [
-    { week: "Week 1", sessions: 12 },
-    { week: "Week 2", sessions: 15 },
-    { week: "Week 3", sessions: 10 },
-    { week: "Week 4", sessions: 18 }
-  ],
-  featureUsage: [
-    { name: "Nutrition Tracking", usage: 78 },
-    { name: "Workout Logging", usage: 45 },
-    { name: "Sleep Monitoring", usage: 32 },
-    { name: "Stress Management", usage: 28 },
-    { name: "Meditation Sessions", usage: 15 },
-    { name: "Water Intake", usage: 62 },
-    { name: "Step Counter", usage: 85 },
-    { name: "Goal Setting", usage: 38 },
-    { name: "Video Tutorials", usage: 24 },
-    { name: "HRA Questionnaire", usage: 12 }
-  ],
-  dailyAppOpenTime: [
-    { day: "Monday", morning: 3, afternoon: 1, evening: 2 },
-    { day: "Tuesday", morning: 2, afternoon: 0, evening: 3 },
-    { day: "Wednesday", morning: 4, afternoon: 2, evening: 1 },
-    { day: "Thursday", morning: 1, afternoon: 3, evening: 2 },
-    { day: "Friday", morning: 2, afternoon: 1, evening: 3 },
-    { day: "Saturday", morning: 1, afternoon: 4, evening: 2 },
-    { day: "Sunday", morning: 0, afternoon: 2, evening: 5 }
-  ]
-};
-
 // User-specific responses for AskAnything component
 export const userSpecificResponses = {
-  // Dr. Sarah Johnson's users (Nutrition & Weight Management)
   101: { // Jessica Brown
     sleep: {
       answer: "Jessica averages 6.3 hours of sleep, struggling with late-night meals affecting her rest. Her acidity issues often wake her up around 2-3 AM.",
@@ -2547,4 +2209,87 @@ export const userSpecificResponses = {
       chartType: "none"
     }
   }
+};
+
+// Add the missing userLogData export
+export const userLogData = {
+  1: { // Coach 1 data
+    1: { lastLogs: { hydration: "2024-05-28", food: "2024-05-29", steps: "2024-05-27", activity: "2024-05-26", meditation: "2024-05-25", sleep: "2024-05-29", weight: "2024-05-24" } },
+    2: { lastLogs: { hydration: "2024-05-29", food: "2024-05-29", steps: "2024-05-29", activity: "2024-05-29", meditation: "2024-05-29", sleep: "2024-05-29", weight: "2024-05-27" } },
+    3: { lastLogs: { hydration: "2024-05-27", food: "2024-05-26", steps: "2024-05-28", activity: "2024-05-29", meditation: "2024-05-27", sleep: "2024-05-27", weight: "2024-05-25" } },
+    4: { lastLogs: { hydration: "2024-05-26", food: "2024-05-27", steps: "2024-05-26", activity: "2024-05-28", meditation: "2024-05-26", sleep: "2024-05-26", weight: "2024-05-23" } },
+    5: { lastLogs: { hydration: "2024-05-25", food: "2024-05-25", steps: "2024-05-25", activity: "2024-05-25", meditation: "2024-05-24", sleep: "2024-05-25", weight: "2024-05-22" } }
+  },
+  2: { // Coach 2 data
+    6: { lastLogs: { hydration: "2024-05-29", food: "2024-05-29", steps: "2024-05-28", activity: "2024-05-29", meditation: "2024-05-29", sleep: "2024-05-29", weight: "2024-05-27" } },
+    7: { lastLogs: { hydration: "2024-05-28", food: "2024-05-27", steps: "2024-05-29", activity: "2024-05-28", meditation: "2024-05-27", sleep: "2024-05-28", weight: "2024-05-26" } },
+    8: { lastLogs: { hydration: "2024-05-27", food: "2024-05-28", steps: "2024-05-27", activity: "2024-05-27", meditation: "2024-05-28", sleep: "2024-05-27", weight: "2024-05-25" } }
+  },
+  3: { // Coach 3 data
+    9: { lastLogs: { hydration: "2024-05-26", food: "2024-05-24", steps: "2024-05-26", activity: "2024-05-25", meditation: "2024-05-23", sleep: "2024-05-26", weight: "2024-05-21" } },
+    10: { lastLogs: { hydration: "2024-05-29", food: "2024-05-29", steps: "2024-05-29", activity: "2024-05-29", meditation: "2024-05-29", sleep: "2024-05-29", weight: "2024-05-28" } }
+  }
+};
+
+// General predefined questions (fallback)
+export const predefinedQuestions = {
+  engagement: [
+    "Which features has the user engaged with most in the past 30 days?",
+    "How has the user's app usage frequency changed over time?",
+    "Is the user's engagement score improving or declining?",
+    "What time of day does the user typically access the app?",
+    "How does this user's engagement compare to others with similar profiles?"
+  ],
+  hraIssues: [
+    "What health issues has the user reported in their HRA?",
+    "How have the user's reported symptoms changed since their last assessment?",
+    "Is the user following recommendations for their health issues?",
+    "Which health issues appear to be improving based on recent data?",
+    "Are there connections between different health issues the user is experiencing?"
+  ],
+  ghostedActions: [
+    "Which features has the user stopped using recently?",
+    "When did the user last track their sleep data?",
+    "Has the user completed their weekly check-in questionnaire?",
+    "Which recommended activities has the user not started?",
+    "What nutrition tracking patterns has the user abandoned?"
+  ],
+  insights: [
+    "What patterns exist in the user's most active days?",
+    "Is there a correlation between sleep quality and activity level?",
+    "How does nutrition tracking relate to reported energy levels?",
+    "What behavior changes correlate with improvement in symptoms?",
+    "When is the user most likely to complete recommended actions?"
+  ]
+};
+
+// Chart data for visualizations
+export const chartData = {
+  weeklyEngagement: [
+    { week: "Week 1", sessions: 12 },
+    { week: "Week 2", sessions: 15 },
+    { week: "Week 3", sessions: 10 },
+    { week: "Week 4", sessions: 18 }
+  ],
+  featureUsage: [
+    { name: "Nutrition Tracking", usage: 78 },
+    { name: "Workout Logging", usage: 45 },
+    { name: "Sleep Monitoring", usage: 32 },
+    { name: "Stress Management", usage: 28 },
+    { name: "Meditation Sessions", usage: 15 },
+    { name: "Water Intake", usage: 62 },
+    { name: "Step Counter", usage: 85 },
+    { name: "Goal Setting", usage: 38 },
+    { name: "Video Tutorials", usage: 24 },
+    { name: "HRA Questionnaire", usage: 12 }
+  ],
+  dailyAppOpenTime: [
+    { day: "Monday", morning: 3, afternoon: 1, evening: 2 },
+    { day: "Tuesday", morning: 2, afternoon: 0, evening: 3 },
+    { day: "Wednesday", morning: 4, afternoon: 2, evening: 1 },
+    { day: "Thursday", morning: 1, afternoon: 3, evening: 2 },
+    { day: "Friday", morning: 2, afternoon: 1, evening: 3 },
+    { day: "Saturday", morning: 1, afternoon: 4, evening: 2 },
+    { day: "Sunday", morning: 0, afternoon: 2, evening: 5 }
+  ]
 };

@@ -828,7 +828,7 @@ export const userData = {
 };
 
 // User-specific predefined questions based on their data and issues
-export const userSpecificQuestions = {
+export const userPredefinedQuestions = {
   101: {
     engagement: [
       "How has Jessica's nutrition tracking consistency improved her dietary habits?",
@@ -873,10 +873,97 @@ export const userSpecificQuestions = {
       "What behavior changes correlate with Daniel's blood pressure improvements?"
     ]
   },
-  // Add more user-specific questions for other users...
+  103: {
+    engagement: [
+      "How consistent is Amanda with her water intake tracking?",
+      "What nutrition patterns help Amanda's iron absorption?",
+      "Is Amanda's engagement improving with goal setting?"
+    ],
+    hraIssues: [
+      "How is Amanda addressing her iron deficiency through diet?",
+      "What foods has Amanda added to improve iron levels?",
+      "Is Amanda's energy improving with better nutrition?"
+    ],
+    ghostedActions: [
+      "Why did Amanda stop using goal setting features?",
+      "Has Amanda completed her HRA questionnaire?",
+      "What prevented Amanda from continuing with workout logging?"
+    ],
+    insights: [
+      "Is there correlation between Amanda's iron-rich meals and energy levels?",
+      "How does Amanda's menstrual cycle affect her tracking patterns?",
+      "What motivates Amanda to maintain consistent logging?"
+    ]
+  },
+  104: {
+    engagement: [
+      "How can Ryan improve his low app engagement?",
+      "What motivates Ryan to use the step counter consistently?",
+      "Is Ryan's engagement improving over time?"
+    ],
+    hraIssues: [
+      "How is Ryan addressing his weight management goals?",
+      "What stress eating patterns has Ryan identified?",
+      "Is Ryan making progress with his sedentary lifestyle?"
+    ],
+    ghostedActions: [
+      "Why did Ryan abandon nutrition tracking so quickly?",
+      "Has Ryan tried any workout logging features?",
+      "What barriers prevent Ryan from using water intake tracking?"
+    ],
+    insights: [
+      "What small wins can motivate Ryan to increase engagement?",
+      "How does Ryan's mood affect his tracking consistency?",
+      "What features would be most beneficial for Ryan's goals?"
+    ]
+  },
+  105: {
+    engagement: [
+      "How does Sophia maintain such high engagement across all features?",
+      "What patterns exist in Sophia's daily app usage?",
+      "Is Sophia's perfectionist tendencies affecting her health goals?"
+    ],
+    hraIssues: [
+      "How is Sophia managing her perfectionist stress?",
+      "What healthy boundaries has Sophia established?",
+      "Is Sophia's high performance sustainable long-term?"
+    ],
+    ghostedActions: [
+      "Why does Sophia avoid video tutorials despite high engagement?",
+      "Has Sophia explored features for stress management?",
+      "What would encourage Sophia to use educational content?"
+    ],
+    insights: [
+      "How can Sophia balance her perfectionism with self-care?",
+      "What patterns show Sophia might be overcommitting?",
+      "How does Sophia's social pressure affect her health choices?"
+    ]
+  },
+  106: {
+    engagement: [
+      "How consistent is Marcus with his sleep monitoring?",
+      "What improves Marcus's engagement with health tracking?",
+      "Is Marcus's sleep quality affecting his app usage?"
+    ],
+    hraIssues: [
+      "How is Marcus managing his sleep apnea symptoms?",
+      "What sleep hygiene improvements has Marcus made?",
+      "Is Marcus's weight affecting his sleep quality?"
+    ],
+    ghostedActions: [
+      "Why did Marcus stop using meditation features?",
+      "Has Marcus completed his health risk assessment?",
+      "What would motivate Marcus to track additional metrics?"
+    ],
+    insights: [
+      "How does Marcus's sleep quality correlate with daily activities?",
+      "What environmental factors affect Marcus's sleep patterns?",
+      "How can Marcus improve his overall engagement with health tracking?"
+    ]
+  },
   201: {
     engagement: [
-      "How has Thomas's workout logging evolved over his 65 days in the system?",
+      "How has Thomas's workout logging evolved over his training period?",
       "What types of strength training does Thomas log most frequently?",
       "Is Thomas's high engagement score sustainable long-term?"
     ],
@@ -894,6 +981,1008 @@ export const userSpecificQuestions = {
       "Is there correlation between Thomas's training intensity and injury risk?",
       "How does Thomas's sleep quality affect his workout performance?",
       "What patterns exist in Thomas's most productive training days?"
+    ]
+  },
+  202: {
+    engagement: [
+      "How consistent is Lisa with her workout logging?",
+      "What types of training does Lisa prefer?",
+      "Is Lisa's engagement helping her avoid overtraining?"
+    ],
+    hraIssues: [
+      "How is Lisa preventing overtraining syndrome?",
+      "What recovery protocols has Lisa adopted?",
+      "Is Lisa balancing intensity with adequate rest?"
+    ],
+    ghostedActions: [
+      "Why does Lisa avoid water intake tracking?",
+      "Has Lisa explored nutrition timing features?",
+      "What would encourage Lisa to track hydration?"
+    ],
+    insights: [
+      "How does Lisa's training load correlate with recovery metrics?",
+      "What patterns indicate Lisa needs more rest days?",
+      "How can Lisa optimize her training-recovery balance?"
+    ]
+  },
+  203: {
+    engagement: [
+      "How consistent is Alex with his step counting?",
+      "What running patterns does Alex track most?",
+      "Is Alex's engagement helping with injury prevention?"
+    ],
+    hraIssues: [
+      "How is Alex managing his knee pain?",
+      "What running form improvements has Alex made?",
+      "Is Alex incorporating enough stretching and recovery?"
+    ],
+    ghostedActions: [
+      "Why did Alex stop using meditation features?",
+      "Has Alex completed his health assessments?",
+      "What prevents Alex from tracking stress levels?"
+    ],
+    insights: [
+      "How does Alex's running surface choice affect his knee pain?",
+      "What correlation exists between Alex's form and injury risk?",
+      "How can Alex improve his injury prevention strategies?"
+    ]
+  },
+  204: {
+    engagement: [
+      "How consistent is Emma with her nutrition tracking?",
+      "What motivates Emma to maintain her tracking habits?",
+      "Is Emma's engagement helping with her fitness goals?"
+    ],
+    hraIssues: [
+      "How is Emma addressing her lower back pain?",
+      "What core strengthening progress has Emma made?",
+      "Is Emma improving her posture and work setup?"
+    ],
+    ghostedActions: [
+      "Why did Emma abandon video tutorials?",
+      "Has Emma tried goal setting features?",
+      "What would motivate Emma to use educational content?"
+    ],
+    insights: [
+      "How does Emma's work posture correlate with back pain?",
+      "What exercises most effectively help Emma's core strength?",
+      "How can Emma maintain consistency with her fitness routine?"
+    ]
+  },
+  205: {
+    engagement: [
+      "How does Jake maintain such high fitness engagement?",
+      "What workout patterns does Jake follow most consistently?",
+      "Is Jake's engagement indicating potential exercise addiction?"
+    ],
+    hraIssues: [
+      "How is Jake managing his relationship with exercise?",
+      "What body image concerns has Jake expressed?",
+      "Is Jake's perfectionism affecting his health goals?"
+    ],
+    ghostedActions: [
+      "Why does Jake avoid stress management features?",
+      "Has Jake explored balance and moderation content?",
+      "What would help Jake develop a healthier relationship with fitness?"
+    ],
+    insights: [
+      "How can Jake balance his fitness passion with overall wellbeing?",
+      "What signs indicate Jake might be overexercising?",
+      "How does Jake's perfectionism manifest in his workout patterns?"
+    ]
+  },
+  206: {
+    engagement: [
+      "How consistent is Olivia with her goal setting?",
+      "What workout types does Olivia track most frequently?",
+      "Is Olivia's engagement helping with her rehabilitation?"
+    ],
+    hraIssues: [
+      "How is Olivia managing her shoulder impingement?",
+      "What rehabilitation exercises has Olivia incorporated?",
+      "Is Olivia avoiding movements that aggravate her shoulder?"
+    ],
+    ghostedActions: [
+      "Why does Olivia avoid the HRA questionnaire?",
+      "Has Olivia explored injury prevention content?",
+      "What would motivate Olivia to complete health assessments?"
+    ],
+    insights: [
+      "How do Olivia's workout modifications help her shoulder recovery?",
+      "What movement patterns should Olivia continue to avoid?",
+      "How can Olivia prevent future shoulder injuries?"
+    ]
+  },
+  301: {
+    engagement: [
+      "How consistent is Kevin with his meditation practice?",
+      "What stress management features does Kevin use most?",
+      "Is Kevin's engagement helping with his anxiety management?"
+    ],
+    hraIssues: [
+      "How is Kevin managing his anxiety symptoms?",
+      "What improvements has Kevin seen in his sleep patterns?",
+      "Is Kevin developing effective coping strategies?"
+    ],
+    ghostedActions: [
+      "Why did Kevin abandon workout logging features?",
+      "Has Kevin tried goal setting for mental health?",
+      "What would motivate Kevin to incorporate physical activity?"
+    ],
+    insights: [
+      "How does Kevin's meditation practice correlate with anxiety levels?",
+      "What triggers should Kevin continue to monitor?",
+      "How can Kevin build confidence for physical activity?"
+    ]
+  },
+  302: {
+    engagement: [
+      "How consistent is Jennifer with stress management tracking?",
+      "What mental health features does Jennifer find most helpful?",
+      "Is Jennifer's engagement improving her mood patterns?"
+    ],
+    hraIssues: [
+      "How is Jennifer managing her depression symptoms?",
+      "What mood tracking patterns has Jennifer identified?",
+      "Is Jennifer building effective daily routines?"
+    ],
+    ghostedActions: [
+      "Why does Jennifer avoid step counting and workouts?",
+      "Has Jennifer explored gentle movement options?",
+      "What would encourage Jennifer to incorporate light activity?"
+    ],
+    insights: [
+      "How do Jennifer's mood patterns correlate with her self-care activities?",
+      "What daily routines most effectively support Jennifer's mental health?",
+      "How can Jennifer gradually increase her physical activity comfort?"
+    ]
+  },
+  303: {
+    engagement: [
+      "How consistent is Christopher with his sleep tracking?",
+      "What stress management techniques work best for Christopher?",
+      "Is Christopher's limited engagement affecting his progress?"
+    ],
+    hraIssues: [
+      "How is Christopher managing his chronic stress?",
+      "What work-life balance strategies has Christopher tried?",
+      "Is Christopher developing sustainable stress coping methods?"
+    ],
+    ghostedActions: [
+      "Why did Christopher abandon nutrition and hydration tracking?",
+      "Has Christopher explored stress-eating awareness features?",
+      "What would motivate Christopher to track basic health metrics?"
+    ],
+    insights: [
+      "How do Christopher's work demands correlate with his stress levels?",
+      "What patterns exist between Christopher's sleep and stress management?",
+      "How can Christopher build sustainable stress management habits?"
+    ]
+  },
+  304: {
+    engagement: [
+      "How consistent is Sarah with her meditation practice?",
+      "What stress management features help Sarah most with panic attacks?",
+      "Is Sarah's engagement helping her develop coping strategies?"
+    ],
+    hraIssues: [
+      "How is Sarah managing her panic attack triggers?",
+      "What breathing techniques has Sarah found most effective?",
+      "Is Sarah identifying and avoiding her trigger patterns?"
+    ],
+    ghostedActions: [
+      "Why does Sarah avoid goal setting features?",
+      "Has Sarah explored structured anxiety management programs?",
+      "What would help Sarah set manageable health goals?"
+    ],
+    insights: [
+      "How do Sarah's meditation sessions correlate with panic attack frequency?",
+      "What environmental factors most affect Sarah's anxiety levels?",
+      "How can Sarah build confidence in managing her anxiety symptoms?"
+    ]
+  },
+  305: {
+    engagement: [
+      "How helpful are video tutorials for Michael's social anxiety?",
+      "What meditation techniques work best for Michael?",
+      "Is Michael's engagement improving his social confidence?"
+    ],
+    hraIssues: [
+      "How is Michael addressing his social anxiety symptoms?",
+      "What exposure therapy techniques has Michael tried?",
+      "Is Michael building social confidence gradually?"
+    ],
+    ghostedActions: [
+      "Why did Michael avoid the HRA questionnaire and goal setting?",
+      "Has Michael explored social skills development content?",
+      "What would help Michael feel safe setting social goals?"
+    ],
+    insights: [
+      "How do Michael's meditation practices help with social situations?",
+      "What patterns exist between Michael's anxiety and social interactions?",
+      "How can Michael gradually build social engagement skills?"
+    ]
+  },
+  306: {
+    engagement: [
+      "How consistent is Rachel with stress management tracking?",
+      "What features help Rachel most with work-life balance?",
+      "Is Rachel's engagement helping prevent burnout recurrence?"
+    ],
+    hraIssues: [
+      "How is Rachel recovering from burnout?",
+      "What work boundary strategies has Rachel implemented?",
+      "Is Rachel developing sustainable self-care routines?"
+    ],
+    ghostedActions: [
+      "Why does Rachel avoid workout logging despite good engagement?",
+      "Has Rachel explored gentle movement for stress relief?",
+      "What would motivate Rachel to incorporate physical activity?"
+    ],
+    insights: [
+      "How do Rachel's stress management practices correlate with work performance?",
+      "What patterns indicate Rachel might be overcommitting again?",
+      "How can Rachel maintain healthy boundaries long-term?"
+    ]
+  },
+  401: {
+    engagement: [
+      "How consistent is Stephanie with her sleep monitoring?",
+      "What sleep hygiene practices help Stephanie most?",
+      "Is Stephanie's engagement improving her insomnia?"
+    ],
+    hraIssues: [
+      "How is Stephanie managing her chronic insomnia?",
+      "What sleep routine changes has Stephanie implemented?",
+      "Is Stephanie addressing underlying stress affecting her sleep?"
+    ],
+    ghostedActions: [
+      "Why did Stephanie stop workout logging?",
+      "Has Stephanie explored gentle evening activities?",
+      "What would motivate Stephanie to add light physical activity?"
+    ],
+    insights: [
+      "How do Stephanie's stress levels correlate with her sleep quality?",
+      "What environmental factors most affect Stephanie's sleep patterns?",
+      "How can Stephanie optimize her pre-sleep routine for better rest?"
+    ]
+  },
+  402: {
+    engagement: [
+      "How consistent is Jason with sleep monitoring?",
+      "What workout patterns help Jason's sleep quality?",
+      "Is Jason's engagement helping with his sleep apnea management?"
+    ],
+    hraIssues: [
+      "How is Jason managing his sleep apnea symptoms?",
+      "What lifestyle changes has Jason made for better sleep?",
+      "Is Jason considering or pursuing sleep study recommendations?"
+    ],
+    ghostedActions: [
+      "Why does Jason avoid meditation sessions?",
+      "Has Jason explored relaxation techniques for better sleep?",
+      "What would motivate Jason to try stress-reduction activities?"
+    ],
+    insights: [
+      "How do Jason's workout times correlate with his sleep quality?",
+      "What patterns exist between Jason's weight and sleep apnea symptoms?",
+      "How can Jason optimize his sleep environment for better rest?"
+    ]
+  },
+  403: {
+    engagement: [
+      "How consistent is Linda with her sleep tracking?",
+      "What stress management techniques help Linda's restless leg syndrome?",
+      "Is Linda's limited engagement affecting her sleep improvement?"
+    ],
+    hraIssues: [
+      "How is Linda managing her restless leg syndrome?",
+      "What dietary changes has Linda tried for iron deficiency?",
+      "Is Linda addressing stress factors affecting her sleep?"
+    ],
+    ghostedActions: [
+      "Why did Linda abandon step counting and workouts?",
+      "Has Linda explored gentle movement for leg circulation?",
+      "What would motivate Linda to track basic activity levels?"
+    ],
+    insights: [
+      "How do Linda's iron levels correlate with her restless leg symptoms?",
+      "What patterns exist between Linda's stress and sleep disruption?",
+      "How can Linda improve circulation to help with restless legs?"
+    ]
+  },
+  404: {
+    engagement: [
+      "How consistent is David with sleep monitoring for shift work?",
+      "What nutrition patterns help David's irregular schedule?",
+      "Is David's engagement helping him adapt to shift work?"
+    ],
+    hraIssues: [
+      "How is David managing shift work sleep disorder?",
+      "What light exposure strategies has David implemented?",
+      "Is David creating an optimal sleep environment for day sleeping?"
+    ],
+    ghostedActions: [
+      "Why does David avoid water intake tracking?",
+      "Has David explored hydration strategies for shift work?",
+      "What would motivate David to complete health assessments?"
+    ],
+    insights: [
+      "How do David's shift patterns correlate with his sleep quality?",
+      "What nutrition timing strategies help David's energy levels?",
+      "How can David optimize his sleep schedule for his work rotation?"
+    ]
+  },
+  405: {
+    engagement: [
+      "How consistent is Ashley with her comprehensive health tracking?",
+      "What sleep optimization techniques work best for Ashley?",
+      "Is Ashley's high engagement helping with her delayed sleep phase?"
+    ],
+    hraIssues: [
+      "How is Ashley managing her delayed sleep phase disorder?",
+      "What light therapy protocols has Ashley implemented?",
+      "Is Ashley successfully shifting her circadian rhythm?"
+    ],
+    ghostedActions: [
+      "Why does Ashley avoid video tutorials despite high engagement?",
+      "Has Ashley explored sleep education content?",
+      "What would motivate Ashley to use educational resources?"
+    ],
+    insights: [
+      "How does Ashley's light therapy correlate with her sleep timing improvements?",
+      "What patterns show Ashley's circadian rhythm is adjusting?",
+      "How can Ashley maintain her progress with delayed sleep phase management?"
+    ]
+  },
+  406: {
+    engagement: [
+      "How can Brian improve his minimal app engagement?",
+      "What motivates Brian to maintain sleep monitoring?",
+      "Is Brian's fatigue affecting his ability to engage with health tracking?"
+    ],
+    hraIssues: [
+      "How is Brian addressing his chronic fatigue?",
+      "What factors contribute most to Brian's fatigue patterns?",
+      "Is Brian exploring the connection between his sedentary lifestyle and fatigue?"
+    ],
+    ghostedActions: [
+      "Why has Brian abandoned most tracking features?",
+      "Has Brian explored gentle activity options for fatigue?",
+      "What would motivate Brian to gradually increase his health tracking?"
+    ],
+    insights: [
+      "How does Brian's sleep quality correlate with his daily energy levels?",
+      "What patterns exist between Brian's mood and his willingness to track health metrics?",
+      "How can Brian build sustainable energy through gradual lifestyle changes?"
+    ]
+  }
+};
+
+// User-specific chart data
+export const userSpecificChartData = {
+  101: {
+    weeklyEngagement: [
+      { week: "Week 1", sessions: 18 },
+      { week: "Week 2", sessions: 22 },
+      { week: "Week 3", sessions: 20 },
+      { week: "Week 4", sessions: 25 }
+    ],
+    featureUsage: [
+      { name: "Nutrition Tracking", usage: 95 },
+      { name: "Water Intake", usage: 78 },
+      { name: "Step Counter", usage: 65 },
+      { name: "Goal Setting", usage: 45 },
+      { name: "Stress Management", usage: 25 },
+      { name: "Sleep Monitoring", usage: 15 },
+      { name: "Meditation Sessions", usage: 10 }
+    ],
+    healthTrends: [
+      { day: "Monday", acidity: 7.2, stress: 6.8 },
+      { day: "Tuesday", acidity: 6.5, stress: 6.2 },
+      { day: "Wednesday", acidity: 8.1, stress: 7.5 },
+      { day: "Thursday", acidity: 6.8, stress: 6.0 },
+      { day: "Friday", acidity: 5.9, stress: 5.5 },
+      { day: "Saturday", acidity: 4.2, stress: 4.0 },
+      { day: "Sunday", acidity: 5.5, stress: 5.2 }
+    ]
+  },
+  102: {
+    weeklyEngagement: [
+      { week: "Week 1", sessions: 20 },
+      { week: "Week 2", sessions: 25 },
+      { week: "Week 3", sessions: 23 },
+      { week: "Week 4", sessions: 28 }
+    ],
+    featureUsage: [
+      { name: "Workout Logging", usage: 92 },
+      { name: "Step Counter", usage: 88 },
+      { name: "Goal Setting", usage: 75 },
+      { name: "Sleep Monitoring", usage: 45 },
+      { name: "Nutrition Tracking", usage: 25 },
+      { name: "Water Intake", usage: 20 },
+      { name: "Meditation Sessions", usage: 8 }
+    ],
+    performanceMetrics: [
+      { day: "Monday", bloodPressure: 145, workoutIntensity: 8.5 },
+      { day: "Tuesday", bloodPressure: 142, workoutIntensity: 7.8 },
+      { day: "Wednesday", bloodPressure: 148, workoutIntensity: 9.2 },
+      { day: "Thursday", bloodPressure: 140, workoutIntensity: 8.0 },
+      { day: "Friday", bloodPressure: 143, workoutIntensity: 8.8 },
+      { day: "Saturday", bloodPressure: 138, workoutIntensity: 7.5 },
+      { day: "Sunday", bloodPressure: 141, workoutIntensity: 6.0 }
+    ]
+  },
+  103: {
+    weeklyEngagement: [
+      { week: "Week 1", sessions: 12 },
+      { week: "Week 2", sessions: 15 },
+      { week: "Week 3", sessions: 14 },
+      { week: "Week 4", sessions: 18 }
+    ],
+    featureUsage: [
+      { name: "Water Intake", usage: 85 },
+      { name: "Nutrition Tracking", usage: 70 },
+      { name: "Step Counter", usage: 55 },
+      { name: "Sleep Monitoring", usage: 40 },
+      { name: "Workout Logging", usage: 30 },
+      { name: "Stress Management", usage: 25 },
+      { name: "Goal Setting", usage: 15 }
+    ],
+    healthTrends: [
+      { day: "Monday", ironLevels: 65, energy: 5.2 },
+      { day: "Tuesday", ironLevels: 68, energy: 5.8 },
+      { day: "Wednesday", ironLevels: 70, energy: 6.0 },
+      { day: "Thursday", ironLevels: 72, energy: 6.5 },
+      { day: "Friday", ironLevels: 75, energy: 7.0 },
+      { day: "Saturday", ironLevels: 78, energy: 7.2 },
+      { day: "Sunday", ironLevels: 76, energy: 6.8 }
+    ]
+  },
+  104: {
+    weeklyEngagement: [
+      { week: "Week 1", sessions: 6 },
+      { week: "Week 2", sessions: 8 },
+      { week: "Week 3", sessions: 5 },
+      { week: "Week 4", sessions: 10 }
+    ],
+    featureUsage: [
+      { name: "Step Counter", usage: 45 },
+      { name: "Sleep Monitoring", usage: 25 },
+      { name: "Goal Setting", usage: 15 },
+      { name: "Water Intake", usage: 10 },
+      { name: "Nutrition Tracking", usage: 8 },
+      { name: "Workout Logging", usage: 5 },
+      { name: "Stress Management", usage: 3 }
+    ],
+    healthTrends: [
+      { day: "Monday", weight: 195, motivation: 3.2 },
+      { day: "Tuesday", weight: 194.8, motivation: 3.8 },
+      { day: "Wednesday", weight: 194.5, motivation: 4.0 },
+      { day: "Thursday", weight: 194.2, motivation: 4.5 },
+      { day: "Friday", weight: 194.0, motivation: 5.0 },
+      { day: "Saturday", weight: 193.8, motivation: 5.2 },
+      { day: "Sunday", weight: 193.5, motivation: 4.8 }
+    ]
+  },
+  105: {
+    weeklyEngagement: [
+      { week: "Week 1", sessions: 32 },
+      { week: "Week 2", sessions: 35 },
+      { week: "Week 3", sessions: 38 },
+      { week: "Week 4", sessions: 40 }
+    ],
+    featureUsage: [
+      { name: "Nutrition Tracking", usage: 98 },
+      { name: "Water Intake", usage: 95 },
+      { name: "Step Counter", usage: 92 },
+      { name: "Goal Setting", usage: 88 },
+      { name: "Sleep Monitoring", usage: 85 },
+      { name: "Workout Logging", usage: 80 },
+      { name: "Stress Management", usage: 70 }
+    ],
+    performanceMetrics: [
+      { day: "Monday", perfectionism: 8.5, satisfaction: 7.2 },
+      { day: "Tuesday", perfectionism: 8.8, satisfaction: 7.0 },
+      { day: "Wednesday", perfectionism: 9.2, satisfaction: 6.8 },
+      { day: "Thursday", perfectionism: 8.0, satisfaction: 7.8 },
+      { day: "Friday", perfectionism: 7.5, satisfaction: 8.2 },
+      { day: "Saturday", perfectionism: 6.8, satisfaction: 8.5 },
+      { day: "Sunday", perfectionism: 7.2, satisfaction: 8.0 }
+    ]
+  },
+  106: {
+    weeklyEngagement: [
+      { week: "Week 1", sessions: 10 },
+      { week: "Week 2", sessions: 12 },
+      { week: "Week 3", sessions: 11 },
+      { week: "Week 4", sessions: 14 }
+    ],
+    featureUsage: [
+      { name: "Sleep Monitoring", usage: 78 },
+      { name: "Step Counter", usage: 55 },
+      { name: "Water Intake", usage: 40 },
+      { name: "Stress Management", usage: 35 },
+      { name: "Nutrition Tracking", usage: 25 },
+      { name: "Workout Logging", usage: 20 },
+      { name: "Meditation Sessions", usage: 15 }
+    ],
+    healthTrends: [
+      { day: "Monday", sleepQuality: 5.2, apneaEvents: 12 },
+      { day: "Tuesday", sleepQuality: 5.8, apneaEvents: 10 },
+      { day: "Wednesday", sleepQuality: 6.0, apneaEvents: 9 },
+      { day: "Thursday", sleepQuality: 6.5, apneaEvents: 8 },
+      { day: "Friday", sleepQuality: 7.0, apneaEvents: 7 },
+      { day: "Saturday", sleepQuality: 7.2, apneaEvents: 6 },
+      { day: "Sunday", sleepQuality: 6.8, apneaEvents: 7 }
+    ]
+  },
+  201: {
+    weeklyEngagement: [
+      { week: "Week 1", sessions: 25 },
+      { week: "Week 2", sessions: 28 },
+      { week: "Week 3", sessions: 30 },
+      { week: "Week 4", sessions: 32 }
+    ],
+    featureUsage: [
+      { name: "Workout Logging", usage: 96 },
+      { name: "Nutrition Tracking", usage: 88 },
+      { name: "Sleep Monitoring", usage: 85 },
+      { name: "Step Counter", usage: 90 },
+      { name: "Goal Setting", usage: 75 },
+      { name: "Water Intake", usage: 70 },
+      { name: "Stress Management", usage: 25 }
+    ],
+    performanceMetrics: [
+      { day: "Monday", muscleStrain: 6.5, performance: 9.2 },
+      { day: "Tuesday", muscleStrain: 5.8, performance: 8.8 },
+      { day: "Wednesday", muscleStrain: 7.2, performance: 9.5 },
+      { day: "Thursday", muscleStrain: 4.5, performance: 8.5 },
+      { day: "Friday", muscleStrain: 6.0, performance: 9.0 },
+      { day: "Saturday", muscleStrain: 3.2, performance: 7.8 },
+      { day: "Sunday", muscleStrain: 2.8, performance: 6.5 }
+    ]
+  },
+  202: {
+    weeklyEngagement: [
+      { week: "Week 1", sessions: 22 },
+      { week: "Week 2", sessions: 24 },
+      { week: "Week 3", sessions: 26 },
+      { week: "Week 4", sessions: 28 }
+    ],
+    featureUsage: [
+      { name: "Workout Logging", usage: 94 },
+      { name: "Nutrition Tracking", usage: 82 },
+      { name: "Goal Setting", usage: 78 },
+      { name: "Sleep Monitoring", usage: 75 },
+      { name: "Step Counter", usage: 70 },
+      { name: "Stress Management", usage: 45 },
+      { name: "Water Intake", usage: 30 }
+    ],
+    performanceMetrics: [
+      { day: "Monday", overtrainingRisk: 7.5, recovery: 6.2 },
+      { day: "Tuesday", overtrainingRisk: 8.2, recovery: 5.8 },
+      { day: "Wednesday", overtrainingRisk: 8.8, recovery: 5.0 },
+      { day: "Thursday", overtrainingRisk: 6.5, recovery: 7.5 },
+      { day: "Friday", overtrainingRisk: 7.0, recovery: 7.0 },
+      { day: "Saturday", overtrainingRisk: 4.2, recovery: 8.5 },
+      { day: "Sunday", overtrainingRisk: 3.8, recovery: 8.8 }
+    ]
+  },
+  203: {
+    weeklyEngagement: [
+      { week: "Week 1", sessions: 16 },
+      { week: "Week 2", sessions: 19 },
+      { week: "Week 3", sessions: 18 },
+      { week: "Week 4", sessions: 22 }
+    ],
+    featureUsage: [
+      { name: "Step Counter", usage: 88 },
+      { name: "Workout Logging", usage: 75 },
+      { name: "Sleep Monitoring", usage: 60 },
+      { name: "Goal Setting", usage: 50 },
+      { name: "Nutrition Tracking", usage: 45 },
+      { name: "Water Intake", usage: 40 },
+      { name: "Stress Management", usage: 25 }
+    ],
+    healthTrends: [
+      { day: "Monday", kneePain: 6.8, runningForm: 7.2 },
+      { day: "Tuesday", kneePain: 6.2, runningForm: 7.8 },
+      { day: "Wednesday", kneePain: 5.5, runningForm: 8.0 },
+      { day: "Thursday", kneePain: 5.0, runningForm: 8.5 },
+      { day: "Friday", kneePain: 4.8, runningForm: 8.8 },
+      { day: "Saturday", kneePain: 4.2, runningForm: 9.0 },
+      { day: "Sunday", kneePain: 4.0, runningForm: 9.2 }
+    ]
+  },
+  204: {
+    weeklyEngagement: [
+      { week: "Week 1", sessions: 14 },
+      { week: "Week 2", sessions: 16 },
+      { week: "Week 3", sessions: 15 },
+      { week: "Week 4", sessions: 18 }
+    ],
+    featureUsage: [
+      { name: "Nutrition Tracking", usage: 80 },
+      { name: "Water Intake", usage: 75 },
+      { name: "Sleep Monitoring", usage: 60 },
+      { name: "Step Counter", usage: 55 },
+      { name: "Workout Logging", usage: 45 },
+      { name: "Stress Management", usage: 40 },
+      { name: "Goal Setting", usage: 25 }
+    ],
+    healthTrends: [
+      { day: "Monday", backPain: 7.2, coreStrength: 4.5 },
+      { day: "Tuesday", backPain: 6.8, coreStrength: 5.0 },
+      { day: "Wednesday", backPain: 6.2, coreStrength: 5.5 },
+      { day: "Thursday", backPain: 5.8, coreStrength: 6.0 },
+      { day: "Friday", backPain: 5.2, coreStrength: 6.5 },
+      { day: "Saturday", backPain: 4.8, coreStrength: 7.0 },
+      { day: "Sunday", backPain: 5.0, coreStrength: 6.8 }
+    ]
+  },
+  205: {
+    weeklyEngagement: [
+      { week: "Week 1", sessions: 24 },
+      { week: "Week 2", sessions: 26 },
+      { week: "Week 3", sessions: 28 },
+      { week: "Week 4", sessions: 30 }
+    ],
+    featureUsage: [
+      { name: "Workout Logging", usage: 95 },
+      { name: "Nutrition Tracking", usage: 90 },
+      { name: "Sleep Monitoring", usage: 85 },
+      { name: "Water Intake", usage: 82 },
+      { name: "Step Counter", usage: 88 },
+      { name: "Goal Setting", usage: 75 },
+      { name: "Stress Management", usage: 30 }
+    ],
+    performanceMetrics: [
+      { day: "Monday", exerciseAddiction: 8.5, wellbeingBalance: 5.2 },
+      { day: "Tuesday", exerciseAddiction: 8.8, wellbeingBalance: 5.0 },
+      { day: "Wednesday", exerciseAddiction: 9.2, wellbeingBalance: 4.5 },
+      { day: "Thursday", exerciseAddiction: 8.0, wellbeingBalance: 6.0 },
+      { day: "Friday", exerciseAddiction: 7.5, wellbeingBalance: 6.5 },
+      { day: "Saturday", exerciseAddiction: 6.8, wellbeingBalance: 7.2 },
+      { day: "Sunday", exerciseAddiction: 7.2, wellbeingBalance: 6.8 }
+    ]
+  },
+  206: {
+    weeklyEngagement: [
+      { week: "Week 1", sessions: 18 },
+      { week: "Week 2", sessions: 20 },
+      { week: "Week 3", sessions: 19 },
+      { week: "Week 4", sessions: 22 }
+    ],
+    featureUsage: [
+      { name: "Goal Setting", usage: 85 },
+      { name: "Workout Logging", usage: 78 },
+      { name: "Step Counter", usage: 70 },
+      { name: "Sleep Monitoring", usage: 65 },
+      { name: "Nutrition Tracking", usage: 60 },
+      { name: "Water Intake", usage: 55 },
+      { name: "Stress Management", usage: 45 }
+    ],
+    healthTrends: [
+      { day: "Monday", shoulderPain: 6.5, rehabilitation: 6.8 },
+      { day: "Tuesday", shoulderPain: 6.0, rehabilitation: 7.2 },
+      { day: "Wednesday", shoulderPain: 5.5, rehabilitation: 7.8 },
+      { day: "Thursday", shoulderPain: 5.0, rehabilitation: 8.0 },
+      { day: "Friday", shoulderPain: 4.8, rehabilitation: 8.2 },
+      { day: "Saturday", shoulderPain: 4.2, rehabilitation: 8.5 },
+      { day: "Sunday", shoulderPain: 4.5, rehabilitation: 8.0 }
+    ]
+  },
+  301: {
+    weeklyEngagement: [
+      { week: "Week 1", sessions: 15 },
+      { week: "Week 2", sessions: 18 },
+      { week: "Week 3", sessions: 17 },
+      { week: "Week 4", sessions: 20 }
+    ],
+    featureUsage: [
+      { name: "Meditation Sessions", usage: 85 },
+      { name: "Stress Management", usage: 80 },
+      { name: "Sleep Monitoring", usage: 75 },
+      { name: "Water Intake", usage: 45 },
+      { name: "Step Counter", usage: 35 },
+      { name: "Nutrition Tracking", usage: 30 },
+      { name: "Workout Logging", usage: 15 }
+    ],
+    mentalHealthTrends: [
+      { day: "Monday", anxiety: 8.2, meditation: 7.5 },
+      { day: "Tuesday", anxiety: 6.5, meditation: 8.0 },
+      { day: "Wednesday", anxiety: 7.1, meditation: 7.8 },
+      { day: "Thursday", anxiety: 6.8, meditation: 8.2 },
+      { day: "Friday", anxiety: 5.9, meditation: 8.5 },
+      { day: "Saturday", anxiety: 4.2, meditation: 9.0 },
+      { day: "Sunday", anxiety: 8.5, meditation: 6.5 }
+    ]
+  },
+  302: {
+    weeklyEngagement: [
+      { week: "Week 1", sessions: 20 },
+      { week: "Week 2", sessions: 23 },
+      { week: "Week 3", sessions: 22 },
+      { week: "Week 4", sessions: 25 }
+    ],
+    featureUsage: [
+      { name: "Stress Management", usage: 88 },
+      { name: "Meditation Sessions", usage: 82 },
+      { name: "Sleep Monitoring", usage: 78 },
+      { name: "Mood Tracking", usage: 75 },
+      { name: "Water Intake", usage: 50 },
+      { name: "Nutrition Tracking", usage: 40 },
+      { name: "Step Counter", usage: 25 }
+    ],
+    mentalHealthTrends: [
+      { day: "Monday", depression: 7.5, moodScore: 4.2 },
+      { day: "Tuesday", depression: 6.8, moodScore: 5.0 },
+      { day: "Wednesday", depression: 6.2, moodScore: 5.5 },
+      { day: "Thursday", depression: 5.8, moodScore: 6.0 },
+      { day: "Friday", depression: 5.2, moodScore: 6.8 },
+      { day: "Saturday", depression: 4.5, moodScore: 7.2 },
+      { day: "Sunday", depression: 5.0, moodScore: 6.5 }
+    ]
+  },
+  303: {
+    weeklyEngagement: [
+      { week: "Week 1", sessions: 12 },
+      { week: "Week 2", sessions: 14 },
+      { week: "Week 3", sessions: 11 },
+      { week: "Week 4", sessions: 16 }
+    ],
+    featureUsage: [
+      { name: "Sleep Monitoring", usage: 70 },
+      { name: "Stress Management", usage: 65 },
+      { name: "Meditation Sessions", usage: 45 },
+      { name: "Water Intake", usage: 25 },
+      { name: "Step Counter", usage: 20 },
+      { name: "Nutrition Tracking", usage: 15 },
+      { name: "Workout Logging", usage: 10 }
+    ],
+    mentalHealthTrends: [
+      { day: "Monday", stress: 8.8, coping: 4.2 },
+      { day: "Tuesday", stress: 8.5, coping: 4.8 },
+      { day: "Wednesday", stress: 8.2, coping: 5.0 },
+      { day: "Thursday", stress: 7.8, coping: 5.5 },
+      { day: "Friday", stress: 7.2, coping: 6.0 },
+      { day: "Saturday", stress: 6.5, coping: 6.8 },
+      { day: "Sunday", stress: 7.0, coping: 6.2 }
+    ]
+  },
+  304: {
+    weeklyEngagement: [
+      { week: "Week 1", sessions: 19 },
+      { week: "Week 2", sessions: 21 },
+      { week: "Week 3", sessions: 20 },
+      { week: "Week 4", sessions: 24 }
+    ],
+    featureUsage: [
+      { name: "Meditation Sessions", usage: 88 },
+      { name: "Stress Management", usage: 85 },
+      { name: "Sleep Monitoring", usage: 80 },
+      { name: "Water Intake", usage: 75 },
+      { name: "Breathing Exercises", usage: 70 },
+      { name: "Step Counter", usage: 50 },
+      { name: "Goal Setting", usage: 25 }
+    ],
+    mentalHealthTrends: [
+      { day: "Monday", panicAttacks: 3, breathing: 8.2 },
+      { day: "Tuesday", panicAttacks: 1, breathing: 8.8 },
+      { day: "Wednesday", panicAttacks: 2, breathing: 8.5 },
+      { day: "Thursday", panicAttacks: 0, breathing: 9.0 },
+      { day: "Friday", panicAttacks: 1, breathing: 8.8 },
+      { day: "Saturday", panicAttacks: 0, breathing: 9.2 },
+      { day: "Sunday", panicAttacks: 1, breathing: 8.5 }
+    ]
+  },
+  305: {
+    weeklyEngagement: [
+      { week: "Week 1", sessions: 9 },
+      { week: "Week 2", sessions: 11 },
+      { week: "Week 3", sessions: 10 },
+      { week: "Week 4", sessions: 13 }
+    ],
+    featureUsage: [
+      { name: "Video Tutorials", usage: 65 },
+      { name: "Meditation Sessions", usage: 60 },
+      { name: "Stress Management", usage: 55 },
+      { name: "Sleep Monitoring", usage: 40 },
+      { name: "Social Skills", usage: 35 },
+      { name: "Step Counter", usage: 25 },
+      { name: "Goal Setting", usage: 15 }
+    ],
+    mentalHealthTrends: [
+      { day: "Monday", socialAnxiety: 8.5, confidence: 3.2 },
+      { day: "Tuesday", socialAnxiety: 7.8, confidence: 4.0 },
+      { day: "Wednesday", socialAnxiety: 7.2, confidence: 4.5 },
+      { day: "Thursday", socialAnxiety: 6.8, confidence: 5.0 },
+      { day: "Friday", socialAnxiety: 6.2, confidence: 5.5 },
+      { day: "Saturday", socialAnxiety: 5.8, confidence: 6.0 },
+      { day: "Sunday", socialAnxiety: 6.5, confidence: 5.2 }
+    ]
+  },
+  306: {
+    weeklyEngagement: [
+      { week: "Week 1", sessions: 23 },
+      { week: "Week 2", sessions: 25 },
+      { week: "Week 3", sessions: 24 },
+      { week: "Week 4", sessions: 27 }
+    ],
+    featureUsage: [
+      { name: "Stress Management", usage: 92 },
+      { name: "Meditation Sessions", usage: 85 },
+      { name: "Sleep Monitoring", usage: 82 },
+      { name: "Nutrition Tracking", usage: 78 },
+      { name: "Work-Life Balance", usage: 75 },
+      { name: "Water Intake", usage: 65 },
+      { name: "Workout Logging", usage: 35 }
+    ],
+    mentalHealthTrends: [
+      { day: "Monday", burnout: 8.2, workBalance: 4.5 },
+      { day: "Tuesday", burnout: 7.5, workBalance: 5.2 },
+      { day: "Wednesday", burnout: 7.0, workBalance: 5.8 },
+      { day: "Thursday", burnout: 6.5, workBalance: 6.2 },
+      { day: "Friday", burnout: 5.8, workBalance: 7.0 },
+      { day: "Saturday", burnout: 4.2, workBalance: 8.5 },
+      { day: "Sunday", burnout: 5.5, workBalance: 7.8 }
+    ]
+  },
+  401: {
+    weeklyEngagement: [
+      { week: "Week 1", sessions: 20 },
+      { week: "Week 2", sessions: 22 },
+      { week: "Week 3", sessions: 21 },
+      { week: "Week 4", sessions: 24 }
+    ],
+    featureUsage: [
+      { name: "Sleep Monitoring", usage: 95 },
+      { name: "Stress Management", usage: 70 },
+      { name: "Water Intake", usage: 65 },
+      { name: "Sleep Hygiene", usage: 85 },
+      { name: "Meditation Sessions", usage: 60 },
+      { name: "Step Counter", usage: 45 },
+      { name: "Workout Logging", usage: 25 }
+    ],
+    sleepTrends: [
+      { day: "Monday", insomnia: 8.2, sleepQuality: 3.5 },
+      { day: "Tuesday", insomnia: 7.8, sleepQuality: 4.0 },
+      { day: "Wednesday", insomnia: 7.2, sleepQuality: 4.5 },
+      { day: "Thursday", insomnia: 6.8, sleepQuality: 5.0 },
+      { day: "Friday", insomnia: 6.2, sleepQuality: 5.8 },
+      { day: "Saturday", insomnia: 5.5, sleepQuality: 6.5 },
+      { day: "Sunday", insomnia: 6.0, sleepQuality: 6.0 }
+    ]
+  },
+  402: {
+    weeklyEngagement: [
+      { week: "Week 1", sessions: 22 },
+      { week: "Week 2", sessions: 24 },
+      { week: "Week 3", sessions: 23 },
+      { week: "Week 4", sessions: 26 }
+    ],
+    featureUsage: [
+      { name: "Sleep Monitoring", usage: 92 },
+      { name: "Workout Logging", usage: 85 },
+      { name: "Nutrition Tracking", usage: 78 },
+      { name: "Sleep Apnea Tracking", usage: 88 },
+      { name: "Step Counter", usage: 70 },
+      { name: "Water Intake", usage: 65 },
+      { name: "Meditation Sessions", usage: 30 }
+    ],
+    sleepTrends: [
+      { day: "Monday", apneaEvents: 12, sleepQuality: 4.2 },
+      { day: "Tuesday", apneaEvents: 10, sleepQuality: 5.0 },
+      { day: "Wednesday", apneaEvents: 9, sleepQuality: 5.5 },
+      { day: "Thursday", apneaEvents: 8, sleepQuality: 6.0 },
+      { day: "Friday", apneaEvents: 7, sleepQuality: 6.5 },
+      { day: "Saturday", apneaEvents: 6, sleepQuality: 7.0 },
+      { day: "Sunday", apneaEvents: 8, sleepQuality: 6.2 }
+    ]
+  },
+  403: {
+    weeklyEngagement: [
+      { week: "Week 1", sessions: 13 },
+      { week: "Week 2", sessions: 15 },
+      { week: "Week 3", sessions: 14 },
+      { week: "Week 4", sessions: 17 }
+    ],
+    featureUsage: [
+      { name: "Sleep Monitoring", usage: 80 },
+      { name: "Stress Management", usage: 65 },
+      { name: "Iron Tracking", usage: 55 },
+      { name: "Restless Leg Management", usage: 70 },
+      { name: "Water Intake", usage: 40 },
+      { name: "Step Counter", usage: 25 },
+      { name: "Workout Logging", usage: 15 }
+    ],
+    sleepTrends: [
+      { day: "Monday", restlessLegs: 8.5, ironLevels: 45 },
+      { day: "Tuesday", restlessLegs: 8.0, ironLevels: 48 },
+      { day: "Wednesday", restlessLegs: 7.5, ironLevels: 52 },
+      { day: "Thursday", restlessLegs: 7.0, ironLevels: 55 },
+      { day: "Friday", restlessLegs: 6.5, ironLevels: 58 },
+      { day: "Saturday", restlessLegs: 6.0, ironLevels: 62 },
+      { day: "Sunday", restlessLegs: 6.8, ironLevels: 60 }
+    ]
+  },
+  404: {
+    weeklyEngagement: [
+      { week: "Week 1", sessions: 16 },
+      { week: "Week 2", sessions: 18 },
+      { week: "Week 3", sessions: 17 },
+      { week: "Week 4", sessions: 20 }
+    ],
+    featureUsage: [
+      { name: "Sleep Monitoring", usage: 88 },
+      { name: "Nutrition Tracking", usage: 75 },
+      { name: "Step Counter", usage: 70 },
+      { name: "Shift Work Tracking", usage: 85 },
+      { name: "Light Therapy", usage: 60 },
+      { name: "Stress Management", usage: 55 },
+      { name: "Water Intake", usage: 35 }
+    ],
+    sleepTrends: [
+      { day: "Monday", shiftDisorder: 7.5, adaptation: 5.2 },
+      { day: "Tuesday", shiftDisorder: 7.0, adaptation: 5.8 },
+      { day: "Wednesday", shiftDisorder: 6.5, adaptation: 6.2 },
+      { day: "Thursday", shiftDisorder: 6.0, adaptation: 6.8 },
+      { day: "Friday", shiftDisorder: 5.5, adaptation: 7.2 },
+      { day: "Saturday", shiftDisorder: 5.0, adaptation: 7.8 },
+      { day: "Sunday", shiftDisorder: 5.8, adaptation: 7.0 }
+    ]
+  },
+  405: {
+    weeklyEngagement: [
+      { week: "Week 1", sessions: 25 },
+      { week: "Week 2", sessions: 27 },
+      { week: "Week 3", sessions: 26 },
+      { week: "Week 4", sessions: 29 }
+    ],
+    featureUsage: [
+      { name: "Sleep Monitoring", usage: 95 },
+      { name: "Workout Logging", usage: 88 },
+      { name: "Nutrition Tracking", usage: 85 },
+      { name: "Light Therapy", usage: 92 },
+      { name: "Meditation Sessions", usage: 80 },
+      { name: "Circadian Tracking", usage: 90 },
+      { name: "Video Tutorials", usage: 35 }
+    ],
+    sleepTrends: [
+      { day: "Monday", circadianShift: 6.5, lightTherapy: 8.8 },
+      { day: "Tuesday", circadianShift: 6.0, lightTherapy: 9.0 },
+      { day: "Wednesday", circadianShift: 5.5, lightTherapy: 9.2 },
+      { day: "Thursday", circadianShift: 5.0, lightTherapy: 9.5 },
+      { day: "Friday", circadianShift: 4.5, lightTherapy: 9.8 },
+      { day: "Saturday", circadianShift: 4.0, lightTherapy: 9.5 },
+      { day: "Sunday", circadianShift: 4.8, lightTherapy: 9.0 }
+    ]
+  },
+  406: {
+    weeklyEngagement: [
+      { week: "Week 1", sessions: 8 },
+      { week: "Week 2", sessions: 10 },
+      { week: "Week 3", sessions: 7 },
+      { week: "Week 4", sessions: 12 }
+    ],
+    featureUsage: [
+      { name: "Sleep Monitoring", usage: 75 },
+      { name: "Fatigue Tracking", usage: 60 },
+      { name: "Mood Tracking", usage: 45 },
+      { name: "Energy Management", usage: 50 },
+      { name: "Step Counter", usage: 25 },
+      { name: "Water Intake", usage: 20 },
+      { name: "Nutrition Tracking", usage: 15 }
+    ],
+    sleepTrends: [
+      { day: "Monday", fatigue: 8.8, energy: 2.5 },
+      { day: "Tuesday", fatigue: 8.5, energy: 3.0 },
+      { day: "Wednesday", fatigue: 8.0, energy: 3.5 },
+      { day: "Thursday", fatigue: 7.5, energy: 4.0 },
+      { day: "Friday", fatigue: 7.0, energy: 4.5 },
+      { day: "Saturday", fatigue: 6.5, energy: 5.2 },
+      { day: "Sunday", fatigue: 7.2, energy: 4.8 }
     ]
   }
 };
@@ -959,282 +2048,6 @@ export const chartData = {
     { day: "Saturday", morning: 1, afternoon: 4, evening: 2 },
     { day: "Sunday", morning: 0, afternoon: 2, evening: 5 }
   ]
-};
-
-// Mock data for logs monitoring (simulating which users haven't logged specific activities)
-export const userLogData = {
-  1: { // Dr. Sarah Johnson's users
-    101: { // Jessica Brown
-      lastLogs: {
-        hydration: "2025-05-29", // today
-        food: "2025-05-29", // today
-        steps: "2025-05-28", // yesterday
-        activity: "2025-05-27", // 2 days ago
-        meditation: "2025-05-20", // over a week ago
-        sleep: "2025-05-29", // today
-        weight: "2025-05-25" // 4 days ago
-      }
-    },
-    102: { // Daniel Wilson
-      lastLogs: {
-        hydration: "2025-05-22", // week ago
-        food: "2025-05-28", // yesterday
-        steps: "2025-05-29", // today
-        activity: "2025-05-29", // today
-        meditation: "2025-05-15", // 2 weeks ago
-        sleep: "2025-05-28", // yesterday
-        weight: "2025-05-26" // 3 days ago
-      }
-    },
-    103: { // Amanda Miller
-      lastLogs: {
-        hydration: "2025-05-29", // today
-        food: "2025-05-29", // today
-        steps: "2025-05-27", // 2 days ago
-        activity: "2025-05-26", // 3 days ago
-        meditation: "2025-05-23", // 6 days ago
-        sleep: "2025-05-28", // yesterday
-        weight: "2025-05-18" // over a week ago
-      }
-    },
-    104: { // Ryan Johnson - low engagement user
-      lastLogs: {
-        hydration: "2025-05-20", // over a week ago
-        food: "2025-05-21", // over a week ago
-        steps: "2025-05-27", // 2 days ago
-        activity: "2025-05-19", // 10 days ago
-        meditation: "2025-05-10", // almost 3 weeks ago
-        sleep: "2025-05-26", // 3 days ago
-        weight: "2025-05-24" // 5 days ago
-      }
-    },
-    105: { // Sophia Davis - high engagement user
-      lastLogs: {
-        hydration: "2025-05-29", // today
-        food: "2025-05-29", // today
-        steps: "2025-05-29", // today
-        activity: "2025-05-29", // today
-        meditation: "2025-05-28", // yesterday
-        sleep: "2025-05-29", // today
-        weight: "2025-05-29" // today
-      }
-    },
-    106: { // Marcus Thompson
-      lastLogs: {
-        hydration: "2025-05-26", // 3 days ago
-        food: "2025-05-25", // 4 days ago
-        steps: "2025-05-23", // 6 days ago
-        activity: "2025-05-22", // week ago
-        meditation: "2025-05-16", // almost 2 weeks ago
-        sleep: "2025-05-28", // yesterday
-        weight: "2025-05-20" // over a week ago
-      }
-    }
-  },
-  2: { // Michael Chen's users
-    201: { // Thomas Anderson
-      lastLogs: {
-        hydration: "2025-05-28", // yesterday
-        food: "2025-05-29", // today
-        steps: "2025-05-29", // today
-        activity: "2025-05-29", // today
-        meditation: "2025-05-17", // almost 2 weeks ago
-        sleep: "2025-05-28", // yesterday
-        weight: "2025-05-27" // 2 days ago
-      }
-    },
-    202: { // Lisa Martinez
-      lastLogs: {
-        hydration: "2025-05-23", // 6 days ago
-        food: "2025-05-28", // yesterday
-        steps: "2025-05-29", // today
-        activity: "2025-05-29", // today
-        meditation: "2025-05-25", // 4 days ago
-        sleep: "2025-05-28", // yesterday
-        weight: "2025-05-26" // 3 days ago
-      }
-    },
-    203: { // Alex Rodriguez
-      lastLogs: {
-        hydration: "2025-05-29", // today
-        food: "2025-05-27", // 2 days ago
-        steps: "2025-05-29", // today
-        activity: "2025-05-29", // today
-        meditation: "2025-05-14", // 2 weeks ago
-        sleep: "2025-05-28", // yesterday
-        weight: "2025-05-24" // 5 days ago
-      }
-    },
-    204: { // Emma Thompson
-      lastLogs: {
-        hydration: "2025-05-27", // 2 days ago
-        food: "2025-05-26", // 3 days ago
-        steps: "2025-05-25", // 4 days ago
-        activity: "2025-05-24", // 5 days ago
-        meditation: "2025-05-22", // week ago
-        sleep: "2025-05-27", // 2 days ago
-        weight: "2025-05-19" // 10 days ago
-      }
-    },
-    205: { // Jake Williams
-      lastLogs: {
-        hydration: "2025-05-29", // today
-        food: "2025-05-29", // today
-        steps: "2025-05-29", // today
-        activity: "2025-05-29", // today
-        meditation: "2025-05-21", // over a week ago
-        sleep: "2025-05-29", // today
-        weight: "2025-05-28" // yesterday
-      }
-    },
-    206: { // Olivia Brown
-      lastLogs: {
-        hydration: "2025-05-25", // 4 days ago
-        food: "2025-05-24", // 5 days ago
-        steps: "2025-05-28", // yesterday
-        activity: "2025-05-28", // yesterday
-        meditation: "2025-05-26", // 3 days ago
-        sleep: "2025-05-27", // 2 days ago
-        weight: "2025-05-18" // over a week ago
-      }
-    }
-  },
-  3: { // Dr. Emily Williams' users
-    301: { // Kevin Harris
-      lastLogs: {
-        hydration: "2025-05-26", // 3 days ago
-        food: "2025-05-25", // 4 days ago
-        steps: "2025-05-23", // 6 days ago
-        activity: "2025-05-20", // over a week ago
-        meditation: "2025-05-29", // today
-        sleep: "2025-05-29", // today
-        weight: "2025-05-22" // week ago
-      }
-    },
-    302: { // Jennifer Garcia
-      lastLogs: {
-        hydration: "2025-05-28", // yesterday
-        food: "2025-05-27", // 2 days ago
-        steps: "2025-05-24", // 5 days ago
-        activity: "2025-05-21", // over a week ago
-        meditation: "2025-05-29", // today
-        sleep: "2025-05-29", // today
-        weight: "2025-05-25" // 4 days ago
-      }
-    },
-    303: { // Christopher Lee
-      lastLogs: {
-        hydration: "2025-05-22", // week ago
-        food: "2025-05-20", // over a week ago
-        steps: "2025-05-23", // 6 days ago
-        activity: "2025-05-19", // 10 days ago
-        meditation: "2025-05-28", // yesterday
-        sleep: "2025-05-29", // today
-        weight: "2025-05-24" // 5 days ago
-      }
-    },
-    304: { // Sarah Wilson
-      lastLogs: {
-        hydration: "2025-05-28", // yesterday
-        food: "2025-05-27", // 2 days ago
-        steps: "2025-05-26", // 3 days ago
-        activity: "2025-05-25", // 4 days ago
-        meditation: "2025-05-29", // today
-        sleep: "2025-05-29", // today
-        weight: "2025-05-23" // 6 days ago
-      }
-    },
-    305: { // Michael Davis
-      lastLogs: {
-        hydration: "2025-05-25", // 4 days ago
-        food: "2025-05-24", // 5 days ago
-        steps: "2025-05-27", // 2 days ago
-        activity: "2025-05-28", // yesterday
-        meditation: "2025-05-28", // yesterday
-        sleep: "2025-05-26", // 3 days ago
-        weight: "2025-05-17" // almost 2 weeks ago
-      }
-    },
-    306: { // Rachel Green
-      lastLogs: {
-        hydration: "2025-05-29", // today
-        food: "2025-05-28", // yesterday
-        steps: "2025-05-27", // 2 days ago
-        activity: "2025-05-23", // 6 days ago
-        meditation: "2025-05-29", // today
-        sleep: "2025-05-29", // today
-        weight: "2025-05-26" // 3 days ago
-      }
-    }
-  },
-  4: { // Robert Taylor's users
-    401: { // Stephanie Clark
-      lastLogs: {
-        hydration: "2025-05-28", // yesterday
-        food: "2025-05-27", // 2 days ago
-        steps: "2025-05-26", // 3 days ago
-        activity: "2025-05-22", // week ago
-        meditation: "2025-05-26", // 3 days ago
-        sleep: "2025-05-29", // today
-        weight: "2025-05-25" // 4 days ago
-      }
-    },
-    402: { // Jason Rodriguez
-      lastLogs: {
-        hydration: "2025-05-26", // 3 days ago
-        food: "2025-05-28", // yesterday
-        steps: "2025-05-29", // today
-        activity: "2025-05-28", // yesterday
-        meditation: "2025-05-18", // over a week ago
-        sleep: "2025-05-29", // today
-        weight: "2025-05-24" // 5 days ago
-      }
-    },
-    403: { // Linda Martinez
-      lastLogs: {
-        hydration: "2025-05-24", // 5 days ago
-        food: "2025-05-23", // 6 days ago
-        steps: "2025-05-21", // over a week ago
-        activity: "2025-05-19", // 10 days ago
-        meditation: "2025-05-25", // 4 days ago
-        sleep: "2025-05-27", // 2 days ago
-        weight: "2025-05-20" // over a week ago
-      }
-    },
-    404: { // David Miller
-      lastLogs: {
-        hydration: "2025-05-24", // 5 days ago
-        food: "2025-05-29", // today
-        steps: "2025-05-29", // today
-        activity: "2025-05-28", // yesterday
-        meditation: "2025-05-26", // 3 days ago
-        sleep: "2025-05-29", // today
-        weight: "2025-05-27" // 2 days ago
-      }
-    },
-    405: { // Ashley Taylor
-      lastLogs: {
-        hydration: "2025-05-29", // today
-        food: "2025-05-29", // today
-        steps: "2025-05-29", // today
-        activity: "2025-05-28", // yesterday
-        meditation: "2025-05-29", // today
-        sleep: "2025-05-29", // today
-        weight: "2025-05-28" // yesterday
-      }
-    },
-    406: { // Brian Anderson - low engagement user
-      lastLogs: {
-        hydration: "2025-05-21", // over a week ago
-        food: "2025-05-20", // over a week ago
-        steps: "2025-05-25", // 4 days ago
-        activity: "2025-05-18", // over a week ago
-        meditation: "2025-05-27", // 2 days ago
-        sleep: "2025-05-28", // yesterday
-        weight: "2025-05-22" // week ago
-      }
-    }
-  }
 };
 
 // User-specific responses for AskAnything component
@@ -1364,9 +2177,256 @@ export const userSpecificResponses = {
       chartType: "none"
     }
   },
+  103: { // Amanda Miller
+    sleep: {
+      answer: "Amanda gets 6.8 hours of sleep but quality varies with her menstrual cycle. Iron deficiency affects her rest patterns.",
+      chartType: "line",
+      data: [
+        { day: "Monday", hours: 6.5 },
+        { day: "Tuesday", hours: 7.0 },
+        { day: "Wednesday", hours: 6.8 },
+        { day: "Thursday", hours: 6.2 },
+        { day: "Friday", hours: 7.2 },
+        { day: "Saturday", hours: 7.5 },
+        { day: "Sunday", hours: 7.0 }
+      ]
+    },
+    water: {
+      answer: "Amanda consistently drinks 6.5 glasses daily, one of her most successful tracking habits. Hydration helps with her energy levels.",
+      chartType: "bar",
+      data: [
+        { week: "Week 1", glasses: 6.2 },
+        { week: "Week 2", glasses: 6.8 },
+        { week: "Week 3", glasses: 6.5 },
+        { week: "Week 4", glasses: 6.7 }
+      ]
+    },
+    stress: {
+      answer: "Amanda's stress is moderate but increases during heavy menstrual periods when her iron levels drop further.",
+      chartType: "line",
+      data: [
+        { day: "Monday", level: 5.8, meditation: 1 },
+        { day: "Tuesday", level: 5.2, meditation: 1 },
+        { day: "Wednesday", level: 6.5, meditation: 0 },
+        { day: "Thursday", level: 7.2, meditation: 0 },
+        { day: "Friday", level: 6.8, meditation: 1 },
+        { day: "Saturday", level: 4.5, meditation: 1 },
+        { day: "Sunday", level: 5.0, meditation: 1 }
+      ]
+    },
+    exercise: {
+      answer: "Amanda does light cardio (50%) and yoga (40%), but energy limitations from iron deficiency limit her workout intensity.",
+      chartType: "pie",
+      data: [
+        { name: "Light Cardio", value: 50 },
+        { name: "Yoga", value: 40 },
+        { name: "Walking", value: 10 }
+      ]
+    },
+    diet: {
+      answer: "Amanda tracks nutrition well and focuses on iron-rich foods, but absorption issues persist. She's improved her vitamin C intake.",
+      chartType: "bar",
+      data: [
+        { nutrient: "Iron", actual: 75, target: 100 },
+        { nutrient: "Vitamin C", actual: 85, target: 100 },
+        { nutrient: "Protein", actual: 70, target: 100 },
+        { nutrient: "Calcium", actual: 65, target: 100 },
+        { nutrient: "Fiber", actual: 80, target: 100 }
+      ]
+    },
+    default: {
+      answer: "Amanda maintains good water intake and nutrition tracking but needs support with iron absorption strategies and gentle exercise routine building.",
+      chartType: "none"
+    }
+  },
+  104: { // Ryan Johnson
+    sleep: {
+      answer: "Ryan gets 6.5 hours of sleep but poor quality due to stress eating late at night. Weight affects his sleep comfort.",
+      chartType: "line",
+      data: [
+        { day: "Monday", hours: 6.2 },
+        { day: "Tuesday", hours: 6.8 },
+        { day: "Wednesday", hours: 6.0 },
+        { day: "Thursday", hours: 6.5 },
+        { day: "Friday", hours: 7.0 },
+        { day: "Saturday", hours: 7.2 },
+        { day: "Sunday", hours: 6.8 }
+      ]
+    },
+    water: {
+      answer: "Ryan drinks only 2.8 glasses daily, far below target. Dehydration contributes to fatigue and poor food choices.",
+      chartType: "bar",
+      data: [
+        { week: "Week 1", glasses: 2.5 },
+        { week: "Week 2", glasses: 3.0 },
+        { week: "Week 3", glasses: 2.8 },
+        { week: "Week 4", glasses: 3.2 }
+      ]
+    },
+    stress: {
+      answer: "Ryan's stress is high, particularly around food choices and weight. Stress eating creates a cycle of guilt and poor habits.",
+      chartType: "line",
+      data: [
+        { day: "Monday", level: 8.2, meditation: 0 },
+        { day: "Tuesday", level: 7.8, meditation: 0 },
+        { day: "Wednesday", level: 8.5, meditation: 0 },
+        { day: "Thursday", level: 7.5, meditation: 0 },
+        { day: "Friday", level: 6.8, meditation: 0 },
+        { day: "Saturday", level: 6.2, meditation: 0 },
+        { day: "Sunday", level: 7.8, meditation: 0 }
+      ]
+    },
+    exercise: {
+      answer: "Ryan walks occasionally (80%) but avoids gym activities due to self-consciousness. Step counting is his only consistent activity.",
+      chartType: "pie",
+      data: [
+        { name: "Walking", value: 80 },
+        { name: "Household Activities", value: 15 },
+        { name: "Stretching", value: 5 }
+      ]
+    },
+    diet: {
+      answer: "Ryan rarely tracks food but estimated intake shows high calories, processed foods, and emotional eating patterns.",
+      chartType: "bar",
+      data: [
+        { nutrient: "Calories", actual: 140, target: 100 },
+        { nutrient: "Processed Foods", actual: 160, target: 100 },
+        { nutrient: "Vegetables", actual: 25, target: 100 },
+        { nutrient: "Fiber", actual: 30, target: 100 },
+        { nutrient: "Water", actual: 35, target: 100 }
+      ]
+    },
+    default: {
+      answer: "Ryan needs significant support with motivation and building basic healthy habits. Small wins with step counting could be leveraged for broader engagement.",
+      chartType: "none"
+    }
+  },
+  105: { // Sophia Davis
+    sleep: {
+      answer: "Sophia maintains excellent 8.2-hour sleep schedule but perfectionist anxiety sometimes affects sleep quality before big goals.",
+      chartType: "line",
+      data: [
+        { day: "Monday", hours: 8.0 },
+        { day: "Tuesday", hours: 8.2 },
+        { day: "Wednesday", hours: 7.8 },
+        { day: "Thursday", hours: 8.5 },
+        { day: "Friday", hours: 8.2 },
+        { day: "Saturday", hours: 8.8 },
+        { day: "Sunday", hours: 8.0 }
+      ]
+    },
+    water: {
+      answer: "Sophia consistently drinks 9.2 glasses daily, exceeding targets. Her hydration tracking is meticulous and well-maintained.",
+      chartType: "bar",
+      data: [
+        { week: "Week 1", glasses: 9.0 },
+        { week: "Week 2", glasses: 9.2 },
+        { week: "Week 3", glasses: 9.5 },
+        { week: "Week 4", glasses: 9.8 }
+      ]
+    },
+    stress: {
+      answer: "Sophia's stress relates to perfectionism and high standards. She manages it well but needs balance between achievement and self-care.",
+      chartType: "line",
+      data: [
+        { day: "Monday", level: 6.8, meditation: 1 },
+        { day: "Tuesday", level: 7.2, meditation: 1 },
+        { day: "Wednesday", level: 8.0, meditation: 1 },
+        { day: "Thursday", level: 6.2, meditation: 1 },
+        { day: "Friday", level: 5.8, meditation: 1 },
+        { day: "Saturday", level: 4.2, meditation: 1 },
+        { day: "Sunday", level: 5.5, meditation: 1 }
+      ]
+    },
+    exercise: {
+      answer: "Sophia exercises 6 days weekly with varied routine: strength (40%), cardio (35%), yoga (25%). Performance tracking is exceptional.",
+      chartType: "pie",
+      data: [
+        { name: "Strength Training", value: 40 },
+        { name: "Cardio", value: 35 },
+        { name: "Yoga", value: 25 }
+      ]
+    },
+    diet: {
+      answer: "Sophia tracks nutrition perfectly, meeting 98% of targets. Her focus on macros and timing is excellent but may be overly restrictive.",
+      chartType: "bar",
+      data: [
+        { nutrient: "Protein", actual: 105, target: 100 },
+        { nutrient: "Carbs", actual: 98, target: 100 },
+        { nutrient: "Fats", actual: 102, target: 100 },
+        { nutrient: "Fiber", actual: 110, target: 100 },
+        { nutrient: "Vitamins", actual: 108, target: 100 }
+      ]
+    },
+    default: {
+      answer: "Sophia excels in all tracking areas but needs guidance on sustainable perfectionism and work-life balance to prevent burnout.",
+      chartType: "none"
+    }
+  },
+  106: { // Marcus Thompson
+    sleep: {
+      answer: "Marcus sleeps 7.8 hours but sleep apnea disrupts quality. CPAP compliance varies, affecting daytime energy levels.",
+      chartType: "line",
+      data: [
+        { day: "Monday", hours: 7.5 },
+        { day: "Tuesday", hours: 8.0 },
+        { day: "Wednesday", hours: 7.8 },
+        { day: "Thursday", hours: 7.2 },
+        { day: "Friday", hours: 8.2 },
+        { day: "Saturday", hours: 8.5 },
+        { day: "Sunday", hours: 7.8 }
+      ]
+    },
+    water: {
+      answer: "Marcus drinks 5.2 glasses daily, below target. Better hydration could help with his sleep apnea and overall health.",
+      chartType: "bar",
+      data: [
+        { week: "Week 1", glasses: 4.8 },
+        { week: "Week 2", glasses: 5.2 },
+        { week: "Week 3", glasses: 5.5 },
+        { week: "Week 4", glasses: 5.8 }
+      ]
+    },
+    stress: {
+      answer: "Marcus experiences moderate stress, often related to sleep quality and work performance. Fatigue increases stress levels.",
+      chartType: "line",
+      data: [
+        { day: "Monday", level: 6.8, meditation: 0 },
+        { day: "Tuesday", level: 6.2, meditation: 1 },
+        { day: "Wednesday", level: 7.0, meditation: 0 },
+        { day: "Thursday", level: 6.5, meditation: 0 },
+        { day: "Friday", level: 5.8, meditation: 1 },
+        { day: "Saturday", level: 4.5, meditation: 1 },
+        { day: "Sunday", level: 5.2, meditation: 0 }
+      ]
+    },
+    exercise: {
+      answer: "Marcus does light cardio (60%) and walking (40%). Sleep issues limit his energy for more intensive workouts.",
+      chartType: "pie",
+      data: [
+        { name: "Light Cardio", value: 60 },
+        { name: "Walking", value: 40 }
+      ]
+    },
+    diet: {
+      answer: "Marcus tracks nutrition sporadically. Weight management is challenging due to fatigue affecting food choices and meal prep.",
+      chartType: "bar",
+      data: [
+        { nutrient: "Calories", actual: 115, target: 100 },
+        { nutrient: "Protein", actual: 85, target: 100 },
+        { nutrient: "Vegetables", actual: 60, target: 100 },
+        { nutrient: "Water", actual: 65, target: 100 },
+        { nutrient: "Fiber", actual: 55, target: 100 }
+      ]
+    },
+    default: {
+      answer: "Marcus needs integrated approach addressing sleep apnea management, weight loss, and energy optimization through better nutrition and hydration.",
+      chartType: "none"
+    }
+  },
   201: { // Thomas Anderson
     sleep: {
-      answer: "Thomas maintains excellent sleep hygiene with 7.8 hours average, but recovery sleep suffers after intense training days.",
+      answer: "Thomas maintains excellent 7.8 hours of sleep but recovery sleep suffers after intense training days.",
       chartType: "line",
       data: [
         { day: "Monday", hours: 8.2 },
@@ -1388,6 +2448,19 @@ export const userSpecificResponses = {
         { week: "Week 4", glasses: 8.7 }
       ]
     },
+    stress: {
+      answer: "Thomas's stress is primarily training-related. High performance expectations create pressure but he lacks stress management tools.",
+      chartType: "line",
+      data: [
+        { day: "Monday", level: 7.2, meditation: 0 },
+        { day: "Tuesday", level: 6.8, meditation: 0 },
+        { day: "Wednesday", level: 8.0, meditation: 0 },
+        { day: "Thursday", level: 6.2, meditation: 0 },
+        { day: "Friday", level: 7.5, meditation: 0 },
+        { day: "Saturday", level: 5.2, meditation: 0 },
+        { day: "Sunday", level: 6.0, meditation: 0 }
+      ]
+    },
     exercise: {
       answer: "Thomas trains 6 days weekly with perfect form tracking: strength (60%), HIIT (25%), cardio (15%). Risk of overtraining detected.",
       chartType: "pie",
@@ -1395,6 +2468,17 @@ export const userSpecificResponses = {
         { name: "Strength Training", value: 60 },
         { name: "HIIT", value: 25 },
         { name: "Cardio", value: 15 }
+      ]
+    },
+    diet: {
+      answer: "Thomas tracks nutrition excellently, optimizing for performance. His protein and timing are on point for muscle recovery.",
+      chartType: "bar",
+      data: [
+        { nutrient: "Protein", actual: 125, target: 100 },
+        { nutrient: "Carbs", actual: 110, target: 100 },
+        { nutrient: "Fats", actual: 95, target: 100 },
+        { nutrient: "Hydration", actual: 105, target: 100 },
+        { nutrient: "Recovery Foods", actual: 115, target: 100 }
       ]
     },
     default: {
@@ -1416,6 +2500,16 @@ export const userSpecificResponses = {
         { day: "Sunday", hours: 7.2 }
       ]
     },
+    water: {
+      answer: "Kevin drinks 4.8 glasses daily, below target. Anxiety sometimes makes him forget basic self-care like hydration.",
+      chartType: "bar",
+      data: [
+        { week: "Week 1", glasses: 4.2 },
+        { week: "Week 2", glasses: 5.0 },
+        { week: "Week 3", glasses: 4.8 },
+        { week: "Week 4", glasses: 5.2 }
+      ]
+    },
     stress: {
       answer: "Kevin's anxiety peaks on Sundays (anticipating Monday) and improves significantly on meditation days.",
       chartType: "line",
@@ -1429,8 +2523,27 @@ export const userSpecificResponses = {
         { day: "Sunday", level: 8.5, meditation: 0 }
       ]
     },
+    exercise: {
+      answer: "Kevin avoids most physical activity due to anxiety. He occasionally walks (90%) but gym environments trigger social anxiety.",
+      chartType: "pie",
+      data: [
+        { name: "Walking", value: 90 },
+        { name: "Stretching", value: 10 }
+      ]
+    },
+    diet: {
+      answer: "Kevin's nutrition tracking is poor due to anxiety around food choices. Comfort eating during stress spikes affects his goals.",
+      chartType: "bar",
+      data: [
+        { nutrient: "Vegetables", actual: 35, target: 100 },
+        { nutrient: "Protein", actual: 60, target: 100 },
+        { nutrient: "Comfort Foods", actual: 140, target: 100 },
+        { nutrient: "Water", actual: 55, target: 100 },
+        { nutrient: "Regular Meals", actual: 45, target: 100 }
+      ]
+    },
     default: {
-      answer: "Kevin responds well to meditation but needs consistent practice to manage Sunday anxiety spikes.",
+      answer: "Kevin responds well to meditation but needs consistent practice to manage Sunday anxiety spikes and build confidence for physical activity.",
       chartType: "none"
     }
   }

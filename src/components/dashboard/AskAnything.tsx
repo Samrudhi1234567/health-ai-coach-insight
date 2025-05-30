@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LineChart, Line, PieChart, Pie, Cell } from "recharts";
 import { Search, MessageSquare, ArrowRight } from "lucide-react";
 import { toast } from "@/components/ui/use-toast";
+import { userSpecificResponses } from "@/data/mockData";
 
 interface AskAnythingProps {
   userId: number | null;
@@ -45,81 +46,36 @@ const AskAnything = ({ userId }: AskAnythingProps) => {
 
     // Simulate API call with setTimeout
     setTimeout(() => {
-      generateMockResponse(query);
+      generateUserSpecificResponse(query, userId);
       setIsAnalyzing(false);
     }, 1500);
   };
 
-  const generateMockResponse = (question: string) => {
+  const generateUserSpecificResponse = (question: string, userId: number) => {
     const q = question.toLowerCase();
+    const userData = userSpecificResponses[userId as keyof typeof userSpecificResponses];
     
-    if (q.includes("sleep") || q.includes("sleeping")) {
+    if (!userData) {
+      // Fallback for users without specific data
       setResult({
-        answer: "The user's sleep patterns show an average of 6.8 hours per night over the last 30 days, with significant improvement on weekends (7.5+ hours) versus weekdays (6.2 hours average).",
-        chartType: "line",
-        data: [
-          { day: "Monday", hours: 6.2 },
-          { day: "Tuesday", hours: 6.5 },
-          { day: "Wednesday", hours: 6.0 },
-          { day: "Thursday", hours: 6.3 },
-          { day: "Friday", hours: 6.8 },
-          { day: "Saturday", hours: 7.8 },
-          { day: "Sunday", hours: 7.5 }
-        ]
-      });
-    } else if (q.includes("water") || q.includes("hydration")) {
-      setResult({
-        answer: "The user's water intake varies significantly, ranging from 4-7 glasses per day. The target is 8 glasses, which they've only met twice in the past 30 days.",
-        chartType: "bar",
-        data: [
-          { week: "Week 1", glasses: 5.2 },
-          { week: "Week 2", glasses: 4.8 },
-          { week: "Week 3", glasses: 6.1 },
-          { week: "Week 4", glasses: 5.7 }
-        ]
-      });
-    } else if (q.includes("stress") || q.includes("anxiety")) {
-      setResult({
-        answer: "Stress levels are highest on Mondays and Thursdays, which correlate with reported work deadlines. Evening meditation has been effective at reducing stress on days it was practiced.",
-        chartType: "line",
-        data: [
-          { day: "Monday", level: 7.5, meditation: 0 },
-          { day: "Tuesday", level: 6.2, meditation: 1 },
-          { day: "Wednesday", level: 5.8, meditation: 1 },
-          { day: "Thursday", level: 7.2, meditation: 0 },
-          { day: "Friday", level: 5.5, meditation: 1 },
-          { day: "Saturday", level: 4.2, meditation: 1 },
-          { day: "Sunday", level: 4.8, meditation: 0 }
-        ]
-      });
-    } else if (q.includes("exercise") || q.includes("workout")) {
-      setResult({
-        answer: "The user exercises 3-4 times per week, with strength training being the most common activity (45%), followed by walking (30%), yoga (15%), and HIIT (10%).",
-        chartType: "pie",
-        data: [
-          { name: "Strength Training", value: 45 },
-          { name: "Walking", value: 30 },
-          { name: "Yoga", value: 15 },
-          { name: "HIIT", value: 10 }
-        ]
-      });
-    } else if (q.includes("diet") || q.includes("nutrition") || q.includes("food")) {
-      setResult({
-        answer: "The user has been consistent with meal logging (85% of days), with dinner being the most commonly skipped meal. Protein intake is below target on 60% of logged days.",
-        chartType: "bar",
-        data: [
-          { nutrient: "Protein", actual: 75, target: 100 },
-          { nutrient: "Carbs", actual: 110, target: 100 },
-          { nutrient: "Fat", actual: 95, target: 100 },
-          { nutrient: "Fiber", actual: 65, target: 100 },
-          { nutrient: "Water", actual: 70, target: 100 }
-        ]
-      });
-    } else {
-      setResult({
-        answer: "Based on the user's overall data, their engagement score is 7.3/10, with nutrition tracking being their most consistent feature. Their health assessment indicates mild stress and acidity issues that may benefit from lifestyle adjustments.",
+        answer: `Based on the available data for this user, their engagement patterns and health metrics show room for improvement across multiple areas.`,
         chartType: "none"
       });
+      return;
+    }
+    
+    if (q.includes("sleep") || q.includes("sleeping")) {
+      setResult(userData.sleep);
+    } else if (q.includes("water") || q.includes("hydration")) {
+      setResult(userData.water);
+    } else if (q.includes("stress") || q.includes("anxiety")) {
+      setResult(userData.stress);
+    } else if (q.includes("exercise") || q.includes("workout")) {
+      setResult(userData.exercise);
+    } else if (q.includes("diet") || q.includes("nutrition") || q.includes("food")) {
+      setResult(userData.diet);
+    } else {
+      setResult(userData.default);
     }
   };
 
@@ -191,13 +147,23 @@ const AskAnything = ({ userId }: AskAnythingProps) => {
     return null;
   };
 
-  const exampleQuestions = [
-    "How is the user's sleep pattern?",
-    "What's the user's water intake like?",
-    "How consistent is the user with exercise?",
-    "When does the user experience most stress?",
-    "What is the user's nutrition balance?"
-  ];
+  // Generate user-specific example questions
+  const getUserSpecificQuestions = () => {
+    if (!userId) return [];
+    
+    // Basic questions that work for all users
+    const baseQuestions = [
+      "How is the user's sleep pattern?",
+      "What's the user's water intake like?",
+      "How consistent is the user with exercise?",
+      "When does the user experience most stress?",
+      "What is the user's nutrition balance?"
+    ];
+    
+    return baseQuestions;
+  };
+
+  const exampleQuestions = getUserSpecificQuestions();
 
   return (
     <Card>

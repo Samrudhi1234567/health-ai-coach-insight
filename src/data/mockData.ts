@@ -1236,3 +1236,190 @@ export const userLogData = {
     }
   }
 };
+
+// User-specific responses for AskAnything component
+export const userSpecificResponses = {
+  // Dr. Sarah Johnson's users (Nutrition & Weight Management)
+  101: { // Jessica Brown
+    sleep: {
+      answer: "Jessica averages 6.3 hours of sleep, struggling with late-night meals affecting her rest. Her acidity issues often wake her up around 2-3 AM.",
+      chartType: "line",
+      data: [
+        { day: "Monday", hours: 6.0 },
+        { day: "Tuesday", hours: 6.5 },
+        { day: "Wednesday", hours: 5.8 },
+        { day: "Thursday", hours: 6.2 },
+        { day: "Friday", hours: 6.8 },
+        { day: "Saturday", hours: 7.2 },
+        { day: "Sunday", hours: 6.9 }
+      ]
+    },
+    water: {
+      answer: "Jessica's hydration is inconsistent, averaging 4.8 glasses daily. She often forgets to drink water during work stress periods.",
+      chartType: "bar",
+      data: [
+        { week: "Week 1", glasses: 4.2 },
+        { week: "Week 2", glasses: 5.1 },
+        { week: "Week 3", glasses: 4.9 },
+        { week: "Week 4", glasses: 5.0 }
+      ]
+    },
+    stress: {
+      answer: "Jessica's stress peaks during meal planning and work deadlines, directly correlating with her acidity flare-ups.",
+      chartType: "line",
+      data: [
+        { day: "Monday", level: 7.8, meditation: 0 },
+        { day: "Tuesday", level: 6.5, meditation: 1 },
+        { day: "Wednesday", level: 7.2, meditation: 0 },
+        { day: "Thursday", level: 8.1, meditation: 0 },
+        { day: "Friday", level: 6.8, meditation: 1 },
+        { day: "Saturday", level: 4.5, meditation: 1 },
+        { day: "Sunday", level: 5.2, meditation: 1 }
+      ]
+    },
+    exercise: {
+      answer: "Jessica exercises 2-3 times per week, mostly yoga (60%) and walking (40%). She avoids high-intensity workouts due to acidity concerns.",
+      chartType: "pie",
+      data: [
+        { name: "Yoga", value: 60 },
+        { name: "Walking", value: 35 },
+        { name: "Swimming", value: 5 }
+      ]
+    },
+    diet: {
+      answer: "Jessica logs meals 85% of the time but struggles with portion control and timing. She often skips breakfast, worsening her acidity.",
+      chartType: "bar",
+      data: [
+        { nutrient: "Protein", actual: 65, target: 100 },
+        { nutrient: "Fiber", actual: 55, target: 100 },
+        { nutrient: "Calcium", actual: 45, target: 100 },
+        { nutrient: "Iron", actual: 40, target: 100 },
+        { nutrient: "Water", actual: 60, target: 100 }
+      ]
+    },
+    default: {
+      answer: "Jessica shows strong engagement with nutrition tracking but needs support with meal timing and stress management to address her acidity issues.",
+      chartType: "none"
+    }
+  },
+  102: { // Daniel Wilson
+    sleep: {
+      answer: "Daniel gets 7.1 hours average but quality is poor due to back pain. He wakes up 2-3 times nightly and feels unrested.",
+      chartType: "line",
+      data: [
+        { day: "Monday", hours: 7.0 },
+        { day: "Tuesday", hours: 6.8 },
+        { day: "Wednesday", hours: 7.5 },
+        { day: "Thursday", hours: 6.9 },
+        { day: "Friday", hours: 7.2 },
+        { day: "Saturday", hours: 7.8 },
+        { day: "Sunday", hours: 7.3 }
+      ]
+    },
+    water: {
+      answer: "Daniel drinks only 3.2 glasses daily, well below his 10-glass target. His low hydration affects his blood pressure management.",
+      chartType: "bar",
+      data: [
+        { week: "Week 1", glasses: 3.0 },
+        { week: "Week 2", glasses: 3.5 },
+        { week: "Week 3", glasses: 3.1 },
+        { week: "Week 4", glasses: 3.2 }
+      ]
+    },
+    stress: {
+      answer: "Daniel's stress is moderate but spikes during high-sodium meals, directly affecting his blood pressure readings.",
+      chartType: "line",
+      data: [
+        { day: "Monday", level: 6.2, meditation: 0 },
+        { day: "Tuesday", level: 5.8, meditation: 0 },
+        { day: "Wednesday", level: 6.5, meditation: 0 },
+        { day: "Thursday", level: 7.1, meditation: 0 },
+        { day: "Friday", level: 6.0, meditation: 0 },
+        { day: "Saturday", level: 4.8, meditation: 1 },
+        { day: "Sunday", level: 5.2, meditation: 0 }
+      ]
+    },
+    exercise: {
+      answer: "Daniel is very consistent with strength training (70%) and cardio (30%), exercising 5-6 times weekly with excellent form tracking.",
+      chartType: "pie",
+      data: [
+        { name: "Strength Training", value: 70 },
+        { name: "Cardio", value: 25 },
+        { name: "Stretching", value: 5 }
+      ]
+    },
+    diet: {
+      answer: "Daniel rarely tracks nutrition but his estimated sodium intake is 150% above target, impacting his blood pressure goals.",
+      chartType: "bar",
+      data: [
+        { nutrient: "Sodium", actual: 150, target: 100 },
+        { nutrient: "Protein", actual: 120, target: 100 },
+        { nutrient: "Fiber", actual: 70, target: 100 },
+        { nutrient: "Potassium", actual: 60, target: 100 },
+        { nutrient: "Water", actual: 40, target: 100 }
+      ]
+    },
+    default: {
+      answer: "Daniel excels in fitness tracking but needs significant improvement in nutrition monitoring and hydration to manage his blood pressure.",
+      chartType: "none"
+    }
+  },
+  // Add more users...
+  201: { // Thomas Anderson
+    sleep: {
+      answer: "Thomas maintains excellent sleep hygiene with 7.8 hours average, but recovery sleep suffers after intense training days.",
+      chartType: "line",
+      data: [
+        { day: "Monday", hours: 8.2 },
+        { day: "Tuesday", hours: 7.5 },
+        { day: "Wednesday", hours: 8.0 },
+        { day: "Thursday", hours: 7.2 },
+        { day: "Friday", hours: 7.8 },
+        { day: "Saturday", hours: 8.5 },
+        { day: "Sunday", hours: 8.1 }
+      ]
+    },
+    water: {
+      answer: "Thomas drinks 8.5 glasses daily, meeting hydration goals on training days but falling short on rest days.",
+      chartType: "bar",
+      data: [
+        { week: "Week 1", glasses: 8.2 },
+        { week: "Week 2", glasses: 8.8 },
+        { week: "Week 3", glasses: 8.5 },
+        { week: "Week 4", glasses: 8.7 }
+      ]
+    },
+    exercise: {
+      answer: "Thomas trains 6 days weekly with perfect form tracking: strength (60%), HIIT (25%), cardio (15%). Risk of overtraining detected.",
+      chartType: "pie",
+      data: [
+        { name: "Strength Training", value: 60 },
+        { name: "HIIT", value: 25 },
+        { name: "Cardio", value: 15 }
+      ]
+    },
+    default: {
+      answer: "Thomas shows exceptional fitness dedication but needs stress management guidance to prevent overtraining syndrome.",
+      chartType: "none"
+    }
+  },
+  301: { // Kevin Harris
+    sleep: {
+      answer: "Kevin's sleep improved from 5.2 to 6.8 hours after starting meditation, but anxiety still causes 3-4 weekly disruptions.",
+      chartType: "line",
+      data: [
+        { day: "Monday", hours: 6.2 },
+        { day: "Tuesday", hours: 7.0 },
+        { day: "Wednesday", hours: 6.8 },
+        { day: "Thursday", hours: 6.5 },
+        { day: "Friday", hours: 5.8 },
+        { day: "Saturday", hours: 7.5 },
+        { day: "Sunday", hours: 7.2 }
+      ]
+    },
+    stress: {
+      answer: "Kevin's anxiety peaks on Sundays (anticipating Monday) and improves significantly on meditation days.",
+      chartType: "line",
+      data: [
+        { day: "Monday", level: 8.2, meditation: 0 },
+        { day: "Tuesday", level: 6.5, meditation:
